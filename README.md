@@ -23,18 +23,14 @@ The Hazel script monitors the ```b_word-corrections``` folder and looks like thi
 ![Hazel options: If any of the following conditions is met: Extension is docx, do the following to teh matched file or folder](https://www.dropbox.com/s/so3joo9i1q5fjiu/Screenshot%202017-09-25%2014.07.23.png?raw=1)
 
 The embedded shell script:
-<<<<<<< HEAD
-```shell
-=======
-````shell
->>>>>>> master
+
+```
 #!/bin/bash
 for file in "$@"
 do
 pandoc "$file" -s -f docx -t icml -o "${file%.docx}.icml"
 pandoc "$file" -s -f docx -t markdown_github -o "${file%.docx}.md"
 done
-<<<<<<< HEAD
 ```
 
 In reality, what's happening is Hazel creates the ```.icml``` and ```.md``` files in the same folder, then a later Hazel action moves these files to their respective folders. In fact, in reality the ```d_markdown``` folder is somewhere else entirely, because the root folder is on Dropbox and I keep my Github folders elsewhere to avoid sync issues! But you get the idea. My original Word docs are preserved; my corrections can be done in Word, and then are auto-transformed into ```.icml``` and ```.md``` for importing straight into InDesign and for version control via Github respectively.
