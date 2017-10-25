@@ -4,17 +4,13 @@ This branch contains all corrections to my PhD thesis. The back-end on my comput
 
 The file structure looks like this:
 
-```shell
+```
 corrections # root
 |-- a_word-input	# original files exported from current InDesign files. Documents are copied from InDesign into Word as .DOCX, then cleaned up and stripped of any extraneous formatting.
 |-- b_word-corrections	# the files I work from for corrections. These are as stripped back as Word can manage, whenever it can avoid doing silly formatting.
 |-- c_icml		# the auto-generated .ICML files (created by Pandoc via Hazel action)
 |-- d_markdown		# the auto-generated .MD files (created by Pandoc via Hazel action)
-<<<<<<< HEAD
 |-- examiner-reports	# the reports back from the examiners with corrections to be made
-=======
-|-- examiner-reports	# the reports back from the examiners with corrections to be made. Where you put this is optional.
->>>>>>> master
 ```
 
 
