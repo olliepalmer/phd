@@ -40,7 +40,3 @@ done
 In reality, what's happening is Hazel creates the ```.icml``` and ```.md``` files in the same folder, then a later Hazel action moves these files to their respective folders. In fact, in reality the ```d_markdown``` folder is somewhere else entirely, because the root folder is on Dropbox and I keep my Github folders elsewhere to avoid sync issues! But you get the idea. My original Word docs are preserved; my corrections can be done in Word, and then are auto-transformed into ```.icml``` and ```.md``` for importing straight into InDesign and for version control via Github respectively.
 
 It is about as elegant a solution as I can find for this clunky, tedious process! Anything involving Word or InDesign seems to add a couple of extra stages to a workflow...
-=======
-````
-
->>>>>>> master
