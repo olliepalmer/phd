@@ -1,0 +1,11 @@
+site_name: Scripted Performances
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+markdown_extensions:
+  - footnotes
+extra_css:
+  - stylesheets/extra.css
