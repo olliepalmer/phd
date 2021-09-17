@@ -18,6 +18,12 @@ theme:
     hljs_languages:
         - yaml
         - rust
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.sections
+        - navigation.top
+        - toc.integrate
 markdown_extensions:
   - footnotes
 extra_css:

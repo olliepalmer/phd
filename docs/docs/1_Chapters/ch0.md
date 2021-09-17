@@ -442,10 +442,10 @@ Alÿs’ presentation of work is, like Sachs, highly accessible, despite the pot
 
 <figure>
 <a name="figure1-5"></a>
-  <img src="/images/vlcsnap-00068.tiff" width="45%" style="display:-webkit-inline-flex">
-  <img src="/images/vlcsnap-00035.tiff" width="45%" style="display:-webkit-inline-flex">
-  <img src="/images/vlcsnap-00019.tiff" width="45%" style="display:-webkit-inline-flex">
-  <img src="/images/vlcsnap-00013.tiff" width="45%" style="display:-webkit-inline-flex">
+  <img src="/images/synecdoche-00068.jpg" width="45%" style="display:-webkit-inline-flex">
+  <img src="/images/synecdoche-00035.jpg" width="45%" style="display:-webkit-inline-flex">
+  <img src="/images/synecdoche-00019.jpg" width="45%" style="display:-webkit-inline-flex">
+  <img src="/images/synecdoche-00013.jpg" width="45%" style="display:-webkit-inline-flex">
 
   <figcaption>Figure 1-5: Stills from Kaufman’s Synecdoche, New York show the construction of successive replica warehouses inside each other; the film’s protagonist writes instructions to the thousands of actors in his play. Kaufman, Charlie. Synecdoche, New York. © Sony Pictures Classics, 2008.
   </figcaption>

@@ -1,4 +1,6 @@
-# Chapter 1: Diagramming the Absurd:
+# Chapter 1
+
+# Diagramming the Absurd:
 
 # The Godot Machine and Ant Ballet
 
@@ -37,8 +39,20 @@ Within the world of artistic production, both *psychological frames* and *script
 
 What relevance does an argument about psychological and knowledge frames have in this thesis? This chapter discusses two projects, which were instrumental in defining the scope and frame of the practice I now employ. Both of these projects worked with ants, with the aim of manipulating their behaviour, either as individuals or entire colonies. The development of these projects led to, and helped to shape initial research for this thesis; however, the original framing and exhibition of the *Ant Ballet* project as ‘sci-art’ (the meaning of which will be discussed shortly) placed undue emphasis on certain aspects of the project, which in turn undermined its absurd, diagrammatic intentions. This is discussed through a pair of exhibitions, one in which the work was exhibited in a scientific institution, and another where it was exhibited in the context of an art and technology festival.
 
-Projects
---------
+## Projects
+
+<figure>
+  <a name="figure1-6"></a>
+  <img src="/images/figure1-6.1.jpg" width="100%" />
+  <img src="/images/figure1-6.2.jpg" width="100%" />
+  <img src="/images/figure1-6.3.jpg" width="100%" />
+  <img src="/images/figure1-6.4.jpg" width="100%" />
+  <img src="/images/figure1-6.6.jpg" width="100%" />
+  <figcaption>Figure 1-6: Ant Ballet signage layout, at ZSL London Zoo, from the installation manual. Image by the author. Note: This image differs from the printed thesis.</figcaption>
+</figure>
+
+
+
 
 ### Godot Machine
 
@@ -62,7 +76,15 @@ Much of the inspiration for *Ant Ballet*, and the consultation of scientific exp
 
 In the production of the film, Kubrick went to extreme lengths to ensure its technical accuracy. The depictions of numerous protocols, attitudes, and interiors have been deemed accurate by experts in the field.[^35] The story itself was developed from a novel by a former Royal Air Force flight lieutenant Peter George, following its personal recommendation to Kubrick by the head of the Institute of Strategic Studies in London, and throughout the making of the film Kubrick read over 50 books and consulted with twelve experts on the subject of thermonuclear war.[^36] The viability of the films’ plotline and characters accentuated the absurd<sub>b</sub> nature of the film itself, or rather, its proximity to reality heightened the potency of the absurd<sub>b</sub> realisation among the audience. In the creation of *Ant Ballet*, I aspired to similar levels of realism: if I were to make an absurd<sub>b</sub> statement, it would be one that was scientifically accurate. Where the *Godot Machine* employed engineering techniques, *Ant Ballet* required collaboration with scientists from different disciplines in order to work. Like Kubrick, the intention was not the accurate depiction of scientific realities onscreen, but rather using this medium to express an absurd<sub>b</sub> idea. Although the project depicted a real experiment, a real mechanism, real ants and their real reaction, it could equally be a work of fiction.
 
-Ant Ballet culminated in a film and a series of objects, and was the first of my projects to place such an emphasis on narrative structure and performance.[^37] Once I had completed the experiment in Barcelona (where the necessary species of ant colony could be found), and used this to create a film, the project was exhibited at various places. The first exhibition outside of UCL, which took place after my MArch, was at the Zoological Society London (ZSL) London Zoo;[^38] here, lacking the ability to use real ants (for the same reasons that the experiment was completed in Barcelona – see the appendices), the installation consisted of a simulated version of ant movement, adapted from the ant simulation software I had already programmed as part of the experiment, projected onto a white table-top, with a robotic arm ‘spreading’ pheromones onto the table. The chassis of the original *Ant Ballet* machine was used, but with a newly-made table surface, light ring and robotic arm. Virtual ants would form trails, and the arm would ‘spread’ virtual disruptive pheromones (the effect of which could be seen in the projected image), and the ants would disperse, only to lay new pheromone trails over time. At the edge of London Zoo’s BUGS building, beside a bright floor-to-ceiling window, the installation was housed in a dark tent, lined with theatrical blackout fabric, with three viewing holes.[^39] The table, two metres in diameter, had approximately one metre of clearance to the side of the tent, and the audience had to get close to the viewing holes in order to see inside (Figure 1-7). The film was projected onto the side of the tent, whilst inside and around it, signs explained both the function of the machine, and scientific knowledge about ant behaviour. Part of the terms of an installation in the Zoo was that it had to be educational, and highlight the conservation work that ZSL’s scientists do; therefore the information was designed to be easily understood by a young audience, and was light and friendly in tone.
+Ant Ballet culminated in a film and a series of objects, and was the first of my projects to place such an emphasis on narrative structure and performance.[^37] Once I had completed the experiment in Barcelona (where the necessary species of ant colony could be found), and used this to create a film, the project was exhibited at various places. The first exhibition outside of UCL, which took place after my MArch, was at the Zoological Society London (ZSL) London Zoo;[^38] here, lacking the ability to use real ants (for the same reasons that the experiment was completed in Barcelona – see the appendices), the installation consisted of a simulated version of ant movement, adapted from the ant simulation software I had already programmed as part of the experiment, projected onto a white table-top, with a robotic arm ‘spreading’ pheromones onto the table. The chassis of the original *Ant Ballet* machine was used, but with a newly-made table surface, light ring and robotic arm. Virtual ants would form trails, and the arm would ‘spread’ virtual disruptive pheromones (the effect of which could be seen in the projected image), and the ants would disperse, only to lay new pheromone trails over time. At the edge of London Zoo’s BUGS building, beside a bright floor-to-ceiling window, the installation was housed in a dark tent, lined with theatrical blackout fabric, with three viewing holes.[^39] The table, two metres in diameter, had approximately one metre of clearance to the side of the tent, and the audience had to get close to the viewing holes in order to see inside ([Figure 1-7](#figure1-7)). The film was projected onto the side of the tent, whilst inside and around it, signs explained both the function of the machine, and scientific knowledge about ant behaviour. Part of the terms of an installation in the Zoo was that it had to be educational, and highlight the conservation work that ZSL’s scientists do; therefore the information was designed to be easily understood by a young audience, and was light and friendly in tone.
+
+<figure>
+  <a name="figure1-7"></a>
+  <img src="/images/figure1-7.jpg" width="100%" />
+  <figcaption>Figure 1-7: Ant Ballet installation in ZSL London Zoo BUGS building, November 2011 to May 2012. Photograph by the author.</figcaption>
+</figure>
+
+
 
 The presentation of the project in this manner had a problematic impact on its public reception as an artwork: whilst the work itself (as captured in film and later print) succeeded in embodying an absurd diagram, this specific manifestation of the project did not.[^40] The absurd nature of the project, its diagrammatic qualities, and its inherent humour, were all lost beneath the veneer of educational entertainment.[^41] The reason is simple: although the project was produced in collaboration with scientists, in this particular presentation, the artistic intention became subservient to the scientific aspect. This was exacerbated by the inability to include real ants, in a setting that was directly opposite a live leaf-cutter ant exhibit. Visitors had the expectation of seeing live animals, and therefore, rather than being viewed a diagrammatic work of art, my installation was an underwhelming addition to an engaging zoological experience. Within the artistic context, the scientific nature of this project (both in terms of its collaborative aspect – with a team of organic chemists at UCL – and with regards to its setting at ZSL) led to the framing of the project in terms of ‘sci-art’. However, this was not my original intention: my goal had been to produce an absurd machine, which involved scientific collaboration, rather than a scientific collaboration whereby the outcome happened to be absurd.
 
@@ -86,18 +108,52 @@ However, the potential of science-art collaborations is not limited to this imba
 
 Fortunately, I was able to re-frame the project shortly after the London Zoo installation in a way that resisted the ‘codification’ Born and Barry highlight. In May 2012, I produced an installation for the FutureEverything festival in Manchester.[^52] I had first made contact with FutureEverything a few years previously, when a project I had worked on received a runner-up prize at their inaugural awards.[^53] The festival itself has a broad remit, and has grown from being an avant-garde music festival (entitled FutureSonic, established in 1996) to being at the forefront of critical questions in technology, staging an art exhibition and conference alongside a series of music and film events in and around Manchester.[^54] The festival featured artists working in disparate genres but united by their engagement with technology, attracting an audience consisting of the general public, as well as media and technology specialists (MediaCity, the main BBC studios in the North of England, and Granada Studios are both located nearby). Having realised the issues with the ‘framing’ of *Ant Ballet* as at the Zoo, I worked with FutureEverything’s curation team to ensure that the project itself would be presented with the emphasis on artistic intention.[^55] I made three new films and built a new, aesthetically simplified version of the machine.[^56]
 
+<figure>
+  <a name="figure1-8"></a>
+  <img src="/images/figure1-8.1.jpg" width="100%" />
+  <img src="/images/figure1-8.2.jpg" width="100%" />
+  <img src="/images/figure1-8.3.jpg" width="100%" />
+  <img src="/images/figure1-8.4.jpg" width="100%" />
+  <img src="/images/figure1-8.5.jpg" width="100%" />
+  <figcaption>Figure 1-8: CNC manufacturing and test assembling the machine for the FutureEverything exhibition at the Bartlett, April 2012. Photographs by the author.</figcaption>
+</figure>
+
+
 The exhibition took place on the top floor of the 1830 Warehouse, a Grade I-listed building within the Science Museum’s Museum of Science and Industry. The historic setting created several logistical challenges, as artists were prohibited from mounting works that could potentially damage or alter the building in the process of installation (such as screws). The space consisted of four large projected films along one wall, each approximately 2.5m wide, with a round machine, 2m in diameter, suspended approximately half a metre above the floor in the middle of the room. The machine was a specially-made maquette of the original Ant Ballet machine (as used in the original Barcelona experiment and at London Zoo), but aesthetically simplified so that it appeared to be merely a white floating surface, with a robotic arm which would only become visible when it was disrupting the virtual ant trails. The robotic arm itself was minimalist, consisting of black aluminium tubular rods, servos and bespoke 3D-printed nylon connectors. At the end of the arm, the pheromone-spreading actuator, instead of being a replica of the real pheromone spreaders, was a conductors’ rod. The simulation showed virtual ants, each a white pixel, moving on the surface of the machine and laying and optimising green trails. When the machine ‘activated’, a spotlight would illuminate the conductors’ wand, which would tap and distribute virtual pheromones. The ants’ behaviour could instantly be seen on the table: the well-formed trails would break apart, the pheromones would evaporate and disappear, and the ants would begin again. The conductors’ wand would operate once every few minutes – enough that the ants could effectively recuperate, and that a casual audience member would have enough time to observe both the formation of ‘natural’ trails and the disruption of the trails by the machine. The machine also dispensed with the *Dr. Strangelove*-inspired light-ring that was used in the original machine and its London Zoo counterpart, instead using the high-powered projector suspended above to illuminate the table surface, and the arm when the machine was activated.
 
+<figure>
+  <a name="figure1-9"></a>
+  <img src="/images/figure1-9.jpg" width="100%" />
+  <figcaption>Figure 1-9: Ant Ballet installation at 1830 Warehouse, Manchester, for the FutureEverything Festival, May 2012. Photograph © Tape Ltd.
+(Jan and Emily Dixon)</figcaption>
+</figure>
+
 Across the four screens, four films played on looped projections. Whilst each film was not playing, its screen would be illuminated in a pastel colour with a one-word title such as ‘Making’ or ‘Info’.[^57] The screens were inspired by interface monitors from Kubrick’s film *2001: A Space Odyssey* (in which the an entropic plotline and breakdown in communications emulate the absurdist overtones of *Dr Strangelove*) and featured similar graphics, animation, and sparse wording to those on the fictional space-ship controlled by the computer HAL (I had visited the Kubrick Archives to investigate how the original interfaces had been animated).[^58] Each film presented an aspect of the project: the first focused on control, and the emergent properties of pheromone trails as opposed to hierarchical control systems; the second presented infographics which explained the ant movements; the third focused on the making of the project; and the final film was documentation of the Barcelona experiment and the only video with sound. The intention behind this arrangement was to highlight the referential and diagrammatic nature of the installation. The Barcelona film referred back to the original experiment, but played its 90 second loop only once every three minutes; the three silent films, on the other hand, were made intentionally to explain and emphasise the machine in the centre of the room as a *simulation* of ant behaviour, rather than a mere copy of the initial scientific experiment. In other words, the installation emphasised the absurd *idea* underpinning the project, rather than the scientific specifics of the ant experiment: the machine was presented as a map to the territory of the real machine. Unlike in the ZSL exhibition, FutureEverything gave me the opportunity to highlight the absurdist and metaphorical aspects of the project by distancing the work from the live insects, and therefore repositioned the scientific aspect as a complimentary, rather than dominant, facet of the artistic practice.
+
+<figure>
+  <a name="figure1-10"></a>
+  <img src="/images/figure1-10.jpg" width="100%" />
+  <figcaption>Figure 1-10: Ant Ballet installation at 1830 Warehouse, Manchester, for the FutureEverything Festival, May 2012. Photograph © Tape Ltd.
+(Jan and Emily Dixon)</figcaption>
+</figure>
+
 
 I spent time in the opening week of the exhibition observing how the audience engaged with the machine and the films. The installation was the first ‘room’ in the gallery, and the layout drew people through the space. Most spent around 3-5 minutes watching films – some flitted between films and machine, whilst others worked their way through the films sequentially. The sparse timing of the pheromone-releasing machine created a spectacle every time it activated, and the machine itself was often a hub around which the audience gathered (even whilst watching the screens). There were numerous factors which made this installation a success in contrast to its earlier exhibition. The sheer amount of space, the ability to frame the messages the project conveyed, and effectively choreograph an audiences’ movement through the room through the interplay of films and machine, all played a role.
 
 The project also garnered media attention. The day after the exhibition launched, I was interviewed by BBC News, as well as Brazilian and Iranian television networks, and national magazines, and the project was featured on numerous blogs worldwide.[^59] Whilst such media attention is not by any means an indicator of the quality of work, the role it plays in promotion of an artist cannot be underestimated. <span id="_Toc480894052" class="anchor"></span>The spreading of *Ant Ballet* (and in particular the projects’ main video) via the internet led directly to later commissions, including the residency at the Palais de Tokyo which enabled other projects in this thesis (*Scriptych*, *86400*, *24fps Psycho*, *Network / Intersect*) to take place.
 
+<figure>
+  <a name="figure1-11"></a>
+  <img src="/images/figure1-11.jpg" width="100%" />
+  <figcaption>Figure 1-11: Ant Ballet photoshoot for Wired Magazine, Battersea. August 2012.
+Photo © Michael Blann / Condé Nast Inc.</figcaption>
+</figure>
+
+
 Before I began the PhD thesis, I had intended to continue working on the *Ant Ballet* project, refining the design, developing the technical and theoretical aspects in order to create multiple permutations and iterations of the machines, and create performances, installations and films of the same theme. During the initial months of my thesis research, I worked on a project with my collaborator Dr. Sumner in which I built technical equipment to test whether British garden ants (*Lasius niger*) are attracted to electricity, as has been anecdotally reported, which was then tested in a study at the Institute of Zoology by an undergraduate student. It was through careful analysis of my experiences in this project, as well as the failed and successful installations, which led me to realise my earlier arguments about the importance of the frame. I took the conscious decision to move away from the field of sci-art for the next few projects in order that I could focus on the creation of absurd diagrams.
 
-Chapter Conclusion
-------------------
+## Chapter Conclusion
+
 
 In this chapter, I have discussed the development of two projects, and the role that framing has on the perception of work. I have argued that in the case of Ant Ballet, the sci-art moniker (and its associated terms) was not useful in framing the project, leading to the creation of an unsuccessful installation at London Zoo. The specific relationship between science and art within Sci-art practice can, of course, exist in multiple permutations. As has been discussed, Born and Barry highlight three modes as being particularly prevalent.[^60] The first, refers to the appropriation of scientific knowledge to *justify* artistic production. Closely related to this is the second permutation, involving the production of artwork whereby the intention is to communicate pre-existing scientific knowledge: ‘Science is conceived as finished or complete, and as needing only to be communicated, understood or applied, while art provides the means through which the public is mobilized or stimulated on behalf of science.’[^61] This latter is an approach I strongly disagree with and have tried to avoid in my own work. Science is a continuum of knowledge, formed through consensus and continual posing of theories.[^62] As Kuhn has described it, normal science is a ‘puzzle-solving’ activity, one which establishes myriad smaller problems to be solved in order to get closer to proof of a larger theory.[^63] Scientific knowledge is not always agreed upon: ‘History suggests that the road to a firm research consensus is extraordinarily arduous.’[^64]
 

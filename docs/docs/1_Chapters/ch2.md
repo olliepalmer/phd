@@ -8,14 +8,34 @@ My introduction to writing code (besides playing around with website creation in
 
 The form of integrated coding I experienced at the Bartlett seems to reflect the pedagogical practices I have witnessed first-hand at several other design schools over the past few years. Today, it is not uncommon to see parametric scripting, small electronic prototypes, applications and websites, or other various coded outcomes to student projects.[^4] As discussed in the introduction to this thesis, some teaching methods relating to particular aspects of scripting culture, namely parametricist design practice, are highly exclusionary, and rely on rote copying-and-pasting of code examples, or rely extensively on particular libraries and algorithms which are then unquestioningly repeated.[^5] But other aspects of the computer-scripting world are relatively easy to inhabit as an autodidact; there are numerous tutorials, example files, libraries, forums, and so on online which can be used to extend pre-existing skills. My own entry to coding was via classes at the Bartlett, but once I knew the basics of a couple of languages, and knew where to look, and what to look for, extending my vocabulary and skillset was simply a matter of investing time. The approach I have to writing code is different to the traditional computer programmer, for whom the aim is often to write lean, efficient code (often for someone else) which performs to the highest standard; my intention is to use code and code-based-thought to investigate, to learn, or to express design intent.
 
-Code writing and code thinking
-------------------------------
+## Code writing and code thinking
+
 
 In most instances, before I write code, I use a number of diagrammatic techniques to work out what I want the code do. These could be in the form of state transition diagrams, pseudo-code, flow charts, or diagrams of code-based ‘mechanisms’, with labelled inputs, outputs and procedures.[^6] These diagrams are functional sketches; they show a potential solution to some form of data processing. Like working sketches, they are often altered, improved upon, or superseded later in the design process. Their function is to enable me to mentally model what is going to be happening within the computer itself, to interrogate the logic and data-flows, and make improvements before the functions are obfuscated by interdependent lines of code written in a specific language.
 
 Although arguably becoming more central to certain designers’ process, writing code does require modes of practice that are in themselves distinct from other design processes. Code is written in *code* *language*, and like spoken languages, code languages require learning, practice and often an attitudinal change with regards to the way in which things are done. Communities of people who write code are often tribe-line in their allegiance, and code languages tend to impose a mode of working that cause them to be particularly suited to certain ways of working. PHP, a scripting language used primarily on websites, for example, is notorious for quick development (although lamented by many computer programmers for being ‘dirty’);[^7] Python and its associated communities pride themselves on the *Zen of Python* and use terms such as ‘pythonic’ to describe best practice when writing in the language.[^8]
 
 The essential process that one enters when diagramming a computer programme is the mental modelling of the programme they are going to write. In essence, one must think *as* a computer; to understand how at each step the programme will store, retrieve and manipulate symbols, variables, and objects. To draw a linguistic analogy, we might think about the difference between *having* and *being* in English and Spanish. In English, we draw no grammatical distinction between the state of being implicit in human gender, age, activity, or state of sensing (e.g. warm/cold). However, in Spanish, each of these attributes is approached differently:
+
+<a name="table2-2"></a>
+
+
+| English | Spanish | Spanish-English translation |
+|---|---|---|
+| I am a man | Soy uno hermano | I am [in the long-term] a man |
+| I am thirty years old | Tengo trienta años | I have thirty years |
+| I am writing | Estoy escribiendo | I am [in this moment] writing |
+| I am a designer | Soy un diseñador | I am [permanently] a designer |
+| I am cold | Tengo frio | I have cold |
+| I have a headache | Me duele la cabeza | It hurts my head |
+
+
+<figure>
+  <figcaption>Table 2-2:  English / Spanish translations. Source: the author.</figcaption>
+</figure>
+
+
+
 
 Whilst in both English and Spanish, the solution to being (or having) cold may be to turn the radiator up, the effect of the temperature rise is expressed differently; in English, it refers to a stat of being (I am cold) and in Spanish the state of being is expressed through a possessed attribute (*Tengo frio*: I have cold). The presence of temporary and permanent states of being (e.g. *estoy* / *soy*) make the quick articulation of a vocation, as opposed to a temporary task, a simple verbal substitution, whereas in English, this would be declared or implied through context. This is a similar nuance to differing modes of computer programming: the object-oriented programmer may create a class of objects that store a variable for coldness (the equivalent of *being* cold), whereas another programming language may create a series of objects where ‘coldness’ is a secondary, external variable (the equivalent of *having* cold). Another may invoke coldness as a state. The differences in the handling of virtual objects, the changing of states and attributes, and the order in which things are processed, all contribute to the utility of a language at certain tasks.
 
@@ -24,6 +44,7 @@ Much of the time in my own practice, I use flow-charts, draw data flows, and wri
 ```
 Turning the radiator ON for 5 SECONDS increases the temperature by 1º.
 Leaving the radiator OFF for 30 SECONDS decreases the temperature by 1º.
+
 Every 5 SECONDS, read TEMPERATURE:
 - If TEMPERATURE less than TARGET, switch radiator ON.
 - If TEMPERATURE larger than or equal to TARGET, switch radiator OFF.
@@ -34,9 +55,10 @@ I would then ‘run’ this code several times on paper, writing down different 
 ```
 target = 18
 currentTemp = getTemp()
-if (currentTemp &lt; target):
+
+if (currentTemp < target):
   radiator = 1
-else if (radiator &gt; 1):
+else:
   radiator = 0
 ```
 
@@ -73,6 +95,13 @@ I was drawn to the Chinese Room argument due to its inherently analogue reasonin
 Nybble
 ------
 
+
+<figure>
+  <a name="figure2-13"></a>
+  <img src="/images/figure2-13.jpg" width="100%" />
+  <figcaption>Figure 2-13:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
+</figure>
+
 In June 2013 I was an exhibitor in the V&A Museum’s Digital Design Weekend. This annual celebration, which I had first attended in 2009, coincided with the final weekend of London Design Festival, in which the V&A were also participants. As such, it attracted large amounts of people interested in both digital culture and design. I was approached by the Digital Programmes Manager, Irini Papadimitriou, with whom I discussed creating a new piece of work to engage people with the concepts *surrounding* computation, rather than showcasing a new piece of computational artwork. Earlier that year, and completely independently, I had been a participant in a workshop run by an Arts and Humanities Research Council (AHRC) research consortium between the V&A Museum and UCL’s Centre for Sustainable Heritage entitled Design with Heritage (DwH). The consortium’s aim was to investigate potential ways in which new and emerging technology could be used to enhance and augment exhibitions and artefacts within museums, and their working method was to gather industry professionals and independent practitioners together in intensive one-day workshops to rapidly identify and propose projects to investigate issues surrounding two topics: potential new methods in which existing and emerging technology could be used to enhance and augment exhibitions and artefacts within museums. I was fortunate to be awarded a small grant to investigate audience navigation in museums, which was used to produce the project that became *Nybble*.
 
 At the time, the concept of artificial intelligence and machine learning was re-entering the public consciousness, and more media coverage was devoted to the subject. I had recently heard about Turing’s chess programme and began my engagement in issues surrounding machine learning and artificial intelligence.[^33] I had also taught students computer programming and electronics via Arduino and Processing, and consistently found that students who were otherwise well-versed in using computers for advanced design purposes were often ill-able to describe the underlying principles of computing, or the lineage of technological and philosophical development which had led to the computers we use every day. It seemed that there was a widespread misconception about what a computer is and does; the focus in media representation of technology is often concerned with the form factor technology adopts (e.g. the specifications and aesthetics of a new gadget) rather than the wider ramifications of what it can do, and how this affects society. Turing’s influential papers on computation, and even his early experiments with chess programmes, and even Searle’s arguments about artificial intelligence, had been conducted without the use of a computer, yet the work of both continues to resonate today. I wanted to create a work Digital Design Weekend where computation was on display, but a digital computer was not.
@@ -81,7 +110,7 @@ I decided that an exhibition whereby a bank of humans could act out the inner wo
 
 This structure was influenced by the arguably absurd<sub>b</sub> 1959 novel the *The* *Sirens of Titan* by Kurt Vonnegut.[^34] The punch-line of the sci-fi story is that the whole of humanity’s development and progress – technology, languages, religions, and culture – have in fact been mysteriously influenced by forces from afar, in order that an elaborate and highly specific life-trajectory would be taken by one man, resulting in war on earth and mass destruction – all so that one small part of a broken machine on Mars would be replaced, enabling it to continue its journey across the universe to deliver a message. Finally, it is revealed that the message itself consists of a single point, meaning ‘Greetings’ in its native language.[^35] Although smaller in scale, and notably devoid of conspiracy theory-paranoia, this project would ask audience and participants to decode something that tested the limits of their perception (and patience), yet itself conveyed a meaningless message, echoing the absurd<sub>b</sub> assertion that humanity is doomed to search for meaning in a universe devoid of it. Many of the concepts surrounding this idea were the result of conversations with colleagues in who shared a studio, co-tutors, my PhD supervisors, and my frequent collaborator, Abi Palmer.
 
-### <span id="_Toc475104141" class="anchor"><span id="_Toc475104559" class="anchor"></span></span>Methodology
+### Methodology
 
 Please note, for the sake of clarity, the project is presented here in thematic, rather than strictly chronological order. Much of the project development, as with most projects I work on, occurred concurrently as a result of the design process.
 
@@ -92,6 +121,60 @@ The process of parsing characters from binary information held in a computer’s
 I then needed a means of making the performance as visible as possible – and changing the way that people moved around the space. The mode of operation would have to employ some sort of binary state in order to unambiguously reflect digital storage, conveying information in a highly visible way, but still require the audience to decode it. Like a CPU, whose internal clock is invisible to a computer user, the internal instructions fed to each dancer would be hidden from the public, yet synchronise the actions of the dancers. I decided to use four dancers because that would simultaneously allow for a multitude of characters to be conveyed via a lookup table, and provide a means of making the performance large, and visible to the public.
 
 I commissioned costume designer Magdalena Gustafson to work on costumes that would extend the physical reach of the designers. Being interested in the binary nature of the movements the dancers would be able to move to, we devised a system whereby each dancer would wear two large ‘sails’, around 3.4m high, which would attach to their back via a pair of masts affixed to a backpack (the backpacks themselves were constructed from modified baby transporters; the poles were modified lightweight fishing rods). The ‘boom’ of each sail would be held in the dancers’ hand, and extend their reach by approximately 2.2m in each direction. This would allow the dancers to use a semaphore-like mode of signalling to move into one of four positions: both sails down; both sails up; left-hand sail down/right-hand sail up; right-hand sail down/left-hand sail up; and both sails down. These positions were called 0-3 (in computing, zero is usually the first number that is used for counting).
+
+
+<figure>
+  <a name="figure2-14"></a>
+  <img src="/images/figure2-14.jpg" width="100%" />
+  <figcaption>Figure 2-14:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
+</figure>
+
+<figure>
+  <a name="figure2-15"></a>
+  <img src="/images/figure2-15.jpg" width="100%" />
+  <figcaption>Figure 2-15:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
+</figure>
+
+<figure>
+  <a name="figure2-16"></a>
+  <img src="/images/figure2-16.1.jpg" width="100%" />
+  <img src="/images/figure2-16.2.jpg" width="100%" />
+  <img src="/images/figure2-16.3.jpg" width="100%" />
+  <img src="/images/figure2-16.4.jpg" width="100%" />
+  <figcaption>Figure 2-16:  Four photos of Nybble performance at the V&A Museum, September 2013, by Danielle Willkens.</figcaption>
+</figure>
+
+<figure>
+  <a name="figure2-17"></a>
+  <img src="/images/figure2-17.jpg" width="100%" />
+  <figcaption>Figure 2-17:  Nybble performance at the V&A Museum, September 2013. Photo by the author.</figcaption>
+</figure>
+
+<figure>
+  <a name="figure2-18"></a>
+  <img src="/images/figure2-18.jpg" width="100%" />
+  <figcaption>Figure 2-18:  Nybble performance at the V&A Museum, 21-23 September 2013. Photo by Danielle Willkens.</figcaption>
+</figure>
+
+<figure>
+  <a name="figure2-19"></a>
+  <img src="/images/figure2-19.png" width="100%" />
+  <figcaption>Figure 2-19:  Code guide for Nybble performance, featuring sixty four possible symbols. By the author.</figcaption>
+</figure>
+
+<figure>
+  <a name="figure2-20"></a>
+  <img src="/images/figure2-20.png" width="100%" />
+  <figcaption>Figure 2-20:  USASCII Code Chart. ‘ASCII - Wikipedia.’ Accessed 11 May 2017. [https:// en.wikipedia.org/wiki/ASCII#/media/File:US-ASCII_code_chart.png](https:// en.wikipedia.org/wiki/ASCII#/media/File:US-ASCII_code_chart.png). US-ASCII Code Chart. Scanner copied from the material delivered with TermiNet 300 impact type printer with Keyboard, February 1972, General Electric Data communication Product Dept., Waynesboro VA</figcaption>
+</figure>
+
+<figure>
+  <a name="figure2-21"></a>
+  <img src="/images/figure2-21.jpg" width="100%" />
+  <figcaption>Figure 2-21:  Nybble performance at the V&A Museum, 21-23 September 2013. Photo by Daneille Willkens..</figcaption>
+</figure>
+
+
 
 In order to safely exhibit dancers who were wearing large bodily extensions, I worked with the curator to find a site suitable for the dance. Internal spaces within the institution are highly regulates spaces due to the number of valuable artefacts. We decided to place the dancers in the John Madjeski Garden: it had high visibility, and an almost stage-like setup around a pond, and the people there tended to be taking a ‘break’ from the main exhibition spaces to eat and drink (in short, a captive audience). The costume designer and I decided to use bold, electric blue and light green colours for the sails, both to compliment the iconic Dale Chihuly chandelier in the V&A’s main entrance (the first thing most people see on entering the museum), and to stand out against the vivid orange of the bricks within the courtyard. The sails would have a clear directionality; if the dancer was facing towards the audience, they would only see blue, whereas rear-facing dancers would reveal a flash of bright green, aiding the interpretation of the code the dancers would be parsing.
 
@@ -107,7 +190,9 @@ In order to enable the creation of a set of instructions for the controller to r
 
 The dance sequencing itself was devised partly through dance workshops (which will be discussed later), but mostly through the assessment of how CPUs handle information stored in memory. When retrieving information from Random Access Memory (RAM), 50% of the memory is used as address; that is, merely to *locate* the information the computer is to process, whilst the other 50% is used to store the information itself. This implied that around half of the time spent processing information is spent locating it, or preparing to process. The dance we would carry out would follow a similar formula; the dancers would spend half of their time receiving instructions, and half of the time ‘processing’ them. Of course, this would happen at an order of magnitude slower than a digital computer; parsing the 49 characters of the message we conveyed would take approximately 25 minutes. Each symbol being represented would be one move; a position for all of the dancers to collectively move to, and a direction for each one to face individually. The instructions, and synchronisation cues, would be delivered by the controller (played by Abi) who would speak into a walkie-talkie over the top of a synchronisation soundtrack.
 
-### <span id="_Toc475104142" class="anchor"><span id="_Toc475104560" class="anchor"></span></span>Soundtrack
+
+
+### Soundtrack
 
 As a CPU is dependent on its internal clock for synchronisation, the dancers in *Nybble* would use a hidden timing mechanism to stay synchronised. This would enable the bank of dancers, who would be positioned several metres apart, to receive instructions and coordinate their moves to match each other. The dancers would each wear a walkie-talkie radio with an earpiece, tuned to the same frequency. At the other end, the controller would transmit a timing signal and instructions to the dancers. This meant that the signals of the soundtrack would have to be easily intelligible via a low-resolution radio bandwidth. In addition, I wanted the soundtrack to have the audio aesthetic of the 1940-50s Britain which Alan Turing had inhabited, and echoes of the Shipping Forecast. This last influence was of particular importance as I have been an avid listener of the late night Shipping Forecast on BBC Radio 4 for years, enjoying its soothing and rhythmic mode of delivering semi-coded information, yet never really known what the numbers meant – a similar state to how I imagined the audience would receive this work.
 
@@ -120,9 +205,11 @@ Go!  beep 2 beep 3 beep 4 beep 5 beep 6 beep 7 beep 8 beep, beep
 
 In the time when dancers were transitioning between positions, they would be given an instruction as to how to move (e.g. ‘fire’, ‘underwater’). These instructions were the result of three workshops in which Abi worked with the dancers and established the particularities of giving live instructions for them to work with. The dancers needed something to focus on whilst moving into position, and the variation that this improvisation provided in also served to provide visual interest for the audience. The synchronisation track and instructions were delivered via walkie-talkie; the synchronisation track, which was looped, was played on repeat through an iPod, the earpiece of which was taped to the microphone of the controller’s headset. This meant that the controller could speak over the soundtrack, and the low-resolution radios (designed for use in loud environments such as nightclubs) would transmit the loudest noise. Each dancer wore a walkie-talkie, clipped to their rucksack, and a one-way earpiece.
 
+
+
 The installation’s name was chosen close to the work’s performance, and was the result of a conversation with artist and (at the time) co-tutor in the Interactive Architecture Lab, Ruairi Glynn. The name emerged through thinking about the quantity of information each dancer would convey; their four potential positions would be analogous to half a byte (eight ‘bits’) of information. Within computing, half a byte is known as a *nybble* (word-play on the similarity of *byte* to *bite*). The concision of the word, along with its implicit humility, summarised the ethos of the performance.
 
-### <span id="_Toc475104143" class="anchor"><span id="_Toc475104561" class="anchor"></span></span>Dancers
+### Dancers
 
 This project represents the first time I had worked with dancers, and my expertise in this field was minimal. My friend Andrea Mongenie, who had been a casting agent for the London Olympics opening ceremony, offered a wealth of advice. In order to attract attention to the project, I created a trailer film from promotional footage of IBM computational systems, taken from the Prelinger Archives.[^38] The teaser was designed to illicit interest from potential dancers. It combined the following dialogue with images of a computer parsing text:
 
@@ -133,8 +220,10 @@ I placed an advert on industry-standard casting websites, and held a casting ses
 
 The performances were recorded and can be found in this thesis’ accompanying media.
 
-<span id="_Toc475104145" class="anchor"><span id="_Toc475104563" class="anchor"></span></span>Scriptych
--------------------------------------------------------------------------------------------------------
+
+
+Scriptych
+----------
 
 Nearly years after *Nybble*, during my residency at the Palais de Tokyo, I completed a second dance-based project, this time working in collaboration with the Opera de Paris (an arrangement that had been made by Ange Leccia, the founder and director of the Pavillon residency). The six artists who were resident would each team up with a choreographer and dancers from the Opera in order to create a performance or intervention in the publically-accessible areas of the Opera Garnier building for two evenings. We began working on this project as soon as we joined the Pavillon programme. I had known about this collaboration when I had been offered the position at the Palais de Tokyo some months earlier, so had begun to work on technical aspects of the project in advance.
 

@@ -8,6 +8,8 @@
 ```
 Version 1.1
 November 2017
+
+Reformatted for web September 2021
 ```
 
 Note: This is the digital version of this thesis, made to facilitate easier reading of the thesis and embedding of videos which the original PDF wouldn't allow. However, for a copy that you can cite in academic literature, a PDF version can be downloaded from the British Library / UCL website [here](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.747040).
