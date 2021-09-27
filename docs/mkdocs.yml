@@ -26,5 +26,8 @@ theme:
         - toc.integrate
 markdown_extensions:
   - footnotes
+  - toc:
+      permalink: "#"
+
 extra_css:
   - stylesheets/extra.css

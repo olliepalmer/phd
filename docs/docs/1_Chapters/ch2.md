@@ -1,6 +1,6 @@
 # Chapter 2: Performing Data Structures
 
-# Nybble and Scriptych
+<h1><a href="#nybble">Nybble</a> and <a href="#scriptych">Scriptych</a></h1>
 
 Much of my design practice involves computer scripting. In the previous chapter, I described two projects which relied heavily on computer scripting: *Ant Ballet* used an inverse-kinematics programme to drive its robot arm and spread pheromones; the *Godot Machine* used a programme which used computer vision to drive the movement of a ball.[^1] Chapter 3 introduces two projects where I used scripting to generate new films, *86400* and *24fps Psycho* from archival footage.[^2] I regard the act of writing code itself a design process: it requires a mode of thought that is procedural and concentrated; it is distinct from drawing, yet offers a similarly iterative process of refinement and improvement. This chapter will discuss the way in which designers, and in particular I, think *about code* and think *in code*. It begins with an introduction to principles of code writing, and a couple of precedents of diagramming code used by Italo Calvino and Alan Turing. It then presents two projects that form part of my research and design portfolio as part of this PhD, both of which use different principles and methodologies to frame a conversation about thinking about code.
 

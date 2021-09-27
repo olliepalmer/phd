@@ -1,6 +1,8 @@
 # Chapter 4: Reflexive Scripted Design:
 
-# Network / Intersect
+<h1><a href="#network-intersect_1">Network / Intersect</a></h1>
+
+## Context
 
 In January 2014 I went to see a play by the immersive theatre group Punchdrunk. Entitled *The Drowned Man: A Hollywood Fable*, the performance took place in a large 5-storey building, formerly a Royal Mail sorting office, next to London Paddington station.[^1] Each member of the audience was given an identical white mask to wear, and during the performance was free to roam the set of a ‘town’ which had been constructed inside the warehouse to mimic the outskirts of early 1960s Hollywood. The audience could walk in and out of houses, pick objects up, read letters, look in drawers, and follow the (unmasked) performers around as their characters went about their fictional lives.
 
