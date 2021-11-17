@@ -123,17 +123,111 @@ I then needed a means of making the performance as visible as possible – and c
 I commissioned costume designer Magdalena Gustafson to work on costumes that would extend the physical reach of the designers. Being interested in the binary nature of the movements the dancers would be able to move to, we devised a system whereby each dancer would wear two large ‘sails’, around 3.4m high, which would attach to their back via a pair of masts affixed to a backpack (the backpacks themselves were constructed from modified baby transporters; the poles were modified lightweight fishing rods). The ‘boom’ of each sail would be held in the dancers’ hand, and extend their reach by approximately 2.2m in each direction. This would allow the dancers to use a semaphore-like mode of signalling to move into one of four positions: both sails down; both sails up; left-hand sail down/right-hand sail up; right-hand sail down/left-hand sail up; and both sails down. These positions were called 0-3 (in computing, zero is usually the first number that is used for counting).
 
 
+---
+
+## Nybble dance instructions sheet: 21 September 2013
+
+| Move No. | Dancer A  |          | Dancer B  |          | Dancer C  |          | Dancer D  |          | Symbol represented | ASCII Table equivalent | Symbol |
+| -------- | --------- | -------- | --------- | -------- | --------- | -------- | --------- | -------- | ------------------ | ---------------------- | ------ |
+|          | Direction | Position | Direction | Position | Direction | Position | Direction | Position |                    |                        |        |
+  | 0        | 0         | BACK     | 0         | FRONT    | 0         | BACK     | 0         | BACK     | 0                  | 4                      | ```D```      |
+  | 1        | 3         | BACK     | 3         | BACK     | 3         | BACK     | 3         | FRONT    | D                  | 1                      | ```a```      |
+  | 2        | 3         | FRONT    | 3         | FRONT    | 3         | FRONT    | 3         | BACK     | D                  | 14                     | ```n```      |
+  | 3        | 3         | BACK     | 3         | BACK     | 3         | FRONT    | 3         | FRONT    | D                  | 3                      | ```c```      |
+  | 4        | 3         | BACK     | 3         | FRONT    | 3         | BACK     | 3         | FRONT    | D                  | 5                      | ```e```      |
+  | 5        | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | B                  | 15                     | ```_```      |
+  | 6        | 3         | BACK     | 3         | FRONT    | 3         | FRONT    | 3         | BACK     | D                  | 6                      | ```f```      |
+  | 7        | 3         | FRONT    | 3         | BACK     | 3         | BACK     | 3         | FRONT    | D                  | 9                      | ```i```      |
+  | 8        | 2         | BACK     | 2         | BACK     | 2         | FRONT    | 2         | BACK     | C                  | 2                      | ```r```      |
+  | 9        | 2         | BACK     | 2         | BACK     | 2         | FRONT    | 2         | FRONT    | C                  | 3                      | ```s```      |
+  | 10       | 2         | BACK     | 2         | FRONT    | 2         | BACK     | 2         | BACK     | C                  | 4                      | ```t```      |
+  | 11       | 2         | FRONT    | 2         | FRONT    | 2         | FRONT    | 2         | FRONT    | C                  | 15                     | ```.```      |
+  | 12       | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | B                  | 15                     | ```_```      |
+  | 13       | 1         | BACK     | 1         | FRONT    | 1         | BACK     | 1         | BACK     | B                  | 4                      | ```T```      |
+  | 14       | 3         | FRONT    | 3         | BACK     | 3         | BACK     | 3         | BACK     | D                  | 8                      | ```h```      |
+  | 15       | 3         | FRONT    | 3         | BACK     | 3         | BACK     | 3         | FRONT    | D                  | 9                      | ```i```      |
+  | 16       | 3         | FRONT    | 3         | FRONT    | 3         | FRONT    | 3         | BACK     | D                  | 14                     | ```n```      |
+  | 17       | 3         | FRONT    | 3         | BACK     | 3         | FRONT    | 3         | FRONT    | D                  | 11                     | ```k```      |
+  | 18       | 2         | FRONT    | 2         | FRONT    | 2         | FRONT    | 2         | FRONT    | B                  | 15                     | ```_```      |
+  | 19       | 2         | FRONT    | 2         | FRONT    | 2         | BACK     | 2         | BACK     | D                  | 12                     | ```l```      |
+  | 20       | 3         | BACK     | 3         | BACK     | 3         | BACK     | 3         | FRONT    | D                  | 1                      | ```a```      |
+  | 21       | 2         | BACK     | 2         | FRONT    | 2         | BACK     | 2         | BACK     | C                  | 4                      | ```t```      |
+  | 22       | 3         | BACK     | 3         | FRONT    | 3         | BACK     | 3         | FRONT    | D                  | 5                      | ```e```      |
+  | 23       | 2         | BACK     | 2         | BACK     | 2         | FRONT    | 2         | BACK     | C                  | 2                      | ```r```      |
+  | 24       | 2         | FRONT    | 2         | FRONT    | 2         | FRONT    | 2         | FRONT    | C                  | 15                     | ```.```      |
+  | 25       | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | B                  | 15                     | ```_```      |
+  | 26       | 0         | FRONT    | 0         | BACK     | 0         | BACK     | 0         | FRONT    | A                  | 9                      | ```I```      |
+  | 27       | 2         | BACK     | 2         | FRONT    | 2         | BACK     | 2         | BACK     | C                  | 4                      | ```t```      |
+  | 28       | 3         | BACK     | 3         | BACK     | 3         | BACK     | 3         | BACK     | D                  | 0                      | ```'```      |
+  | 29       | 2         | BACK     | 2         | BACK     | 2         | FRONT    | 2         | FRONT    | C                  | 3                      | ```s```      |
+  | 30       | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | B                  | 15                     | ```_```      |
+  | 31       | 2         | BACK     | 2         | FRONT    | 2         | BACK     | 2         | BACK     | C                  | 4                      | ```t```      |
+  | 32       | 3         | FRONT    | 3         | BACK     | 3         | BACK     | 3         | BACK     | D                  | 8                      | ```h```      |
+  | 33       | 3         | BACK     | 3         | FRONT    | 3         | BACK     | 3         | FRONT    | D                  | 5                      | ```e```      |
+  | 34       | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | B                  | 15                     | ```_```      |
+  | 35       | 3         | FRONT    | 3         | FRONT    | 3         | FRONT    | 3         | BACK     | D                  | 14                     | ```n```      |
+  | 36       | 3         | BACK     | 3         | BACK     | 3         | BACK     | 3         | FRONT    | D                  | 1                      | ```a```      |
+  | 37       | 2         | BACK     | 2         | FRONT    | 2         | BACK     | 2         | BACK     | C                  | 4                      | ```t```      |
+  | 38       | 2         | BACK     | 2         | FRONT    | 2         | BACK     | 2         | FRONT    | C                  | 5                      | ```u```      |
+  | 39       | 2         | BACK     | 2         | BACK     | 2         | FRONT    | 2         | BACK     | C                  | 2                      | ```r```      |
+  | 40       | 3         | BACK     | 3         | BACK     | 3         | BACK     | 3         | FRONT    | D                  | 1                      | ```a```      |
+  | 41       | 3         | FRONT    | 3         | FRONT    | 3         | BACK     | 3         | BACK     | D                  | 12                     | ```l```      |
+  | 42       | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | 1         | FRONT    | B                  | 15                     | ```_```      |
+  | 43       | 3         | FRONT    | 3         | FRONT    | 3         | FRONT    | 3         | FRONT    | D                  | 15                     | ```o```      |
+  | 44       | 2         | BACK     | 2         | BACK     | 2         | FRONT    | 2         | BACK     | C                  | 2                      | ```r```      |
+  | 45       | 3         | BACK     | 3         | FRONT    | 3         | BACK     | 3         | BACK     | D                  | 4                      | ```d```      |
+  | 46       | 3         | BACK     | 3         | FRONT    | 3         | BACK     | 3         | FRONT    | D                  | 5                      | ```e```      |
+  | 47       | 2         | BACK     | 2         | BACK     | 2         | FRONT    | 2         | BACK     | C                  | 2                      | ```r```      |
+  | 48       | 2         | FRONT    | 2         | FRONT    | 2         | FRONT    | 2         | FRONT    | C                  | 15                     | ```.```     |  
+
+
+
+## Nybble cheat sheet: 21 September 2013
+
+
+| Row | Direction A | Direction B | Direction C | Direction D | Position 0 | Position 1 | Position 2 | Position 3 |
+| --- | ----------- | ----------- | ----------- | ----------- | ---------- | ---------- | ---------- | ---------- |
+| 0   | BACK        | BACK        | BACK        | BACK        | ```@```    | ```P```    | `          | ```p```    |
+| 1   | BACK        | BACK        | BACK        | FRONT       | ```A```    | ```Q```    | ```a```    | ```q```    |
+| 2   | BACK        | BACK        | FRONT       | BACK        | ```B```    | ```R```    | ```b```    | ```r```    |
+| 3   | BACK        | BACK        | FRONT       | FRONT       | ```C```    | ```S```    | ```c```    | ```s```    |
+| 4   | BACK        | FRONT       | BACK        | BACK        | ```D```    | ```T```    | ```d```    | ```t```    |
+| 6   | BACK        | FRONT       | FRONT       | BACK        | ```F```    | ```V```    | ```f```    | ```v```    |
+| 7   | BACK        | FRONT       | FRONT       | FRONT       | ```G```    | ```W```    | ```g```    | ```w```    |
+| 8   | FRONT       | BACK        | BACK        | BACK        | ```H```    | ```X```    | ```h```    | ```x```    |
+| 9   | FRONT       | BACK        | BACK        | FRONT       | ```I```    | ```Y```    | ```i```    | ```y```    |
+| 10  | FRONT       | BACK        | FRONT       | BACK        | ```J```    | ```Z```    | ```j```    | ```z```    |
+| 11  | FRONT       | BACK        | FRONT       | FRONT       | ```K```    | ```[```    | ```k```    | ```{```    |
+| 12  | FRONT       | FRONT       | BACK        | BACK        | ```L```    | ```\```    | ```l```    | ``` ```    |
+| 13  | FRONT       | FRONT       | BACK        | FRONT       | ```M```    | ```]```    | ```m```    | ```}```    |
+| 14  | FRONT       | FRONT       | FRONT       | BACK        | ```N```    | ```^```    | ```n```    | ```~```    |
+| 15  | FRONT       | FRONT       | FRONT       | FRONT       | ```O```    | ```_```    | ```o```    | ```.```    |
+
+Dancers’ individual direction represents row)  
+All dancers in position (represents column)
+
+<figure>
+  <a name="figure2-12"></a>
+  <figcaption>Figure 2-12: Dance instruction sheet, and ‘code cheat sheet’ from Saturday 21<sup>st</sup> September 2013.</figcaption>
+</figure>
+
+---
+
 <figure>
   <a name="figure2-14"></a>
   <img src="/images/figure2-14.jpg" width="100%" />
   <figcaption>Figure 2-14:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
 
+---
+
 <figure>
   <a name="figure2-15"></a>
   <img src="/images/figure2-15.jpg" width="100%" />
   <figcaption>Figure 2-15:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
+
+---
 
 <figure>
   <a name="figure2-16"></a>
@@ -144,11 +238,15 @@ I commissioned costume designer Magdalena Gustafson to work on costumes that wou
   <figcaption>Figure 2-16:  Four photos of Nybble performance at the V&A Museum, September 2013, by Danielle Willkens.</figcaption>
 </figure>
 
+---
+
 <figure>
   <a name="figure2-17"></a>
   <img src="/images/figure2-17.jpg" width="100%" />
   <figcaption>Figure 2-17:  Nybble performance at the V&A Museum, September 2013. Photo by the author.</figcaption>
 </figure>
+
+---
 
 <figure>
   <a name="figure2-18"></a>
@@ -156,11 +254,15 @@ I commissioned costume designer Magdalena Gustafson to work on costumes that wou
   <figcaption>Figure 2-18:  Nybble performance at the V&A Museum, 21-23 September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
 
+---
+
 <figure>
   <a name="figure2-19"></a>
   <img src="/images/figure2-19.png" width="100%" />
   <figcaption>Figure 2-19:  Code guide for Nybble performance, featuring sixty four possible symbols. By the author.</figcaption>
 </figure>
+
+---
 
 <figure>
   <a name="figure2-20"></a>
@@ -168,13 +270,16 @@ I commissioned costume designer Magdalena Gustafson to work on costumes that wou
   <figcaption>Figure 2-20:  USASCII Code Chart. ‘ASCII - Wikipedia.’ Accessed 11 May 2017. [https:// en.wikipedia.org/wiki/ASCII#/media/File:US-ASCII_code_chart.png](https:// en.wikipedia.org/wiki/ASCII#/media/File:US-ASCII_code_chart.png). US-ASCII Code Chart. Scanner copied from the material delivered with TermiNet 300 impact type printer with Keyboard, February 1972, General Electric Data communication Product Dept., Waynesboro VA</figcaption>
 </figure>
 
+---
+
 <figure>
   <a name="figure2-21"></a>
   <img src="/images/figure2-21.jpg" width="100%" />
-  <figcaption>Figure 2-21:  Nybble performance at the V&A Museum, 21-23 September 2013. Photo by Daneille Willkens..</figcaption>
+  <figcaption>Figure 2-21:  Nybble performance at the V&A Museum, 21-23 September 2013. Photo by Daneille Willkens.</figcaption>
 </figure>
 
 
+---
 
 In order to safely exhibit dancers who were wearing large bodily extensions, I worked with the curator to find a site suitable for the dance. Internal spaces within the institution are highly regulates spaces due to the number of valuable artefacts. We decided to place the dancers in the John Madjeski Garden: it had high visibility, and an almost stage-like setup around a pond, and the people there tended to be taking a ‘break’ from the main exhibition spaces to eat and drink (in short, a captive audience). The costume designer and I decided to use bold, electric blue and light green colours for the sails, both to compliment the iconic Dale Chihuly chandelier in the V&A’s main entrance (the first thing most people see on entering the museum), and to stand out against the vivid orange of the bricks within the courtyard. The sails would have a clear directionality; if the dancer was facing towards the audience, they would only see blue, whereas rear-facing dancers would reveal a flash of bright green, aiding the interpretation of the code the dancers would be parsing.
 
@@ -227,6 +332,13 @@ Scriptych
 
 Nearly years after *Nybble*, during my residency at the Palais de Tokyo, I completed a second dance-based project, this time working in collaboration with the Opera de Paris (an arrangement that had been made by Ange Leccia, the founder and director of the Pavillon residency). The six artists who were resident would each team up with a choreographer and dancers from the Opera in order to create a performance or intervention in the publically-accessible areas of the Opera Garnier building for two evenings. We began working on this project as soon as we joined the Pavillon programme. I had known about this collaboration when I had been offered the position at the Palais de Tokyo some months earlier, so had begun to work on technical aspects of the project in advance.
 
+<figure>
+  <a name="figure2-22"></a>
+  <img src="/images/figure2-22.jpg" width="100%" />
+  <figcaption>Figure 2-22:  Scriptych performance at Opera Garnier in June 2016. Photo by Justine Emard.</figcaption>
+</figure>
+
+
 In the intervening time between *Nybble* and *Scriptych*, advances in artificial intelligence and machine learning had been widely publicised through media, and truly entered the public discourse. One of the major advances that had come to my awareness was the use of high-dimensional vector spaces to transform complex problems, such as translating languages and recognising the content of images, into spatial problems – albeit spaces consisting of potentially hundreds of vectors. This means that, much as Searle argued over thirty years before, computers were able to solve problems with the appearance of understanding their context and meaning, when really they were working through mathematical means. The application of machine learning to solve problems that we might categorise as about meaning (e.g. image-recognition, linguistic analysis) has been explored extensively by teams at Google.[^41]
 
 With words, for example, the Word2vec algorithm (developed by Tomas Mikolov et al at Google) requires a huge dataset of words (the training dataset used is often the first 5 billion words from Wikipedia), which are then parsed into sentence form.[^42] The algorithm tokenises all words, and sequentially calculates the word in question’s frequency, and its average distance from all other words. From this it can create a unique multi-dimensional vector for that word, consisting of several hundred dimensions. Through these complex word-vectors, implicit relationships between words emerge, allowing for a form of word-algebra to take place. The famous example that is regularly used to explain Word2vec is that the words for:
@@ -241,9 +353,17 @@ In November 2015, the six artists in the Pavillon residency began having meeting
 
 The first meeting with Opera was on the 19<sup>th</sup> of November. During this round-table discussion, I had expressed my desire to work with vector-space, and integrate some means of converting dancers’ movements into vectors, and consequently into words. Numerous dances contain ‘spatial conversations,’ whereby the movements of two or more dancers react to each other (or an audience), but this project would aim to take this idea a stage further: technologically mediated spatial conversations. The initial idea was primitive, and based solely around this principle; it was only when the true conversation and collaboration started between myself and the choreographer Simon Valastro that the performance evolved rapidly. This project was developed concurrently with other projects contained in this thesis – *Network / Intersect* and *24fps Psycho*, and its working title, until approximately one month before the performance took place, was, rather unoriginally, *Vector Space Translation*.
 
+<figure>
+  <a name="figure2-23"></a>
+  <img src="/images/figure2-23.png" width="100%">
+  <figcaption>Figure 2-23:  Scriptych performance at Opera Garnier in June 2016. Photos by Justine Emard.</figcaption>
+</figure>
+
+
+
 The group of artists visited the site of the performance, Opera de Garnier, both as building visitors, and to see several shows which featured the dancers and choreographers we would be working with. The building is much-discussed in architectural literature, and on one particularly memorable occasion we were taken on a long tour of the myriad hidden spaces which enable the building to operate: pulleys and levers under the stage, rehearsal studios, tunnels, and so on. The building appeared to be a large machine inhabited by its dedicated staff. I was particularly taken by the grand staircase which is encountered immediately after entering the building from the main entrance: Forty writes of the building’s architect Charles Garnier’s belief that the stair ‘is one of the most important arrangements (*dispositions*) in theatres because it is indispensable to the ease of arranging the exits (*dégagements*) and the circulation, but more because it produces an artistic motif.’[^45] Upon entering the theatre, I was struck by the staircase’s inherent theatricality; visitors were transformed into performers, elevated for all to see. The same was true of the balconies surrounding the staircase: spaces of high visibility, and also granting vistas to visitors. Opera Garnier is a building for socialising as much as seeing performances, and the staircase signals the beginning of a journey into theatricality. The building seemed to epitomise Gage’s statement that ‘Architecture is differentiated from building in that it is deemed to induce sensations of delight or wonder in its observers.’[^46]
 
-### <span id="_Toc475104146" class="anchor"><span id="_Toc475104564" class="anchor"></span></span>Design process
+### Design process
 
 My initial idea for the project revolved around translating dancers’ movement into vector-spatial data, converting this to words, and displaying some sort of ‘conversation’ between a pair of dancers. In order to prove this concept, I had to develop two things – an interface to interpret movement, and data to be interpreted. Over the period of January – March 2016, I experimented with Gensim, a Python-based framework for modelling with large datasets (which included Word2vec functions).[^47] Over this period, I acquired multiple large-scale datasets (approximately 45Gb) and trained models with the intention of learning fundamentals of the principles to see the differing effects of various datasets and vector sizes, using online tutorials and guides.[^48] My initial experiments yielded results that were of some use: it appeared that an optimum number of vectors was 300 per word, and ‘cleaner’ datasets yielded less erroneous results. However, each word library that I was creating was around 300,000-600,000 words, with words reflective of the miscellaneous sources: although the libraries contained many recognisable words and word-derivatives, they also contained highly technical words (e.g. ```obgyn```, ```vioxx```, ```bextra```), online abbreviations (e.g. ```wts```, ```fccjobs```, ```niccr```), mis-spelled or conjoined words (e.g. ```constructech```, ```advertisementbut```, ```supportfootnotes```) and some which were meaningless and bizarre (e.g. ```shinnecocks```, ```athanassios```, ```imclone```, ```limbaughricans```, ```ogio```).
 
@@ -259,6 +379,12 @@ The two main barriers to achieving a usable interface point were the reduction o
 
 The next challenge was to create a mode of locating words within this three-dimensional space. The simplest solution would have been to simply make the dancers move to access a physical position and touch a particular position, for example, with their fingertips, and perhaps use a depth-tracking sensor such as a Microsoft Kinect to measure the dancers. But there are limitations to this mode of movement, and we opted not to use this technique for several reasons. Firstly, the field of range for such sensors is not very large, and therefore the dancers would likely be restricted to a virtual ‘cube’ around their bodies. Secondly, this mode of interaction is a lot like the now tired touch-screen interfaces which have populated sci-fi films such as *Minority Report* for at least the past fifteen years. A dance using an interface like this would simply be a rehashing of old ideas. And thirdly, the hardware required to make this happen would have to be fixed in place, in some way interfering with and ‘technologizing’ the Opera Garnier.
 
+<figure>
+  <a name="figure2-24"></a>
+  <img src="/images/figure2-24.jpg" width="100%">
+  <figcaption>Figure 2-24:  Scriptych performance in progress at Opera Garnier, as seen from the ‘control booth’. Photo by Justine Emard.</figcaption>
+</figure>
+
 As such, we worked with a different measurement of movement: the accelerometers and gyroscopes from a pair of iPhones. On one of our earliest meetings, Simon and I had switched to using iPhones instead of the X-OSC board. This had initially been a matter of convenience – the X-OSC had required a fiddly and unreliable setup process each time we met, which wasted a lot of our time. But both of us always had our iPhones to hand, which contained a multitude of sensors and wireless capacity which we would be able to use at any time. Using the app GyrOSC, we were able to take an iPhone’s internal sensor data and convert this to streaming Open Sound Control (OSC) messages.[^52] The messages could then be received and interpreted by an instance of Max software running on my laptop computer, ready to be interpreted and used to loop up words in the database. A further useful function of the GyrOSC software was the ability to remotely trigger a short vibration from the computer, providing a means of invisible haptic feedback to the dancers. There were a few technical issues which we managed to resolve: the sensors in the different models of iPhone we had were calibrated differently, so the same movement gave different results or was prone to ‘slippage’ (which we resolved by replacing one of the phones for a newer, more accurate model). We also devised a means of affixing a phone to a dancers’ body after much trial and error: phones would be inserted into a small neoprene pouch (made by the Opera’s costume department) with a Velcro panel, the phones would be strapped to the underside of a dancers’ wrist via a black elasticated sports bandage. We settled on this location as it offered a wide range of articulation to be measured, yet enabled the phone itself to be relatively hidden. The use of the neoprene pouches hid the phones themselves, thus preventing the work being read as an advert for a certain technology – or even appearing to be phones. Furthermore, the addition of the sports-bandages enabled the development of a ritualistic process of strapping for each dancer, which we would integrate into the first ‘act’ of the performance.
 
 For the vector-library interface, I developed a novel technique of converting the dancers’ movements to words. Each dancer would have a phone strapped to their right wrist, which would continuously transmit their respective live gyroscope and accelerometer data across a Wi-Fi network to my laptop. This data, labelled ```d1``` or ```d2``` depending on the phone, would be picked up via Max software. Max would then map these numbers to a range of values. However, these values would only be recorded if Max was in a designated ‘listen’ mode.
@@ -266,6 +392,25 @@ For the vector-library interface, I developed a novel technique of converting th
 The ```x/y/z``` gyroscope information read by Max was converted to an integer from 0-3 (4 total values). This meant that any angle reached by the dancers’ wrists could be transformed to a three-part array, such as ```[0 0 0]``` or ```[3 1 2]```, and the thresholds for mapping the data were adjusted to suit each dancers’ range of movements.[^53] The accelerometer readings indicated the phones’ current movement. If this fell below a threshold for a designated period of time – one musical ‘count’ – Max would add the current three-part gyroscope integer array to its current ‘move’ – signalled to the dancer via a brief vibration of the phone on their wrist. If the accelerometer recorded no movement for two ‘counts’ the move would finish (signalled to the dancers via two brief phone vibrations), and be converted to a Genism Word2vec query which could return a word.
 
 Each three-part array is called a move, and the string of moves is called a sequence. A move may be ```[2 2 3]``` or ```[2 0 1]``` and a sequence may be constructed of one move, such as ```[3 1 0]``` (```night```) or ```[2 2 0], [0 2 3], [3 0 2]``` (```computer```) or even ```[2 2 1], [1 1 3], [0 1 3], [2 0 0], [0 0 1], [1 1 1], [1 0 2], [0 2 2], [2 3 1], [0 2 3], [2 2 3], [2 3 3]``` (```sensible```). Most sequences in the final performance consisted of between 1 and 3 moves.
+
+
+<a name="table2-3"></a>
+
+| WORD      | VECTOR                                      | MOVE              |
+| --------- | ------------------------------------------- | ----------------- |
+| around    | ```[-0.83194745 2.54594374 -0.9201659 ]```  | ```[ 1. 3. 1.]``` |
+| bris      | ```[-0.10030068 0.147881 -0.1577425 ]```    | ```[ 1. 2. 1.]``` |
+| die       | ```[ 3.87849402 -1.2009213 1.25881267]```   | ```[ 3. 1. 2.]``` |
+| down      | ```[-2.75925088 4.41695166 -0.60041034]```  | ```[ 0. 3. 1.]``` |
+| inventory | ```[ 0.24513638 0.24457133 -0.24679211]```  | ```[ 2. 2. 1.]``` |
+| lied      | ```[ 1.12106276 1.20003092 1.18674994]```   | ```[ 2. 2. 2.]``` |
+| lot       | ```[ 3.77520919 -1.45847201 -1.5530647 ]``` | ```[ 3. 1. 1.]``` |
+| night     | ```[ 3.83613348 -1.4175818 -3.80468154]```  | ```[ 3. 1. 0.]``` |
+
+<figure>
+  <figcaption>Figure 2-3:  Scriptych performance in progress at Opera Garnier, as seen from the ‘control booth’. Photo by Justine Emard.</figcaption>
+</figure>
+
 
 The transformation of these sequences to spatial navigation is one part of the technical innovation within this project, and the best of my knowledge, represents an original innovation. The technique is as follows: the 17,067 words are stored as three-dimensional vectors within a database. This database is virtually represented within a cube, with an uneven distribution of words generated by Gensim/Word2vec. Each word therefore can be represented as a fixed point within this cube, so that searching for ```[0.96784878, 0.98643523, -0.0787757]``` would return the word ‘absurd’. The job of the phone that the dancers wear on their wrist is to translate their movements into spatial navigation within the virtual cube, thus moving to the coordinates that best represent the desired word. The challenge was creating a reliable, replicable means by which the dancers’ movements could be translated to this spatial navigation within the virtual cube, using only the rotational data from the iPhone’s built-in gyroscopes (which can only record rotational angles along three axes). In other words, a phone’s rotational data would have to translate to virtual spatial movements. The resolution of the gyroscopes was down-sampled so that each angle was represented by an integer from 0-3. The sequences that the dancers perform represent a mode of navigating this space, with each ‘move’ in a sequence representing zooming in to a more specific part of the cube. Each ‘move’ represents subdividing the current cube into a 4x4x4 array of smaller cubes. A move to ```[0 0 0]``` would select the near most bottom left sub-cube, whilst ```[3 3 3]``` would select the cube furthest top right. Multi-part sequences apply this technique recursively, so that each move within a sequence represents a smaller ‘zoom’ by an order of four. The final word results from a nearest-word search from the central most point of the final cube of the navigation. This navigation technique allows the user to move to a small set of positions (four positions in each axis) yet generate a 3d position with the degree of accuracy necessary for any necessary word in a relatively small number of moves.
 
@@ -277,11 +422,48 @@ I believe this method of navigation – translating three-axis arm rotation into
 
 I created a dialogue for the performance, which would act as its script, using only words accessible within 3 move sequences. The dialogue was about the impossibility of conversation – in equal part inspired by the direct experience I had trying to maintain communications with my partner across time-zones with faltering digital connectivity, and by the central tenet of Gordon Pask’s Conversation Theory, which I believe has roots that are in line with absurd<sub>b</sub> principles. Pask’s 1976 book *Conversation Theory* discusses the mechanisms by which conversations take place. Since concepts are formed by minds based on experiences, and experiences are subjective, Pask argues, all communication between two sentient beings can hope to do is reach a mutually satisfying definition of the same concept.[^54] This renders *true* and total communication impossible; although, much like a machine which can pass the Turing Test, there are ways to ensure that the other mind is understanding *enough* of what one is saying to get by. The dialogue I wrote was designed to appear as a conversation between two people separated from each other, but in reality both are more interested in their own viewpoints than listening to one another. The structure is palindromic: one dancer’s lines are merely the others’, reversed.
 
+<a name="figure2-27"></a>
+
+
+| DANCER A         | DANCER B         |
+| ---------------- | ---------------- |
+| a fragment       | -                |
+| all that remains | -                |
+| a conversation   | hello?           |
+| we talk          | hello?           |
+| we listen        | can you hear me? |
+| we don’t listen  | we don’t listen  |
+| can you hear me? | we listen        |
+| hello?           | we talk          |
+| hello?           | a conversation   |
+| -                | all that remains |
+| -                | a fragment       |
+
+
+<figure>
+  <figcaption>Figure 2-27:  Scriptych performance script.</figcaption>
+</figure>
+
+
 Several of the words required multi-position moves; in tests, these slowed the pace of the dialogue and made it hard for an audience to understand that the dancers were talking to each other; each extra position added another couple of seconds and slowed the pace, and intelligibility of dialogue between the dancers down. However, due to the uneven spatial distribution of words in the dictionary, many of the initial 64 ‘positions’ that the dancers could move to were ‘open’. In order to speed the word-retrieval up, we chose to create ‘shortcut’ moves within several of these positions, so that all of the words in the dialogue would be single-position movements. We also decided that the delivery of these words should be spoken as a sentence, so that dancers were assembling chunks of text, rather than individual words (which had a strange, floating, appearance in tests, and made following dialogue hard). This required building an anticipatory ‘listen’ function within Max that would assemble strings of words into sentences, something that would require the construction of a control-interface.
 
 Working over the period of around a month, Simon and I progressed from the development of a viable interface to the development of a viable performance. We decided to give the performance a three-part structure, so that the audience would firstly see two dancers on the opposite balconies moving with the distinctive visual grammar that Simon had developed to suit the interface. Two suited men would then enter the balconies, and wrap their arms with the straps whilst positioning the iPhones. This second phase would then show the dancers ‘learning’ to talk using their movements: generating simple words from movements, which would be played through speakers on their side of the Grand Hall. This would lead to their attempts at communication, working through the dialogue script I had written. Then, in the third phase, signalling frustration at their inability to effectively communicate, the performance would descend into a wall of unintelligible, manic and overlapping speech, accompanied by frantic and rapid choreography. This would be balanced by a slower reprise, where the first two lines of the dialogue (‘all that remains / a fragment’) would be repeated by the female dancer. The three acts of highly scripted movements interacting with a computer, would be entitled Scriptych; a mistranslated play on the word triptych (meaning three associated works intended to be appreciated together). The misrepresentation of the concept of the triptych, in which the works are usually not connected, is a conscious reflection of the miscommunication caused by translation throughout the piece.
 
 The differing stages of the performance required the construction of a control interface, so that the ‘listening’ functions of the Max programme would be searching for the right number of words at the right times. There was a difference between the stage when the dancers were dancing without phones (which should produce no words), the stage where the dancers were creating one word at a time, the period of scripted dialogue, and the frenetic section. The data processing would all occur via a ‘hub’ of Max running on my computer. Max would constantly receive input with accelerometer and gyroscope readings from the dancers’ two iPhones, as well as signalling input from an iPhone and iPad that Simon and I would operate to control the overall performance. These control interfaces would also use OSC to send and receive signals – in this case, running bespoke interfaces through the app TouchOSC.[^55] From the iPad I could control the reading behaviour that Max would use to listen for the dancers’ movements. I could also re-orient the gyroscopes on the dancers’ arms, which would misalign after the period of intense freneticism in part 3 of the dance. We also divided the performance into eleven periods with different associated musical levels (which is described below). OSC was also used internally in the laptop to communicate between Max and Python – the use of one communication protocol for the entire performance simplified the workflow.[^56]
+
+<figure>
+  <a name="figure2-25"></a>
+  <img src="/images/figure2-25.jpg" width="100%">
+  <figcaption>Figure 2-25:  Opera Garnier de Paris. Photograph by the author.</figcaption>
+</figure>
+
+<figure>
+  <a name="figure2-26"></a>
+  <img src="/images/figure2-26.jpg" width="100%">
+  <figcaption>Figure 2-26:  TouchOSC interface for a controlling system readiness and music during performances. Photograph by the author.</figcaption>
+</figure>
+
+
 
 ### Soundtrack
 
@@ -303,9 +485,28 @@ We worked with two dancers for a period of several weeks before the performance 
 >
 > ```a fragment```
 
+
+<figure>
+  <a name="figure2-28"></a>
+  <img src="/images/figure2-28.png" width="100%">
+  <figcaption>Figure 2-28:  Dancers Eve Grinsztajn and Mathieu Contat practice Simon Valastro’s choreography for Scriptych at Opera Garnier. Photo by the author.</figcaption>
+</figure>
+
+
 ### Film
 
 The dancers were filmed from above, in order to superimpose their movements on one another during video editing. The film finally unites the two dancers on one screen, although as they appear to variously embrace and move over the top of one another, they display the physical disconnection that was present in the live performance. The aerial view also dehumanises the view of the dancers, so that we can see their muscles and physical movements, but not the expressions on their faces.[^58] This makes the film more in line with the disembodied, meaningless communication experience it is meant to convey.
+
+
+<figure>
+  <a name="figure2-29"></a>
+  <img src="/images/figure2-29.png" width="100%">
+  <figcaption>Figure 2-29:  Performances from both dancers superimposed onto each other, revlealing inherent differences in the way that both dancers move. See supporting material for video form of this. Photography by the author.</figcaption>
+</figure>
+
+
+
+
 
 [^1]: Both of these projects were written in Processing and interfaced with Arduino microcontrollers.
 
@@ -338,7 +539,7 @@ Note that Calvino’s allusion to DNA code is distinct from that used by paramet
 
 [^14]: Esther Calvino, ‘Preface’, in *Numbers in the Dark and Other Stories*, by Italo Calvino, trans. Tim Parks, Array (New York: Pantheon Books, 1995), 2.
 
-[^15]: A. M. Turing, ‘On Computable Numbers, with an Application to the Entscheidungsproblem’, *Proceedings of the London Mathematical Society* 42, no. 2 (1936): 230–65; Prof Jack Copeland Lee Dave, ‘Alan Turing: The Codebreaker Who Saved “Millions of Lives”’, *BBC News*, 19 June 2012, sec. Technology, http://www.bbc.com/news/technology-18419691.
+[^15]: A. M. Turing, ‘On Computable Numbers, with an Application to the Entscheidungsproblem’, *Proceedings of the London Mathematical Society* 42, no. 2 (1936): 230–65; Prof Jack Copeland Lee Dave, ‘Alan Turing: The Codebreaker Who Saved “Millions of Lives”’, *BBC News*, 19 June 2012, sec. Technology, [http://www.bbc.com/news/technology-18419691](http://www.bbc.com/news/technology-18419691).
 
 [^16]: Alan M. Turing, ‘Digital Computers Applied to Games’, in *Faster than Thought: A Symposium on Digital Computing Machines*, ed. Bertram Vivian Bowden (London: Sir Isaac Pitman and Sons, Ltd, 1953), 288.
 
@@ -350,25 +551,25 @@ Note that Calvino’s allusion to DNA code is distinct from that used by paramet
 
 [^20]: An pair of adverts in the New York Times dating from 1892 and 1893 demand ‘Human Computer Wanted’ (a curious first word, as there were no other types of computer at the time). Private advertiser, ‘A Computer Wanted’, *New York Times*, 2 May 1892, sec. Advertisements; Private advertiser, ‘Government Computers Wanted.’, *New York Times*, 1 January 1893, sec. Advertisements.
 
-[^21]: ‘Computer, N.’, *OED Online* (Oxford University Press), accessed 9 November 2013, http://www.oed.com/view/Entry/37975; Grier, *When Computers Were Human*, 5.
+[^21]: ‘Computer, N.’, *OED Online* (Oxford University Press), accessed 9 November 2013, [http://www.oed.com/view/Entry/37975](http://www.oed.com/view/Entry/37975); Grier, *When Computers Were Human*, 5.
 
 [^22]: Tung-Hui Hu argues that the concept of *the cloud* is, in fact, a construction and an extension of pre-existing power structures. An interesting socio-historical analysis of this argument can be found in Tung-Hui Hu, *A Prehistory of the Cloud*, First (Cambridge, MA: MIT Press, 2015).
 
-[^23]: The Daily Mail runs regular Artificial Intelligence scare stories which veer from prophetic doom-mongering to the comically absurd<sub>a</sub>. Headlines from recent years include: ‘*Artificial Intelligence is as dangerous as NUCLEAR WEAPONS: AI pioneer warns smart computers could doom mankind’* and ‘*Could robots turn people into PETS? Elon Musk claims artificial intelligence will treat humans like 'labradors'*’. Richard Gray, ‘Artificial Intelligence as Dangerous as Nuclear Weapons’, *Mail Online*, 17 July 2015, http://www.dailymail.co.uk/sciencetech/article-3165356/Artificial-Intelligence-dangerous-NUCLEAR-WEAPONS-AI-pioneer-warns-smart-computers-doom-mankind.html; Ellie Zolfagharifard, ‘Could Robots Turn People into PETS? Elon Musk Claims Artificial Intelligence Will Treat Humans like “Labradors”’, *Mail Online*, 25 March 2015, http://www.dailymail.co.uk/sciencetech/article-3011302/Could-robots-turn-people-PETS-Elon-Musk-claims-artificial-intelligence-treat-humans-like-Labradors.html.<br>The former headline was accompanied by a still image from the film *Terminator*; headlines such as this only serve to perpetuate pre-existing, polemic attitudes towards a complex set of technologies and philosophical positions. James Cameron, *The Terminator*, 1984.
+[^23]: The Daily Mail runs regular Artificial Intelligence scare stories which veer from prophetic doom-mongering to the comically absurd<sub>a</sub>. Headlines from recent years include: ‘*Artificial Intelligence is as dangerous as NUCLEAR WEAPONS: AI pioneer warns smart computers could doom mankind’* and ‘*Could robots turn people into PETS? Elon Musk claims artificial intelligence will treat humans like 'labradors'*’. Richard Gray, ‘Artificial Intelligence as Dangerous as Nuclear Weapons’, *Mail Online*, 17 July 2015, [http://www.dailymail.co.uk/sciencetech/article-3165356/Artificial-Intelligence-dangerous-NUCLEAR-WEAPONS-AI-pioneer-warns-smart-computers-doom-mankind.html](http://www.dailymail.co.uk/sciencetech/article-3165356/Artificial-Intelligence-dangerous-NUCLEAR-WEAPONS-AI-pioneer-warns-smart-computers-doom-mankind.html); Ellie Zolfagharifard, ‘Could Robots Turn People into PETS? Elon Musk Claims Artificial Intelligence Will Treat Humans like “Labradors”’, *Mail Online*, 25 March 2015, [http://www.dailymail.co.uk/sciencetech/article-3011302/Could-robots-turn-people-PETS-Elon-Musk-claims-artificial-intelligence-treat-humans-like-Labradors.html](http://www.dailymail.co.uk/sciencetech/article-3011302/Could-robots-turn-people-PETS-Elon-Musk-claims-artificial-intelligence-treat-humans-like-Labradors.html).<br>The former headline was accompanied by a still image from the film *Terminator*; headlines such as this only serve to perpetuate pre-existing, polemic attitudes towards a complex set of technologies and philosophical positions. James Cameron, *The Terminator*, 1984.
 
-[^24]: Google’s London-based artificial intelligence company *DeepMind*, acquired in January 2014, recently used their *AlphaGo* algorithm to beat professional player Lee Sedol at four of five games of Go. Paul Marks, ‘Google Buys AI Firm DeepMind to Boost Image Search’, *New Scientist*, 27 January 2014, https://www.newscientist.com/article/dn24946-google-buys-ai-firm-deepmind-to-boost-image-search/; David Silver et al., ‘Mastering the Game of Go with Deep Neural Networks and Tree Search’, *Nature* 529, no. 7587 (28 January 2016): 484–89.<br>Google and Facebook have also both released machine learning platforms, called *TensorFlow* and *Big Sur* respectively, which allow users to experiment with their languages and protocols; this has been interpreted by industry analysis such as Tom Simonite as a cynical move to effectively improve their software through user feedback, identifying new capabilities, and also attract developer talent to the companies themselves. Martín Abadi et al., *TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems*, 2015, http://tensorflow.org/; Kevin Lee and Serkan Piantino, ‘Facebook to Open-Source AI Hardware Design’, *Facebook Code*, 10 December 2015, https://code.facebook.com/posts/1687861518126048/facebook-to-open-source-ai-hardware-design/; Tom Simonite, ‘Why Google, Facebook, Microsoft and IBM Are Desperate to Give Away AI Technology’, *MIT Technology Review*, 10 December 2015, https://www.technologyreview.com/s/544236/facebook-joins-stampede-of-tech-giants-giving-away-artificial-intelligence-technology/.
+[^24]: Google’s London-based artificial intelligence company *DeepMind*, acquired in January 2014, recently used their *AlphaGo* algorithm to beat professional player Lee Sedol at four of five games of Go. Paul Marks, ‘Google Buys AI Firm DeepMind to Boost Image Search’, *New Scientist*, 27 January 2014, [https://www.newscientist.com/article/dn24946-google-buys-ai-firm-deepmind-to-boost-image-search/](https://www.newscientist.com/article/dn24946-google-buys-ai-firm-deepmind-to-boost-image-search/); David Silver et al., ‘Mastering the Game of Go with Deep Neural Networks and Tree Search’, *Nature* 529, no. 7587 (28 January 2016): 484–89.<br>Google and Facebook have also both released machine learning platforms, called *TensorFlow* and *Big Sur* respectively, which allow users to experiment with their languages and protocols; this has been interpreted by industry analysis such as Tom Simonite as a cynical move to effectively improve their software through user feedback, identifying new capabilities, and also attract developer talent to the companies themselves. Martín Abadi et al., *TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems*, 2015, [http://tensorflow.org/](http://tensorflow.org/); Kevin Lee and Serkan Piantino, ‘Facebook to Open-Source AI Hardware Design’, *Facebook Code*, 10 December 2015, [https://code.facebook.com/posts/1687861518126048/facebook-to-open-source-ai-hardware-design/](https://code.facebook.com/posts/1687861518126048/facebook-to-open-source-ai-hardware-design/); Tom Simonite, ‘Why Google, Facebook, Microsoft and IBM Are Desperate to Give Away AI Technology’, *MIT Technology Review*, 10 December 2015, [https://www.technologyreview.com/s/544236/facebook-joins-stampede-of-tech-giants-giving-away-artificial-intelligence-technology/](https://www.technologyreview.com/s/544236/facebook-joins-stampede-of-tech-giants-giving-away-artificial-intelligence-technology/).
 
-[^25]: Technology companies such as Google and Apple, as well as car manufacturers such as ‘Tesla Motors, Audi, Mercedes-Benz, Volvo, and General Motors’ are all testing self-driving vehicles. Training these vehicles relies heavily on machine learning. Will Knight, ‘What to Know Before You Get In a Self-Driving Car’, *MIT Technology Review*, 18 October 2016, https://www.technologyreview.com/s/602492/what-to-know-before-you-get-in-a-self-driving-car/.
+[^25]: Technology companies such as Google and Apple, as well as car manufacturers such as ‘Tesla Motors, Audi, Mercedes-Benz, Volvo, and General Motors’ are all testing self-driving vehicles. Training these vehicles relies heavily on machine learning. Will Knight, ‘What to Know Before You Get In a Self-Driving Car’, *MIT Technology Review*, 18 October 2016, [https://www.technologyreview.com/s/602492/what-to-know-before-you-get-in-a-self-driving-car/](https://www.technologyreview.com/s/602492/what-to-know-before-you-get-in-a-self-driving-car/).
 
-[^26]: John R. Searle, ‘Minds, Brains and Science: Walk to Patagonia’, *Reith Lectures* (BBC Radio 4, 28 November 1984), http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide; John R. Searle, ‘Minds, Brains and Science: Grandmother Knew Best’, *Reith Lectures* (BBC Radio 4, 21 November 1984), http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide; John R. Searle, ‘Minds, Brains and Science: A Froth on Reality’, *Reith Lectures* (BBC Radio 4, 7 November 1984), http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide; John R. Searle, ‘Minds, Brains and Science: The Freedom of the Will’, *Reith Lectures* (BBC Radio 4, 12 December 1984), http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide; John R. Searle, ‘Minds, Brains and Science: A Changing Reality’, *Reith Lectures* (BBC Radio 4, 5 December 1984), http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide; John R. Searle, ‘Minds, Brains and Science: Beer Cans and Meat Machines’, *Reith Lectures* (BBC Radio 4, 14 November 1984), http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide.
+[^26]: John R. Searle, ‘Minds, Brains and Science: Walk to Patagonia’, *Reith Lectures* (BBC Radio 4, 28 November 1984), [http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide](http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide); John R. Searle, ‘Minds, Brains and Science: Grandmother Knew Best’, *Reith Lectures* (BBC Radio 4, 21 November 1984), [http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide](http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide); John R. Searle, ‘Minds, Brains and Science: A Froth on Reality’, *Reith Lectures* (BBC Radio 4, 7 November 1984), [http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide](http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide); John R. Searle, ‘Minds, Brains and Science: The Freedom of the Will’, *Reith Lectures* (BBC Radio 4, 12 December 1984), [http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide](http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide); John R. Searle, ‘Minds, Brains and Science: A Changing Reality’, *Reith Lectures* (BBC Radio 4, 5 December 1984), [http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide](http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide); John R. Searle, ‘Minds, Brains and Science: Beer Cans and Meat Machines’, *Reith Lectures* (BBC Radio 4, 14 November 1984), [http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide](http://www.bbc.co.uk/programmes/p00gq1fk/episodes/guide).
 
 [^27]: John R. Searle, ‘The Chinese Room Argument’, ed. Robert Andrew Wilson and Frank C. Keil, *The Mit Encyclopedia of Cognitive Science* (MIT Press, 2001), 115.
 
-[^28]: John R. Searle, ‘Minds, Brains, and Programs’, *Behavioral and Brain Sciences* 3, no. 3 (1980): 417–57. A series of rebuttals and an examination of the implications of the Chinese Room argument can be found in David Cole, ‘The Chinese Room Argument’, ed. Edward N. Zalta, *The Stanford Encyclopedia of Philosophy* (Metaphysics Research Lab, Stanford University, 2015), https://plato.stanford.edu/archives/win2015/entries/chinese-room/.
+[^28]: John R. Searle, ‘Minds, Brains, and Programs’, *Behavioral and Brain Sciences* 3, no. 3 (1980): 417–57. A series of rebuttals and an examination of the implications of the Chinese Room argument can be found in David Cole, ‘The Chinese Room Argument’, ed. Edward N. Zalta, *The Stanford Encyclopedia of Philosophy* (Metaphysics Research Lab, Stanford University, 2015), [https://plato.stanford.edu/archives/win2015/entries/chinese-room/](https://plato.stanford.edu/archives/win2015/entries/chinese-room/).
 
 [^29]: Cole, ‘The Chinese Room Argument’, 7; Roger C. Schank and Robert P. Abelson, ‘Scripts, Plans, and Knowledge’, in *Proceedings of the 4th International Joint Conference on Artificial Intelligence-Volume 1* (Morgan Kaufmann Publishers Inc., 1975), 151–157; Roger C. Schank and Robert P. Abelson, *Scripts Plans Goals and Understanding: An Inquiry into Human Knowledge Structures* (New Jersey: Lawrence Erlbaum Associates, 1977).
 
-[^30]: The Turing Test is a hypothesis put forth by Alan Turing in 1950 which proposes that a computer programme which could convincingly answer questions put to it by a human interrogator would mark a significant advance in artificial intelligence. It has long been a disputed benchmark of artificial intelligence research, and even the inspiration for sci-fi fiction such as the Philip K Dick novel *Do Androids Dream of Electric Sheep*?, later popularised as the film Blade Runner. A. M. Turing, ‘Computing Machinery and Intelligence’, *Mind* 59, no. 236 (1 October 1950): 433–60, doi:10.2307/2251299; Graham Oppy and David Dowe, ‘The Turing Test’, ed. Edward N. Zalta, *The Stanford Encyclopedia of Philosophy* (Metaphysics Research Lab, Stanford University, 2016), https://plato.stanford.edu/archives/spr2016/entries/turing-test/; Philip K. Dick, *Blade Runner: (Do Androids Dream of Electric Sheep)* (New York: Ballantine, 1982); Ridley Scott, *Blade Runner* (Warner Bros. Pictures, 1982).
+[^30]: The Turing Test is a hypothesis put forth by Alan Turing in 1950 which proposes that a computer programme which could convincingly answer questions put to it by a human interrogator would mark a significant advance in artificial intelligence. It has long been a disputed benchmark of artificial intelligence research, and even the inspiration for sci-fi fiction such as the Philip K Dick novel *Do Androids Dream of Electric Sheep*?, later popularised as the film Blade Runner. A. M. Turing, ‘Computing Machinery and Intelligence’, *Mind* 59, no. 236 (1 October 1950): 433–60, doi:10.2307/2251299; Graham Oppy and David Dowe, ‘The Turing Test’, ed. Edward N. Zalta, *The Stanford Encyclopedia of Philosophy* (Metaphysics Research Lab, Stanford University, 2016), [https://plato.stanford.edu/archives/spr2016/entries/turing-test/](https://plato.stanford.edu/archives/spr2016/entries/turing-test/); Philip K. Dick, *Blade Runner: (Do Androids Dream of Electric Sheep)* (New York: Ballantine, 1982); Ridley Scott, *Blade Runner* (Warner Bros. Pictures, 1982).
 
 [^31]: Searle, ‘The Chinese Room Argument’, 115.
 
