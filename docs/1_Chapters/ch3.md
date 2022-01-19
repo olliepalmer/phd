@@ -9,11 +9,11 @@
 
 ----
 
-## 86400
+### 86400 video
 
 Palais de Tokyo | 9-11 April 2016
 
-<h3>86400: 2-hour excerpt</h3>
+<h4>86400: 2-hour excerpt</h4>
 
 <iframe src="http://player.vimeo.com/video/216794127" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
@@ -21,11 +21,11 @@ Two hours of 86400, from 02:00:00-03:59:59
 
 ----
 
-## 24fps Psycho video
+### 24fps Psycho video
 
 Palais de Tokyo | 9-11 April 2016
 
-<h3>24fps Psycho: test footage</h3>
+<h4>24fps Psycho: test footage</h4>
 
 <iframe src="http://player.vimeo.com/video/216793373" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 

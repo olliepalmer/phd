@@ -10,14 +10,16 @@
 
 ----
 
-<h3>Ant Ballet: project video</h3>
+### Ant Ballet: videos
+
+<h4>Ant Ballet: project video</h4>
 
 <iframe src="http://player.vimeo.com/video/216712443" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 Video included for reference only. Project does not form part of portfolio submission.
 
 
-<h3>Ant Ballet: BBC News article</h3>
+<h4>Ant Ballet: BBC News article</h4>
 
 <iframe src="http://player.vimeo.com/video/216712526" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
