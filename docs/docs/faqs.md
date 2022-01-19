@@ -1,14 +1,20 @@
 # FAQs
 
+### Q: What type of thesis is this?
+
+This doctoral thesis was written in the Bartlett School of Architecture's [Architectural Design MPhil/PhD programme](https://www.ucl.ac.uk/bartlett/architecture/programmes/mphilphd/mphil-phd-architectural-design-history-theory). This is a PhD by Design, which, to quote the Bartlett's website: "encourages the development of architectural research through the combination of designing and writing. Students present a thesis consisting of a project and a text that share a research theme and a productive relationship. The project may be drawn, filmed, built, or make use of whatever media is appropriate."
+
+In my case I submitted the written thesis alongside a digital portfolio, much of which is reproduced here in this digital version.
+
 ### Q: Why is this thesis online?
 
-Because I believe that scholarly work, particularly work that has been publicly funded, should be freely available. The thesis exists in a PDF, but that isn't indexable by search engines, and you have to download a hefty PDF file to look through that doesn't load well on mobile devices. This site is a lighter-weight way to read my thesis.
+Because I believe that scholarly work, particularly work that has been publicly funded, should be freely available. The thesis exists in a PDF (available [here](https://discovery.ucl.ac.uk/id/eprint/10038254/)), but that isn't indexable by search engines, and you have to download a hefty PDF file to look through that doesn't load well on mobile devices. This site is a lighter-weight way to read my thesis.
 
 ### Q: Can I cite your thesis?
 
 Yes, please do! The best way to do this is by referring to the [PDF version](https://discovery.ucl.ac.uk/id/eprint/10038254/) which is held at UCL, which has accurate page numbers, etc. The citation format is:
 
-> Palmer, OM. 2017, 'Scripted performances: designing performative architectures through digital and absurd machines', PhD thesis, Bartlett School of Architecture University College London, London.
+> Palmer, OM. 2017, 'Scripted performances: designing performative architectures through digital and absurd machines', PhD thesis, Bartlett School of Architecture University College London, London.Architectural Design MPhil/PhD
 
 ### Q: What are the differences between the online version and the PDF version?
 
@@ -18,11 +24,13 @@ Some of the figures are slightly different too - for example, screen captures of
 
 The figures also appear in slightly different places in the PDF version. This is because the PDF was constrained by page layouts, whereas each chapter in the online version flows in one long document, so you don't have to jump back and forth to refer to images.
 
+So, just to reiterate - feel free to read the online version, but please cite the PDF!
+
 ### Q: Can I use your images / videos?
 
-Yes, feel free to embed images/videos of my work or quote this thesis, but please do cite the source.
+Yes, feel free to embed images/videos of my work or quote this thesis, but please do cite the source wherever you use them. I'm always happy for my work to be shared.
 
-Copyright of third-party images remains with their author; images are only reproduced here for educational purposes; this site makes no profit. If you own an image you'd like me to take down, please get in touch.
+Copyright of third-party images remains with their author; images are only reproduced here for educational purposes (this site makes no profit). If you own an image you'd like me to take down, please get in touch.
 
 ### Q: You wrote the thesis in 2017. Why's it taken so long to put it online?
 
