@@ -1,9 +1,10 @@
 site_name: Scripted Performances
+repo_url: https://github.com/olliepalmer/phd
 theme:
     palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
+      primary: green
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
