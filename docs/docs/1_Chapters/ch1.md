@@ -1,7 +1,33 @@
 # Chapter 1: Diagramming the Absurd
 
-## [The Godot Machine](#godot-machine) and [Ant Ballet](#ant-ballet)
+<h1><a href="#godot-machine">The Godot Machine</a> and <a href="#ant-ballet">Ant Ballet</a></h1>
 
+----
+
+## Overview
+
+> The contexts in which artworks are exhibited frame the way in which they will be interpreted by an audience. This chapter presents two projects (Ant Ballet and the Godot Machine) initiated during Masters degree study, and subsequently exhibited in and modified for different contexts, including those associated with 'sci-art'. Ant Ballet represents a novel approach to scripting animal behaviour; The Godot Machine represents the application of a robust diagramming design methodology to an absurd project. The chapter re-frames the projects from their previous sci-art position to state their original intention as modes of diagramming the absurd and as explorations of notions of script. The re-framing of these projects enabled a critical reappraisal of their content and the development of the methodology used for later projects in this thesis, as well as some criteria for project assessment.
+
+----
+
+<h3>Ant Ballet: project video</h3>
+
+<iframe src="http://player.vimeo.com/video/216712443" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+Video included for reference only. Project does not form part of portfolio submission.
+
+
+<h3>Ant Ballet: BBC News article</h3>
+
+<iframe src="http://player.vimeo.com/video/216712526" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+Ant Ballet as exhibited at FutureEverything Festival, Museum of Science and Industry, Manchester in 2012.
+BBC News report by Dougal Shaw, © BBC News 2012.
+
+
+----
+
+## Introduction
 
 This chapter addresses the *diagramming* and *framing* processes that underpin my design practice. It draws upon Gregory Bateson’s *Theory of Play and Fantasy*, and Barry and Born’s work in defining sci-art practice, and refers to two projects: *Ant Ballet* and the *Godot Machine*. These projects were initiated before the start of my PhD (with iterations of both forming part of my MArch portfolio) but continued into the first year of doctoral research, and were central to the development of later work.[^1] In particular, it was in the production of these pieces that diagramming first entered my practice, with both works taking the form of machines that manifested specific diagrammatic systems.
 
@@ -108,11 +134,7 @@ Fortunately, I was able to re-frame the project shortly after the London Zoo ins
 
 <figure>
   <a name="figure1-8"></a>
-  <img src="/images/figure1-8.1.jpg" width="100%" />
-  <img src="/images/figure1-8.2.jpg" width="100%" />
-  <img src="/images/figure1-8.3.jpg" width="100%" />
-  <img src="/images/figure1-8.4.jpg" width="100%" />
-  <img src="/images/figure1-8.5.jpg" width="100%" />
+  <img src="/images/figure1-8.png" width="100%" />
   <figcaption>Figure 1-8: CNC manufacturing and test assembling the machine for the FutureEverything exhibition at the Bartlett, April 2012. Photographs by the author.</figcaption>
 </figure>
 

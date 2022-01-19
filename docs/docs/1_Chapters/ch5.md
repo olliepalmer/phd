@@ -1,6 +1,5 @@
 # Conclusion
 
-
 This thesis has discussed various definitions and interpretations of the notion of scripting throughout its four chapters, showing a progression of ideas across a series of design projects. The presentation of projects in this order displays both a thematic, and roughly chronological progression in my design research work over the past few years.
 
 Chapter one discussed behavioural scripting within two already-initiated projects, the *Godot Machine* and *Ant Ballet*. Using Bateson’s concept of psychological framing (which shares a number of concepts with both Schank and Abelson, and Tomkins’ script theories), the chapter discussed the framing of both of these projects in relation to the field of ‘sci-art’. It concluded that my practice is best defined as work that is informed, but not defined, by an engagement with other disciplines, including science.

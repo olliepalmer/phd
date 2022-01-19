@@ -357,9 +357,9 @@ The creation of projects within this thesis follows similar logic; artefacts pro
 
 
 <figure>
-  <a name="figure1-1"></a>
+  <a name="figure0-1"></a>
   <img src="/images/A1034_a_human_being_normal_colour_flow.pdf" width="100%" />
-  <figcaption>Figure 1-1: Heath Bunting’s node-based maps of influences probe at defintions that construct socioeconomic systems; in this case the audience is asked to question what ‘normal’ is. <br>
+  <figcaption>Figure 0-1: Heath Bunting’s node-based maps of influences probe at defintions that construct socioeconomic systems; in this case the audience is asked to question what ‘normal’ is. <br>
   Bunting, Heath. <i>A1034 A Human Being Normal</i>. Code, flow chart, map, 25 December 2013.</figcaption>
 </figure>
 
@@ -376,9 +376,9 @@ Bunting’s work has relevance for my practice for several reasons. He is an art
 
 
 <figure>
-  <a name="figure1-2"></a>
+  <a name="figure0-2"></a>
   <img src="/images/map_of_terrorism.pdf" width="100%" />
-  <figcaption>Figure 1-2: Detail of Bunting’s map of a terrorist.<br>
+  <figcaption>Figure 0-2: Detail of Bunting’s map of a terrorist.<br>
   Bunting, Heath. A Terrorist. Map, 24 March 2009. Tate, London.</figcaption>
 </figure>
 
@@ -392,9 +392,9 @@ In the execution of a project, the expression of form is fundamental to the way 
 ### Tom Sachs
 
 <figure>
-<a name="figure1-3"></a>
+<a name="figure0-3"></a>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/e-jSSTGqU5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <figcaption>Figure 1-3:  Tom Sachs’ Space Camp. Left-hand images show training routing of the studio / expedition life; right-hand shows bricolage astronaut suit being mounted piece by piece.<br>
+  <figcaption>Figure 0-3:  Tom Sachs’ Space Camp. Left-hand images show training routing of the studio / expedition life; right-hand shows bricolage astronaut suit being mounted piece by piece.<br>
   Neistat, Van. Space Camp. By Tom Sachs. New York, 2012.<br>
   Note, in the PDF version of the thesis, this figure is a series of stills from the film.</figcaption>
 </figure>
@@ -418,9 +418,9 @@ Two practitioners who use the absurd as a medium successfully are artist and arc
 
 
 <figure>
-  <a name="figure1-4"></a>
+  <a name="figure0-4"></a>
   <iframe src="https://player.vimeo.com/video/143228445?h=eb3843b1bb&color=d8d5d4" width="640" height="468" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-  <figcaption>Figure 1-4: Alÿs’ Sisyphean Volkswagen Beetle consistently fails to reach the top of the hill.<br>
+  <figcaption>Figure 0-4: Alÿs’ Sisyphean Volkswagen Beetle consistently fails to reach the top of the hill.<br>
   <a href="https://vimeo.com/143228445">Francis Alÿs El ensayo (The Rehearsal)</a> from <a href="https://vimeo.com/francisalysvideos">Francis Al&yuml;s</a> on <a href="https://vimeo.com">Vimeo</a>.<br>
   Alÿs, Francis. El Ensayo. Video, 1999-2001.<br>
   Note: In the PDF version of this thesis, this figure is comprised of stills from this film.
@@ -444,13 +444,13 @@ Alÿs’ presentation of work is, like Sachs, highly accessible, despite the pot
 
 
 <figure>
-<a name="figure1-5"></a>
+<a name="figure0-5"></a>
   <img src="/images/synecdoche-00068.jpg" width="45%" style="display:-webkit-inline-flex">
   <img src="/images/synecdoche-00035.jpg" width="45%" style="display:-webkit-inline-flex">
   <img src="/images/synecdoche-00019.jpg" width="45%" style="display:-webkit-inline-flex">
   <img src="/images/synecdoche-00013.jpg" width="45%" style="display:-webkit-inline-flex">
 
-  <figcaption>Figure 1-5: Stills from Kaufman’s Synecdoche, New York show the construction of successive replica warehouses inside each other; the film’s protagonist writes instructions to the thousands of actors in his play. Kaufman, Charlie. Synecdoche, New York. © Sony Pictures Classics, 2008.
+  <figcaption>Figure 0-5: Stills from Kaufman’s Synecdoche, New York show the construction of successive replica warehouses inside each other; the film’s protagonist writes instructions to the thousands of actors in his play. Kaufman, Charlie. Synecdoche, New York. © Sony Pictures Classics, 2008.
   </figcaption>
 </figure>
 
