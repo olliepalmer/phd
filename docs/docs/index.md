@@ -3,20 +3,16 @@
 
 <h2>A PhD thesis in Architectural Design <br>by Oliver Matthew Palmer <br>Bartlett School of Architecture, University College London</h2>
 
-<!-- ![demo](../images/demo1.png) -->
+![demo](../images/demo1.png)
 
 ```
-Based on PhD version 1.1
+Version 1.1
 November 2017
 
-Reformatted for web January 2022
+Reformatted for web September 2021
 ```
 
-
-
-## Notes
-
-This thesis has been reformatted for display on the internet. If you want to cite anything from here, I strongly recommend using the PDF version which can be downloaded from the British Library / UCL Explore [here](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.747040).
+Note: This is the digital version of this thesis, made to facilitate easier reading of the thesis and embedding of videos which the original PDF wouldn't allow. However, for a copy that you can cite in academic literature, a PDF version can be downloaded from the British Library / UCL website [here](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.747040).
 
 The research within this thesis was funded by an [Arts and Humanities Research Council](https://ahrc.ukri.org) studentship, and is open access.
 

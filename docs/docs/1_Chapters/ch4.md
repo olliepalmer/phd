@@ -2,25 +2,6 @@
 
 <h1><a href="#network-intersect_1">Network / Intersect</a></h1>
 
-----
-
-## Overview
-
-> This thesis has so far presented scripting as a computational process, and as a mode of instructing performers. This chapter proposes an original process called ‘Reflexive Scripted Design’ for creating novel works, using the film Network/Intersect as a prototypical example. The film was created via the creation of a script-ruleset which enabled its form to wholly reflect its content; this 'script' was followed throughout the entire production process from initial concept to editing. 'Constrained scripted design' represents an original contribution to knowledge – a methodology that can be applied to other performative architectural designs, and as such will be developed further beyond the context of this thesis.
-
-----
-
-### Network / Intersect video
-
-<iframe src="https://player.vimeo.com/video/216794950" width="640" height="180" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
-As displayed in Seoul Museum of Art, April-May 2016  
-Best watched in full-screen, with headphones / auto-loops
-
-
-----
-
-
 ## Context
 
 In January 2014 I went to see a play by the immersive theatre group Punchdrunk. Entitled *The Drowned Man: A Hollywood Fable*, the performance took place in a large 5-storey building, formerly a Royal Mail sorting office, next to London Paddington station.[^1] Each member of the audience was given an identical white mask to wear, and during the performance was free to roam the set of a ‘town’ which had been constructed inside the warehouse to mimic the outskirts of early 1960s Hollywood. The audience could walk in and out of houses, pick objects up, read letters, look in drawers, and follow the (unmasked) performers around as their characters went about their fictional lives.
@@ -45,14 +26,6 @@ Part of the inspiration for the ‘Reflective Scripted Design’ process came fr
 
 Each play is a synthesis of three elements: two 'primary texts' and a place and time. In the case of The Drowned Man, the primary texts were Georg Büchner’s unfinished play *Woyzeck* and Nathaniel West's *The Day of the Locust*, whilst the place and time was early 1960s Hollywood and the surrounding areas.[^7] The synthesis of three elements creates something novel, and doesn't force the writers to lean too heavily on any one element. Once I had learnt of this technique, it seemed that it was a mode of scripting a process much in line with my research interests. I had long wanted to work on a project which would similarly create a set of worlds that reflected the internal state of characters, yet also serve as criticism of larger sociological or technical ‘machines’. Calvino’s businessman was a compelling character whose world offered promise: key to the next stage of the project would be to find other abstracted world-views.
 
-
-<figure>
-  <a name="figure4-39"></a>
-  <img src="/images/figure4-39.png" width="100%">
-  <figcaption>Figure 4-39:  One of the videos made by the propagandists Chen discusses in his article, alledgedly showing an Ebola patient being removed for quarantine from Atlanta airport (but likely filmed in Russia). Note the attention to detail: the truck parked in the garage has an Atlanta Airport decal prominently placed in-shot. Stone, Jeremy. Infected with Ebola in Atlanta Airport, 13 December, 2014. <a href="https://www.youtube.com/watch?v=GqsA71C6BDc" target="_blank">https://www.youtube.com/watch?v=GqsA71C6BDc</a>. Accessed 5 May 2017.</figcaption>
-</figure>
-
-
 Soon after reading Calvino’s novel, I became interested in the similar, but differenct form of abstracted world-view emerging forms of Russian propaganda which were being reported in British and American press.[^8] A pair of articles in the New York Times and the Guardian in 2015 present an interesting image of state-sponsored Russian propaganda in the 21st Century. In the New York Times article *The Agency*, investigative journalist Adrien Chen examines a propaganda agency whose aim is to create uncertainty on the internet, using social media, blogs, and online videos.[^9] Workers at the St. Petersberg-based Internet Research Agency (IRA) create and curate false avatars who inhabit online space. Many of these avatars run blogs, comment on news articles, and display a high level of interaction with each other, frequently commenting on each others’ blog posts, mentioning each other in tweets, and so on – creating the illusion that these avatars belong to a natural, organic community. In addition, they create false accounts of events that never happened. In the story's opening anecdote, the avatars create a social media frenzy around a fictitious chemical fire in a small town in Louisiana, using websites such as Twitter to ‘report’ on the situation in real-time, contact real local officials, and act as if the event had really happened. Other fabricated events Chen described include a racially motivated shooting, and an Ebola outbreak at Atlanta airport. The Ebola outbreak is particularly notable for the level of detail in its supporting media:
 
 > A YouTube video showed a team of hazmat-suited medical workers transporting a victim from the airport. Beyoncé’s recent single “7/11” played in the background, an apparent attempt to establish the video’s contemporaneity. A truck in the parking lot sported the logo of the Hartsfield-Jackson Atlanta International Airport.[^10]
@@ -62,13 +35,6 @@ This, Chen argues, is not normal propaganda. The motives behind this new mode of
 > “There are two possible approaches to information war,” the encyclopedia states. The first approach “recognises the primacy of objects in the real world” and attempts to spin them in a favourable or unfavourable direction. The “more strategic” approach, it continues, “puts information before objects”. In other words, the encyclopedia seems to be saying that reality can be reinvented.[^12]
 
 This is a powerful image: the idea that by spreading mistruths, the fabric of reality can be undermined.[^13] I began to think about the workers that Chen describes at the IRA: what do they think about the work they carry out, and how does it feel to be sewing untruths for a living? In the article, Chen describes the daily routine of the workers via a former worker he interviews; he witnesses the staff exit and enter their workplace end masse at the beginning and end of their 12-hour shifts. Knowing anything beyond the immediate task to hand, I thought, would imply that either the workers are highly cynical, or that they adopt a similarly abstract worldview to the character in the Italo Calvino story.
-
-
-<figure>
-  <a name="figure4-40"></a>
-  <img src="/images/figure4-40.jpg" width="100%">
-  <figcaption>Figure 4-40:  The office building alleged to be a propaganda producer in St. Petersberg, Russia. Photo from Google Street View. Google Maps (2016). Retrieved from <a href="https://goo.gl/maps/1wspzB4Ef7v" target="_blank">https://goo.gl/maps/1wspzB4Ef7v</a>.</figcaption>
-</figure>
 
 These issues of control, and how they affect personal freedoms, bring me to a pair of related theoretical writings: Felix Guttari's *Postscript on the Societies of Control* and Nathan Moore's *Diagramming Control*.[^14] Moore’s chapter builds on the central argument of *Postscript on the Societies of Control* – a work that proposes that Western society has moved beyond the Foucauldian idea of ‘disciplinary societies’ (epitomised by the diagram of the Panopticon), and towards ‘societies of control’ where power is increasingly abstracted and norms are ever-shifting.[^15] Moore has an interesting perspective on this argument: he is a lawyer who is interested in the concept of control, yet also has an interest in the built environment.[^16] His chapter aims to create spatial metaphors that enable the reader to create diagrams of control systems, so that a layer of abstraction is removed and they may be discussed in a spatial plane.
 
@@ -104,13 +70,6 @@ Some of these were chosen for thematic reasons: introducing creative constraints
 The project described in this chapter serves as the prototype for this design process. Once the rules had been established, the most important thing to establish was the form the film would take. Being a film synthesising two inter-related themes, I decided to display the film on 2 screens side-by-side, with the idea that two films would be synchronised to show similar aesthetic content whilst discussing contrasting but complementary subject matters.[^22] The film would focus on two characters: one inspired by Calvino's businessman, the other a worker in a propaganda agency responsible for a network of avatars. Central to the propaganda agency worker's job is the adopting of multiple personas and viewpoints in their 12-hour days.[^23] In order to carry out this task, I decided that my character would have to adopt a mode of thinking similar to that Pomerantsev describes; to believe that reality is an illusion, and that their work is meritorious in its role in pointing this out. The mode of exploring both characters would be through showing their routines and the environments they inhabited, both of which would reflect the internal states of the characters.
 
 The characters would also balance each other visually; one sees themselves as a master of their own destiny and is the director of a network of companies, whilst the other is low-ranking within a chaotic, and ever-moving organisation.[^24] I named the characters M and W, letters whose capitals are the inverse of one another. M – based on the Calvino character – would appear in the centre of the screen where possible, with low-angle cameras to imply their dominant position. Their environment would be luxurious, executive: travelling by chauffeur-driven car, meeting in marble-lined buildings and boardrooms full of dark wooden furniture. W would travel by public transport and work in an increasingly messy cubicle in a generic office building. The visual inspiration for W was largely inspired by the films of Kaufman; an atmosphere of shoddiness and chaos.[^25] Like most Kaufman films, many Theatre of the Absurd plays, and the Calvino story, the films would also be entropic. The central motif of both storylines would be the disintegration of the characters' sense of self caused by the abstracted lenses through which they see the world.
-
-<figure>
-  <a name="figure4-41"></a>
-  <img src="/images/figure4-41.1.png" width="100%">
-  <img src="/images/figure4-41.2.png" width="100%">
-  <figcaption>Figure 4-41:  Shot plans for Network / Intersect and the corresponding scenes in the film. Photo and drawings by the author.</figcaption>
-</figure>
 
 Since the central motif of Calvino's story is that of the mirror (the businessman has built his empire on the idea of mirrors), the films would also mirror each other – one playing forwards, whilst the other played backwards. Once they came to their end, or beginning, the direction of both films would reverse, so that the film that had previously been playing backwards would play forwards, and the previously forwards film would play backwards.[^26] However, this came with a challenge: in the pair of films, each one's chaotic end would have to segue into the others' ordered beginning.
 
@@ -161,19 +120,6 @@ Unlike M, W's character is a low-level employee, ill-compensated for their work,
 
 I designed four sets of maps, which originally were intended to feature in four scenes of the film (however, in later editing this was reduced to one map). The station names, written in Korean, were in fact partial sentences taken from Moore’s Diagramming Control, and translated into Korean using Google Translate. All of the shots on the Paris Metro would be taken with a short-focus lens, and feature a close-up of the ‘Korean’ Metro map, followed by a pan to W's character arriving in a station, then following him as he leaves the train and turns right to walk down the platform. Whilst filming, we would then both run to get back onto the train, re-entering in a loop so that we could film the next scene at the next station without losing the map.
 
-<figure>
-  <a name="figure4-43"></a>
-  <img src="/images/figure4-43.png" width="100%">
-  <figcaption>Figure 4-43:  Appropriating propagandist techniques on the Paris Metro: affixing maps to the overhead illuminated panels. Photo by Justine Emard.</figcaption>
-</figure>
-
-
-<figure>
-  <a name="figure4-44"></a>
-  <img src="/images/figure4-44.png" width="100%">
-  <figcaption>Figure 4-44:  ‘Korean’ subway maps contain fragments of Moore’s Diagramming Control translated into Korean via Google Translate. Note the K of ‘Korea Transport’ logo is the symbol for a plane mirror reflecting light, hinting at M’s character. By the author.</figcaption>
-</figure>
-
 Another part of the Parisian Metro to feature heavily in the film was Châtalet des Halles station. When I had first moved to Paris, I had taken note of Châtalet's long travellator.[^38] It was as notable for its length (around 300 metres) as well as its unusual form; a horizontal section with a high ceiling is contrasted halfway along with a curved incline and a low ceiling. During the time I was resident in Paris, Châtalet was also being refurbished, and the travellator had a series of exposed beams above it: the unnaturally steady movement of a camera on the travellator combined with the exposed building innards would make a perfect texture for a film about a person who is experiencing a sense of detachment from their surroundings. The same short-focus lens was used as for the Metro train shots, and green, municipal-style posters were stuck to the side of the travellator every 10 metres or so that said ‘Remember: You're in Korea’. I liked this idea because it was so absurd; I have never seen a poster to remind an audience which country they're in. In the film, W's character looks at the poster at exactly the moment his voiceover dialogue says “How can we trust anything when solidity itself is an illusion?” The posters can also be seen in the corridor of W's office building as he enters every morning.
 
 The travelator served the modular filming method well; we would film W's character in one costume travelling both ways on the escalator, and upon return to the original end (where our assistant was waiting with the equipment bag) W would change into another costume, and we would loop again. Our other assistant waited at the other end of the escalator to look out for officials. We shot every variant of W’s multi-costumed character in both directions on the escalator.
@@ -184,26 +130,7 @@ I needed to devise a means for the characters to pass on the chaotic ending of t
 
 The other ‘transitional’ scene would take advantage of the physical positioning of the screens within the film; using two identical cameras placed on a special rig, I would film the characters' paths crossing in a city. The moment would be an intersection of two paths, as in the title of Calvino's chapter. At the height of W’s breakdown of identity, M would pass in a car, pause as if at traffic lights; M and W would look at each other, and M’s car would continue. This would establish a power relationship between the two characters: M’s travel by executive car would contrast the busy, confused journey by metro we had just witnessed W taking, thus establishing M as a person who is in control. At the same time on-screen an audio cue would direct attention to the other screen: the stereo track, which during W’s film playing forward would be entirely on the left (where W's film is) would transfer to the right (where M’s film is). The shot would require technical logistics and another diagram.
 
-<figure>
-  <a name="figure4-45"></a>
-  <img src="/images/figure4-45.jpg" width="100%">
-  <figcaption>Figure 4-45:  The driving route looping around Pont Luis Phillipe which enabled the intersection shot to take place. By the author.</figcaption>
-</figure>
-
-<figure>
-  <a name="figure4-46"></a>
-  <img src="/images/figure4-46.jpg" width="100%">
-  <figcaption>Figure 4-46:  Filming a model of M’s office. Using a computer screen playing pre-recorded footage of the actors embedded within a model set – enabled many of the special effects occurred in-camera. Photo by the author.</figcaption>
-</figure>
-
-
 A site was chosen on a bridge in Paris for the live-action transition – Pont Louis Philippe.[^39] I had lived near to this bridge, at the Cité Internationale des Arts artist studios for 3 months, and had observed the bridge and its footfall near-daily. The one-way bridge is uniquely placed in Paris, as it is adjacent to another, far busier bi-directional bridge (Pont Marie), yet itself has very small vehicular throughput. The high number of one-way streets in Paris were a consistent consideration for film-making. This particular layout, and the relatively quiet nature of the location, meant that between takes the driver could do a loop of the nearby streets to 'reset' the shot each time (see Figure 4-45), as well as ensuring that the actor playing W could safely stand in the middle of the road (supervised by assistant Justine Hermant) between shots.
-
-<figure>
-  <a name="figure4-47"></a>
-  <img src="/images/figure4-47.jpg" width="100%">
-  <figcaption>Figure 4-47:  Shooting diagram for the intersection scene of Network / Intersect, as filmed on Pont Luis Phillippe. By the author.</figcaption>
-</figure>
 
 The shot was planned via a diagram; the basic premise was that two identical BlackMagic Pocket cameras would be placed next to each other on a rig, so that the right edge of the left camera’s frame would line up with the left edge of the right camera, thus creating an extremely wide-angle shot (the 32:9 ratio with 3880x1080 pixels). W and M would be framed on their relative sides of the screen, save for the time when W crosses the screen into M’s shot. W leaving his own screen was a deliberate choice; I wanted the audience to have a visual cue as to which screen they should divert their attention to. Figure 4-47 shows the actions that had to be performed for this to take place; shooting two films at once, one would have to be reversed. W’s film was the only logical solution, as this shot comes at the end of his film, as part of his confused state (so the rest of the world working the other way round from him makes sense) and M, being composed and in control at the beginning of his film, would have to be moving forwards. The solution was to film W’s end-scene backwards, and M’s introduction scene forwards, both at the same time. Therefore W would walk backwards from right to left of the screen as M’s car approached, then pause and look at M, then walk backwards off-camera to the left as M’s car drove away to the right of the screen. The audience would see the entire scene backwards the first time around, so that W walks up to a car that is reversing up the street, looks at M, and then crosses the road as M reverses out of view, then as both films change direction, W would be walking backwards whilst M moves forwards.[^40]
 
@@ -212,19 +139,6 @@ This day of shooting took a deal of logistical planning: it was the only day tha
 ### <span id="_Toc475104169" class="anchor"><span id="_Toc475104583" class="anchor"></span></span>Audio
 
 A crucial technique in the signalling of screen the audience should focus on (besides the obvious film direction) would be the audio track. Having two films playing side-by-side in the opposite direction to each other, I wanted a method to ensure the audience knew where to look. Using stereo sound, the audio of the film that is playing forwards is selected to come from that side of the screen, so that when W’s film is playing forwards – on the left screen – the audio is active in the left channel and silent in the right, and vice versa for M. The transitional scenes, where one storyline transitions into the other, and the direction of both films changes, would feature a cross-fade to signal this change. In the video shown in Korea, subtitles would also act as a visual cue.
-
-<figure>
-  <a name="figure4-48"></a>
-  <img src="/images/figure4-48.jpg" width="100%">
-  <figcaption>Figure 4-48:  ‘Remember: You’re in Korea’ poster on the travelator at Châtalet les Halles in Paris as part of shooting. Filming can be seen in the background. Photo by Justine Emard.</figcaption>
-</figure>
-
-<figure>
-  <a name="figure4-49"></a>
-  <img src="/images/figure4-49.jpg" width="100%">
-  <figcaption>Figure 4-49:  The author using a modified Canon 6D camera to film actor Hokyoung Im. Photo by Justine Emard.</figcaption>
-</figure>
-
 
 Audio also became a crucial part of the editing process. I always find editing a film sequence to audio far easier than editing without. This film was edited on non-linear editing software Premiere Pro.[^41] In the software, it is possible to place visual markers, say, every 4 seconds, which can be used to trim clips as needed. But this does not always aid the pace of film-editing; so I decided to use a click-track equivalent. Using the programming language Processing and sound library Minim, I generated two sine-wave notes (C5 and G5) of 0.5 seconds’ length.[^42] These were imported into the timelines of the two films, M and W, in my Premiere Pro timeline so that every second a note would play – a G every fourth second, and a C every other second. This meant that I was able to remain conscious of pacing and timing of shots whilst editing. As every cut would fall on a G, it became easy to work out how long shots I was editing would last, and whether they were suitable. It is remarkably hard to edit shots to a particular length without such a click-track. In the final edits of the films, I decided to keep the click-tracks in; their consistency led to a distinctive aesthetic, similar to that found in *Nybble*, and helped signal the audio cue from one screen to another, and their pacing gave a sense of order. It also proved to be an interesting artefact of the process that had led to the films; an instance of the form being shaped by the content.
 
@@ -257,30 +171,15 @@ The statements were short and intriguing, with just enough detail to paint an in
 
 Another signifier of the chaos in W’s life is his office cubicle: it becomes messier as he becomes more confused. All of the scenes featuring W at his desk were in fact shot with a forced perspective – and angled table – against a rear-projection screen.[^47] This was the same rear-projection set also used for M's office scenes. W's office cubicle was a model built of polystyrene board, built with Justine Emard. With a fixed-position camera, we shot video of the scene becoming messier over time; the carpet gets patchy and stained, post-it notes, documents and maps get stuck onto the wall, and the floor becomes covered in messy paper and rubbish.
 
-<figure>
-  <a name="figure4-50"></a>
-  <img src="/images/figure4-50.png" width="100%">
-  <figcaption>Figure 4-50:  The contrast between the worldviews of the characters M and W can be seen in the physical spaces they inhabit: W’s (above) is messy and chaotic, whilst M’s (below) is ordered and clean. Photos by the author.</figcaption>
-</figure>
-
-
 The office’s exterior also changes over time. The shots of W walking down the corridor were shot at the *Cité Internationale des Arts*, and feature the same ‘Remember: You're in Korea’ posters as the travellator scenes on the metro. The company W works for is called Ray Inversion (a reference to M’s character). Each time M enters the door, the sign is increasingly distorted (reflecting the ever-changing, temporary offices Chen describes and W's mental state):[^48] first, the sign is shabbily taped to the door; then taped upside down; then, multiple signs are taped haphazardly on top of each other. The external world again reflects W's current state of mind.
 
 Similarly to W’s office, M’s board-room was also a model with a forced perspective. However, the process was slightly different for M: first, footage of M (and myself, as the ‘client’) was shot on the same set as W’s cubicle (the rear projection screen). The image projected behind M is a blue wallpaper pattern that was ‘mirrored’ in Photoshop to create a line of symmetry. We shot all of M's scenes, including the scenes featuring me as M, and recorded the dialogue digetically. These scenes were then edited for visual clarity (increasing contrast, eliminating unwanted background, etc.) and the footage transferred to an 27" iMac with high-resolution screen. The iMac itself was placed into a forced-perspective model of M's boardroom, and each scene re-shot from multiple angles, so that it appeared that M was inhabiting a miniature model.
-
-<figure>
-  <a name="figure4-51"></a>
-  <img src="/images/figure4-51.png" width="100%">
-  <figcaption>Figure 4-51:  A series of screen-grabs from the film Network / Intersect, with their original subtitles. The film can be seen in its entirity via the supplementary materials provided with this thesis. By the author.</figcaption>
-</figure>
-
 
 The paperwork that M is seen looking at in his office are stylised re-drawings of diagrams taken from an ebook copy of Newton's *Opticks*.[^49] These were printed on top of discarded corporate spreadsheets, salvaged from a bin in Paris. The table under the paper gains the superimposition of Prelinger Archive footage of a giant telescope, further highlighting the visual metaphor.[^50] This optical metaphor also spread into the buildings that M inhabits: these were simple models constructed from elements of Flickr images of downtown Seoul (a technique inspired by the IRA). The images were mirrored to echo the central motif of M's story; this image was then put onto a high-resolution TV screen which was placed behind cardboard cut-outs of mirrored buildings taken from other images of buildings in downtown Seoul. These buildings also featured the logo of an eye – designed to be one of M’s company logos. The design of this logo was based around Ptolemy's idea that vision occurs via the eye casting out beams of light;[^51] the logic being that the protagonist in Calvino’s story begins by paraphrasing Plotnius, and therefore would be likely to have also read early treatise on vision by other Greek philosophers.[^52] I did design logos for companies that would serve as a basic visual history of optical theories throughout philosophy, but cut the detail before shooting as it was a concept too complex to explain via the script.
 
 ### <span id="_Toc475104171" class="anchor"><span id="_Toc475104585" class="anchor"></span></span>Performance reflecting propagandist techniques
 
 The mode of performance for the actors was designed to reflect the IRA techniques. As the IRA workers are given the minimum information required to carry out each task – often resulting in them sending confused, contradictory messages – the actors in this film were deliberately given minimal instructions in order to act in each scene (with the exception of the bridge-transition scene).[^53] This was a mode of answering the research question, extending scripting to the process of producing a film, and often led to absurd scenarios.
-
 
 For the break-down of M’s character, I wanted to evoke a feeling of lack of meaning to the words the actor was speaking. This would create a sense of confusion, similar to the confusion the character M was supposed to be feeling at that time (I had thought of his mental state as being like Fregoli delusion, whereby facial recognition and the boundaries between self and others are warped).[^54] In order to evoke this state, the actor would be directed to repeat the palindromic script, which also featured numerous optical references (‘shift the focus’), until it lost all meaning, getting faster and louder each time. Since I played the ‘other’ that M merges with, I also underwent this process. After about 2 minutes, I entered a trance-like state of repetition, and the script I had written was unrecognisable. However, this is one area of the film that I do not feel is successful; it is a repeated palindrome within a repeating palindromic film, but the audio recording was low quality.
 

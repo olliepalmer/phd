@@ -2,40 +2,6 @@
 
 <h1><a href="#86400">86400</a> and <a href="#24fps-psycho">24fps Psycho</a></h1>
 
-----
-## Overview
-
-> The recent emergence of 'platform services' such as Uber and Airbnb, which make use of large online databases, web services and location-based services (usually accessed via smartphone) have changed ways in which people can navigate and negotiate in cities. Moreover, Uber and Airbnb in particular reframe their workers' conception of spare time, and empty space in a dwelling as spaces for potential profit. Using the approach, tools and platforms pf platform capital – interaction with databases, APIs, and the internet via the Python scripting language – two computationally-scripted films (86400 and 24fps Psycho) analogously explore the lived realities of users of these new services. The projects create new artworks that find new relationships between the contents of existing archival film and images. 86400 represents an absurd critique of specific technology companies' tendency to convert all spare time into potential profit; 24fps Psycho represents an experimental, potentially expandable generative film which provides a potential framework for future artworks. The chapter concludes that, whilst 24fps Psycho was a failed project, computer-scripted design can and should have a critical engagement with the social realities it helps create.
-
-----
-
-## 86400
-
-Palais de Tokyo | 9-11 April 2016
-
-<h3>86400: 2-hour excerpt</h3>
-
-<iframe src="http://player.vimeo.com/video/216794127" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
-Two hours of 86400, from 02:00:00-03:59:59
-
-----
-
-## 24fps Psycho video
-
-Palais de Tokyo | 9-11 April 2016
-
-<h3>24fps Psycho: test footage</h3>
-
-<iframe src="http://player.vimeo.com/video/216793373" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
-Demonstrating initial pixel-clustering
-
-
-----
-
-## Introduction
-
 This chapter explores the third of four notions of *script* found in this thesis: computational scripting. This mode of scripting implies the least amount of agency for the interpreter of the script (the computer); it is dictated by binary logic from which it cannot deviate. The chapter describes two projects, both of which use computational scripting and existing archival imagery to create new films. Both projects are linked thematically and formally, and were both shown at the same festival at the Palais de Tokyo. The first of the projects, *86400*, used Google Images to create a film which displayed the most appropriate image for every second in a day, resulting in a 24 hour long looped film which could play in perpetuity. The second, 24fps Psycho, itself a failed experiment, displays principles which build towards the creation of a never-ending film-wandering algorithm loosely modelled on the taxi company Uber’s concept of a ‘perpetual trip.’
 
 ### Context
@@ -45,13 +11,6 @@ The time from November 2015 until April 2016 was the most intensive work period 
 Much like the atmosphere at the Bartlett, the environment is constantly changing in the Palais de Tokyo as exhibitions and events are assembled and disassembled asynchronously, and multiple events take place near-daily. Upon leaving the studio in the evening, having been immersed in work and isolated from the rest of the building, I could just as easily be confronted by a room full of tuxedoed executives sipping champagne at an awards gala as a *haute couture* catwalk show, or a crowd of revellers dancing to house music, or performance poetry.[^2] One of the annual events that takes over the entire Palais de Tokyo is the *Do Disturb* festival, an eclectic celebration of dance, performance art, and design.[^3] Both of the projects discussed in this chapter formed part of the *Do Disturb* programme in April 2016.[^4]
 
 In the build-up to the festival, I was working on four of the seven projects featured in this thesis (*86400*, *24fps Psycho*, *Scriptych* and *Network/Intersect*), as well as travelling to multiple countries. Despite being predominantly based in Paris, I also spent two and a half months in Chicago, a month in Korea, and several weeks in Australia.[^5] In order to stay in touch with family, friends, and colleagues during this time, it was necessary to remain constantly aware of the current hour in multiple time zones, as well as to jump from one mode of work (e.g. computational scripting) to another (e.g. live-action film direction) on a daily basis. This continuous switching of modes was largely facilitated through the use of computers and smartphones, which helped me keep track of shifting time zones, organise my schedule, keep in touch, collect and collate notes and ideas, and, in the case of the computer, carry out the work itself.
-
-<figure>
-  <a name="figure3-32"></a>
-  <img src="/images/figure3-32.png" width="100%" />
-  <figcaption>Figure 3-32:  Selection of images from 86400. By the author.</figcaption>
-</figure>
-
 
 In the period since my doctoral research began, there have been significant changes in the way in which people use portable electronic devices. Ofcom’s 2015 *Communications Market Report*, released with the by-line ‘The UK is now a “smartphone society”’, shows that 66% of the adult population own smartphones, and nearly half of those state that they are ‘hooked’ on their phones.[^6] What’s more, these devices have changed the way people behave. The report indicates that smartphones have pervaded even the most intimate areas of personal life: ‘Half of young people aged 18-24 check their phones within five minutes of waking and two-fifths check it less than five minutes before going to sleep.’[^7] What’s more, many local services previously handled via personal interaction, such as ordering food or hailing a taxi, can now be done remotely via apps such as Uber. The material ramifications of app-based technology and ‘cloud computing’ are real and widespread: Barcelona, for example, has imposed heavy fines on the hotel-alternative Airbnb due to its impact raising rent prices in the city;[^8] the impact of taxi service Uber has been widely reported as acting aggressively in London and other cities worldwide;[^9] the EU courts have enacted multiple rulings regarding the collection and retention of data on European citizens and cities by Google.[^10] The impact of smartphone apps to facilitate, for example, navigation around a city, international communication, the ordering of food deliveries, or the scheduling of time, were especially apparent to me as I spent significant amounts of time in foreign countries. With the exception of South Korea (whose telecommunication industry is closely wedded to government, and have produced ‘local’ versions of apps such as Uber, WhatsApp, iMessage and Google Maps), I was able to use the same apps and services near-seamlessly in the UK, France, the USA, and Australia.[^11] Google Maps and CityMapper enabled navigation of a city; Uber enabled me to hail taxis to and from anywhere (and also order food); WhatsApp, Gmail, iMessage, FaceTime and Skype more enabled me to communicate with family, friends and colleagues across the world.[^12] Every social networking, messaging, or email service I used worked in the same manner as it had in London, provided I had a SIM card in my phone which enabled use of data networks. Had I been in the same position in the mid-2000s, or even the early 2010s, this would not have been the case; I remember spending hours in foreign cities searching for internet cafes in order to send messages home. In the early 2010s, I began noticing a general shift towards apps as services, and a reliance on ‘cloud’ computing, and unseen, remote databases, and in 2013-14, I began to investigate the most readily apparent of these computational companies: Google. I took particular interest in this company, as I have personally witnessed their growth and spread into many spheres of public life.
 
@@ -87,13 +46,6 @@ On day in early 2015, whilst teaching myself to programme in the Python language
 
 I wrote a basic Python script which would interact with the Google Images API, the programming interface that enables developers to interact with the Google Images service without the standard interface. The API was technically deprecated, meaning that it would be disabled within the near future, but was still functioning.[^46] There are 86,400 seconds in any day – which meant that I had a target of that number of images to return. The first task was the establishment of a data structure to hold the results of searches in a database which would make them useable at a later date.[^47] I established a database with two tables: *searches*, and *images*, hosted on a remote server (which meant that I could enable multiple remote computers to work on the searching simultaneously). Each search would be logged as an item in the searches database, along with its success, the IP address the search was logged from, a timestamp, and a few more items of data. If a search was successful, the images it returned would be logged in the *images* table, along with information that the API provided, including their original context, various associated URLs, the IP address used for the search, an image description, and the image rights (ranging from public domain to copyrighted images). Each search would return up to four images, which were all logged in the *images* table. The first time a search term was used, it would be for public domain images; if this search was unsuccessful, it would search for two types of Creative Commons images, and finally for all images, including copyrighted images.[^48]
 
-<figure>
-  <a name="figure3-33"></a>
-  <img src="/images/figure3-33.pdf" width="100%" />
-  <figcaption>Figure 3-33:  Flowchart displaying operation for a single image search and interactions with the within the 86400 Python search programme. By the author.</figcaption>
-</figure>
-
-
 I created a relational MySQL database with two tables, *searches* and *images*. The *searches* table would log all searches, successful and unsuccessful, whilst the *images* table would store all information on any images from the searches. The Google Images API allowed for searching with multiple criteria, including the rights-levels of returned images. I decided that it would be best if initial images were in the public domain; failing this, images that had various Creative Commons rights were better than potentially copyrighted images. Each time a search for a particular time returned no results, the next search for that time would be done at a less restrictive copyright level. Each second in the day corresponded to the number of seconds it was after ***00:00:00*** (so ***00:00:00*** was 0, ***00:00:01*** was 1, ***00:01:00*** was 60, ***01:00:00*** was 3600, and so on). Each loop of the programme operated as illustrated in Figure 3-33.
 
 I was limited to a certain number of images per hour, and appearing to come from each IP address. The programme would pause for a period if the API returned the error code associated with too many searches having been conducted. Each search also utilised a basic random IP address, so that the searches appeared to be coming from all over the globe. I ran the search programme overnight whilst working in London, Paris, and Chicago intermittently throughout 2015. It logged over 500,000 searches, and nearly 80,000 unique images in the first of its four best-image databases[^49]. Towards the end of this image-scraping process, the Google Image Search API became increasingly unreliable, and eventually, it stopped working. Given the continual re-indexing of images, connections and assets that Google performs, and the inability to re-perform the same search again, the series of images that this programme recorded can be considered a snapshot of a specific aspect of Google’s indexing of images, at a specific time in history.
@@ -104,21 +56,6 @@ The resulting film was shown in its entirety, in real-time, for three days at th
 
 In April 2017, I showed the work at the School of the Art Institute in Chicago. As well as the film itself, which again played in real time, I printed a series of posters which transformed the time onscreen into a regulated grid, so that each poster was equivalent to half an hour of time. The eight posters combined and displayed the hours of peak internet usage from ***19:00:00*** - ***22:59:59*** (also known as the internet ‘rush hour’).[^52] I feel that the juxtaposition of the film, which portrays time as an overwhelming and relentless barrage of unpredictable images, and the posters, which present time as a ‘thing’ which can be rectilinearly ordered, abstracted and viewed from afar, created an interesting tension.
 
-<figure>
-  <a name="figure3-34"></a>
-  <img src="/images/figure3-34.png" width="100%" />
-  <figcaption>Figure 3-34:  Prints as displayed at School of the Art Institute Chicago. Each print shows half an hours’ worth of images. By the author.</figcaption>
-</figure>
-
-<figure>
-  <a name="figure3-35"></a>
-  <img src="/images/figure3-35.png" width="100%" />
-  <figcaption>Figure 3-35:  86400 as installed by video and print at the School of the Art Institute Chicago April 2017. Photograph by the author.</figcaption>
-</figure>
-
-
-
-
 24fps Psycho
 ------------
 
@@ -128,27 +65,7 @@ Despite the well-ordered nature of the INA archives – the ease with which film
 
 Part of the inspiration behind the project came from the Charles and Ray Eames film *Powers of Ten.*[^55] The film, described as ‘A linear view of our universe from the human scale to the sea of galaxies, then directly down to the nucleus of a carbon atom’ is a meditation on the many scales at which one can view the universe.[^56] The ‘video’ component of the film is a square frame, surrounded by simple infographics displaying the current scale in powers of ten (10<sup>0</sup>, 10<sup>-1</sup>, 10<sup>-2</sup>, etc.). Starting with an aerial view of a man lying on a picnic blanket in a park in Chicago, the camera zooms out at a consistent rate, by a factor of ten times every ten seconds.[^57] Thus, in the space of four minutes, the camera has shifted from being 10<sup>0</sup>m (one metre) above the man, to 10<sup>24</sup>m away, with a viewpoint that has passed galaxies, stars, super nova flares, and more. The next instant the camera zooms back in to the man, and repeats the process, this time moving in rather than out, until the camera has reached a 10<sup>-14</sup> metre zoom (0.0001 ångstroms), below the scale of atoms, which the narrator describes as the ‘limits of our understanding’.[^58] The film is well-known to architects; in fact, it was written with architects in mind. Within his notes on the film, Charles Eames writes: ‘Particularly in the past fifty years the world has gradually been finding out something that architects have always known – that is, that *everything* is architecture.’[^59]
 
-<figure>
-  <a name="figure3-30"></a>
-  <img src="/images/figure3-30.png" width="100%" />
-  <figcaption>Figure 3-30:  Stills from the Powers of Ten showing scales from 100 to 108 metres. Eames, Charles, and Ray Eames. Powers of Ten. Film, 1977.</figcaption>
-</figure>
-
-
 Although best known in filmic form, my first encounter with the film was rather different. Aged six, and passing through a subway station in Mexico City, I was enthralled by large-scale prints on the wall, approximately one every ten metres. Key frames from the film had been laid out in the station so that the experience of the scalar zooming was a spatial one, and the concepts from the film presented in such clear language that a six-year-old could grasp, and remember them. The exhibition made a strong impression, and it was only much later in life that I realised that the images had, in fact, been taken from a film. When I did finally discover the film version of *Powers of Ten*, I began to wonder how film could be constructed as a spatial entity. I was struck by the way that traditional celluloid film projection relies on a linear, spatialised format where each frame, onscreen for 1/24 of a second, takes up the same amount of room on the spool, and is something that must me ‘moved through’ before the next frame can be seen. Each frame has fixed dimensions, irrespective of how much ‘information’ it contains – a blank screen requires as much celluloid and takes the same amount of time as the most intricate photograph. The film can only ever move in a linear way, forwards or backwards, much like Turing’s original concept for the Turing Machine.[^60] The basic premise of film, that it relies on frames progressing at a rate above that of the human perception of motion, has remained unchanged since Eadward Muybridge’s experiments with photography in the 1880s.[^61]
-
-<figure>
-  <a name="figure3-31"></a>
-  <img src="/images/figure3-31.jpg" width="100%" />
-  <figcaption>Figure 3-31:  Working diagram to show how the ‘Powers of Ten’ was composited. Image source: Charles Eames and Ray Eames, An Eames Anthology: Articles, Film Scripts, Interviews, Letters, Notes, and Speeches, ed. Daniel Ostroff (New Haven, CT: Yale University Press, 2015), 382.</figcaption>
-</figure>
-
-<figure>
-  <a name="figure3-36"></a>
-  <img src="/images/figure3-36.jpg" width="100%" />
-  <figcaption>Figure 3-36:  Muybridge, Eadweard. The Horse in Motion. Photography, 1878.</figcaption>
-</figure>
-
 
 I wanted the project experiment and play with the spatial qualities that film contained. Often, when immersed in a film, I find myself reminded of other films and scenes – either by the composition, grading, themes, general ‘mood’, soundtrack, or any of a number of other signifiers. I started thinking about whether it would be possible to create a filmic version of hypertext, the principle envisioned by Vannevar Bush in 1945 and forming one of the foundations of the internet.[^62] I wanted this project to play with the inherent spatiality of film, creating a virtual map on-screen that could be navigated via the playing of films, as if the viewer were passing through space.
 
@@ -168,19 +85,7 @@ My initial prototype analysis software, built in Processing, took short film cli
 
 The basic premise of the software was as a first-stage in the development process: this would enable the creation of a database of pixel values for each frame in a film, which could then be used as a basis for a form of mathematical comparison of film frames for similarity. The software also enabled a graphic interface to preview films that were reduced to 3x3 grid of either averaged pixel values, or the centremost pixel within each of the 3x3 grid rectangles. I was surprised how recognisable film clips were when reduced to this simple grid; I used footage that I had shot of driving over a bridge in Iceland, as well as the famous shower scene from Alfred Hitchcock’s *Psycho* to demonstrate this principle.[^68] I chose these scenes initially simply because I had them to hand whilst I was writing the programme; however, upon showing the demonstration software to an audience, I was struck by just how recognisable the film still was. I also realised that in using a black-and-white film, the level of computation my simple programme would have to perform would be one-third of that of a colour film.
 
-<figure>
-  <a name="figure3-37"></a>
-  <img src="/images/figure3-37.png" width="100%">
-  <figcaption>Figure 3-37:  Software built in Max by the author to demonstrate principles of animation and experiment with colour analysis.</figcaption>
-</figure>
-
 I started to download films from the INA and Prelinger Archives.[^69] INA’s research department had granted me access to a collection of their 1940s-1960s newsreels. I particularly liked the aesthetic of the Prelinger Archives: American films, often home movies, public television broadcasts, or corporate films.[^70] I used a Python script with the *ffmpeg* library to split every Prelinger film into its constituent frames, a new version of my Processing script – this time rebuilt in Python, using the Pillow image-processing library – to create a database of the colours within each image. In order to test how closely my system managed to organise similarity, I started to use my databases with Max, and the source film Psycho, to replace each frame in the original film with a ‘similar’ frame from the Prelinger archives.
-
-<figure>
-  <a name="figure3-38"></a>
-  <img src="/images/figure3-38.png" width="100%">
-  <figcaption>Figure 3-38:  Early colour analysis experimentation with images from the film Psycho. Hitchcock, Alfred. Psycho. Horror, Mystery, Thriller, 1960. Images by the author. An excerpt of the performance at the Palais de Tokyo’s Do Not Disturb festival can be found in this thesis’s supporting materials.</figcaption>
-</figure>
 
 At this stage, I had a meeting Fabien Danesi, a curator at the Palais de Tokyo, who had seen my presentation at the Tokyo Arts Club. I showed him the updated software, and described the ambition I had for the project. He told me about Douglas Gordon’s 1993 installation *24 Hour Psycho*, an artwork which served as the setting for, and had been described at length, in the novel *Point Omega*.[^71] In *24 Hour Psycho*, Gordon had slowed the film *Psycho* down to the extent that it took 24 hours to play the entire film (meaning that the film plays at approximately two frames per second); DeLillio’s description of the film, woven throughout the novel, is as a series of images whose meanings have been transformed; every minor inflection made by an actor can be examined in excruciating detail.
 
