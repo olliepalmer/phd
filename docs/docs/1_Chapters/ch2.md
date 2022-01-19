@@ -2,6 +2,56 @@
 
 <h1><a href="#nybble">Nybble</a> and <a href="#scriptych">Scriptych</a></h1>
 
+----
+
+## Overview
+
+> Computation is central to the contemporary built environment, yet the underlying principles of computing are not widely known by the general public (as highlighted by recent debates in the media about advances in artificial intelligence research). This chapter presents a pair of novel design projects which use dancers to show computational processes in the form of diagrammatic performances. Nybble is a performance which acts as a diagram of John Searle's Chinese Room argument against hard artificial intelligence; Scriptych consists of dancers interacting with a three-dimensional database of words. Scripting is used as a mode of instruction for performers in both performances, with direct computer-scripted feedback provided via a novel interface in Scriptych. This advances the notion of script as mode of performance-instruction in the context of this thesis, as well as demonstrating computer scripting as a mode of interaction. It finds that the notion of performance-script can be used to drive performances at various stages the design process, representing different levels of agency for performers.
+
+----
+
+## Nybble videos
+
+V&A Museum | 21-22 September 2013
+
+<h3>Nybble: project video</h3>
+
+<iframe src="http://player.vimeo.com/video/216712681" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<h3>Nybble: code base</h3>
+
+<iframe src="http://player.vimeo.com/video/216712602" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<h3>Nybble: timelapse 1</h3>
+
+<iframe src="http://player.vimeo.com/video/216712752" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<h3>Nybble: timelapse 2</h3>
+
+<iframe src="http://player.vimeo.com/video/216712824" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+----
+
+## Scriptych videos
+
+Opéra Garnier de Paris | 17-18 June 2016
+
+<h3>Scriptych: project video</h3>
+
+<iframe src="http://player.vimeo.com/video/243660552" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<h3>Scriptych: making of (INA)</h3>
+
+<iframe src="http://player.vimeo.com/video/216794684" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+Video by Institut national d'Audiovisuel (INA)
+© INA 2016
+
+
+----
+
+## Introduction
+
 Much of my design practice involves computer scripting. In the previous chapter, I described two projects which relied heavily on computer scripting: *Ant Ballet* used an inverse-kinematics programme to drive its robot arm and spread pheromones; the *Godot Machine* used a programme which used computer vision to drive the movement of a ball.[^1] Chapter 3 introduces two projects where I used scripting to generate new films, *86400* and *24fps Psycho* from archival footage.[^2] I regard the act of writing code itself a design process: it requires a mode of thought that is procedural and concentrated; it is distinct from drawing, yet offers a similarly iterative process of refinement and improvement. This chapter will discuss the way in which designers, and in particular I, think *about code* and think *in code*. It begins with an introduction to principles of code writing, and a couple of precedents of diagramming code used by Italo Calvino and Alan Turing. It then presents two projects that form part of my research and design portfolio as part of this PhD, both of which use different principles and methodologies to frame a conversation about thinking about code.
 
 My introduction to writing code (besides playing around with website creation in the early 2000s) came when I joined the Bartlett. I took a series of classes in the Interactive Architecture Lab which introduced me to two languages which I would then use for almost every project for the next few years: Processing and Arduino. Both languages are open-source, and were specifically written to enable artists and designers easy access to higher-level computer compiling languages and microcontrollers. Both also call their files ‘sketches’ – a tactical decision which both unites digital and analogue practices. The ‘sketch’ (rather than, say, file, script, document, or programme) contains clear implicit meaning: firstly, that code itself need not be daunting, and writing a prototypical piece of code should be as natural as drawing on paper. Secondly, the nomenclature aims to position writing code squarely into the early stages of design process, rather than being an extra thing to think about after the designing is done. Both languages offer exactly the promises Oosterhout described in his article on scripting, and these languages acted as a bridging tool for me to learn more advanced modes of programming.[^3]
@@ -98,7 +148,7 @@ Nybble
 
 <figure>
   <a name="figure2-13"></a>
-  <img src="/images/figure2-13.jpg" width="100%" />
+  <img src="../images/figure2-13.jpg" width="100%" />
   <figcaption>Figure 2-13:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
 
@@ -215,7 +265,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-14"></a>
-  <img src="/images/figure2-14.jpg" width="100%" />
+  <img src="../images/figure2-14.jpg" width="100%" />
   <figcaption>Figure 2-14:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
 
@@ -223,7 +273,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-15"></a>
-  <img src="/images/figure2-15.jpg" width="100%" />
+  <img src="../images/figure2-15.jpg" width="100%" />
   <figcaption>Figure 2-15:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
 
@@ -231,10 +281,10 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-16"></a>
-  <img src="/images/figure2-16.1.jpg" width="100%" />
-  <img src="/images/figure2-16.2.jpg" width="100%" />
-  <img src="/images/figure2-16.3.jpg" width="100%" />
-  <img src="/images/figure2-16.4.jpg" width="100%" />
+  <img src="../images/figure2-16.1.jpg" width="100%" />
+  <img src="../images/figure2-16.2.jpg" width="100%" />
+  <img src="../images/figure2-16.3.jpg" width="100%" />
+  <img src="../images/figure2-16.4.jpg" width="100%" />
   <figcaption>Figure 2-16:  Four photos of Nybble performance at the V&A Museum, September 2013, by Danielle Willkens.</figcaption>
 </figure>
 
@@ -242,7 +292,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-17"></a>
-  <img src="/images/figure2-17.jpg" width="100%" />
+  <img src="../images/figure2-17.jpg" width="100%" />
   <figcaption>Figure 2-17:  Nybble performance at the V&A Museum, September 2013. Photo by the author.</figcaption>
 </figure>
 
@@ -250,7 +300,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-18"></a>
-  <img src="/images/figure2-18.jpg" width="100%" />
+  <img src="../images/figure2-18.jpg" width="100%" />
   <figcaption>Figure 2-18:  Nybble performance at the V&A Museum, 21-23 September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
 
@@ -258,7 +308,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-19"></a>
-  <img src="/images/figure2-19.png" width="100%" />
+  <img src="../images/figure2-19.png" width="100%" />
   <figcaption>Figure 2-19:  Code guide for Nybble performance, featuring sixty four possible symbols. By the author.</figcaption>
 </figure>
 
@@ -266,7 +316,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-20"></a>
-  <img src="/images/figure2-20.png" width="100%" />
+  <img src="../images/figure2-20.png" width="100%" />
   <figcaption>Figure 2-20:  USASCII Code Chart. ‘ASCII - Wikipedia.’ Accessed 11 May 2017. [https:// en.wikipedia.org/wiki/ASCII#/media/File:US-ASCII_code_chart.png](https:// en.wikipedia.org/wiki/ASCII#/media/File:US-ASCII_code_chart.png). US-ASCII Code Chart. Scanner copied from the material delivered with TermiNet 300 impact type printer with Keyboard, February 1972, General Electric Data communication Product Dept., Waynesboro VA</figcaption>
 </figure>
 
@@ -274,7 +324,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-21"></a>
-  <img src="/images/figure2-21.jpg" width="100%" />
+  <img src="../images/figure2-21.jpg" width="100%" />
   <figcaption>Figure 2-21:  Nybble performance at the V&A Museum, 21-23 September 2013. Photo by Daneille Willkens.</figcaption>
 </figure>
 
@@ -334,7 +384,7 @@ Nearly years after *Nybble*, during my residency at the Palais de Tokyo, I compl
 
 <figure>
   <a name="figure2-22"></a>
-  <img src="/images/figure2-22.jpg" width="100%" />
+  <img src="../images/figure2-22.jpg" width="100%" />
   <figcaption>Figure 2-22:  Scriptych performance at Opera Garnier in June 2016. Photo by Justine Emard.</figcaption>
 </figure>
 
@@ -355,7 +405,7 @@ The first meeting with Opera was on the 19<sup>th</sup> of November. During this
 
 <figure>
   <a name="figure2-23"></a>
-  <img src="/images/figure2-23.png" width="100%">
+  <img src="../images/figure2-23.png" width="100%">
   <figcaption>Figure 2-23:  Scriptych performance at Opera Garnier in June 2016. Photos by Justine Emard.</figcaption>
 </figure>
 
@@ -381,7 +431,7 @@ The next challenge was to create a mode of locating words within this three-dime
 
 <figure>
   <a name="figure2-24"></a>
-  <img src="/images/figure2-24.jpg" width="100%">
+  <img src="../images/figure2-24.jpg" width="100%">
   <figcaption>Figure 2-24:  Scriptych performance in progress at Opera Garnier, as seen from the ‘control booth’. Photo by Justine Emard.</figcaption>
 </figure>
 
@@ -408,11 +458,24 @@ Each three-part array is called a move, and the string of moves is called a sequ
 | night     | ```[ 3.83613348 -1.4175818 -3.80468154]```  | ```[ 3. 1. 0.]``` |
 
 <figure>
-  <figcaption>Figure 2-3:  Scriptych performance in progress at Opera Garnier, as seen from the ‘control booth’. Photo by Justine Emard.</figcaption>
+  <figcaption>Table 2-3:  Some one-position words from Scriptych.</figcaption>
+</figure>
+
+
+<figure>
+  <a name="figure2-25"></a>
+  <img src="../images/figure2-25.jpg" width="100%">
+  <figcaption>Figure 2-25:  Opera Garnier de Paris. Photograph by the author.</figcaption>
 </figure>
 
 
 The transformation of these sequences to spatial navigation is one part of the technical innovation within this project, and the best of my knowledge, represents an original innovation. The technique is as follows: the 17,067 words are stored as three-dimensional vectors within a database. This database is virtually represented within a cube, with an uneven distribution of words generated by Gensim/Word2vec. Each word therefore can be represented as a fixed point within this cube, so that searching for ```[0.96784878, 0.98643523, -0.0787757]``` would return the word ‘absurd’. The job of the phone that the dancers wear on their wrist is to translate their movements into spatial navigation within the virtual cube, thus moving to the coordinates that best represent the desired word. The challenge was creating a reliable, replicable means by which the dancers’ movements could be translated to this spatial navigation within the virtual cube, using only the rotational data from the iPhone’s built-in gyroscopes (which can only record rotational angles along three axes). In other words, a phone’s rotational data would have to translate to virtual spatial movements. The resolution of the gyroscopes was down-sampled so that each angle was represented by an integer from 0-3. The sequences that the dancers perform represent a mode of navigating this space, with each ‘move’ in a sequence representing zooming in to a more specific part of the cube. Each ‘move’ represents subdividing the current cube into a 4x4x4 array of smaller cubes. A move to ```[0 0 0]``` would select the near most bottom left sub-cube, whilst ```[3 3 3]``` would select the cube furthest top right. Multi-part sequences apply this technique recursively, so that each move within a sequence represents a smaller ‘zoom’ by an order of four. The final word results from a nearest-word search from the central most point of the final cube of the navigation. This navigation technique allows the user to move to a small set of positions (four positions in each axis) yet generate a 3d position with the degree of accuracy necessary for any necessary word in a relatively small number of moves.
+
+<figure>
+  <a name="figure2-26"></a>
+  <img src="../images/figure2-26.jpg" width="100%">
+  <figcaption>Figure 2-26:  TouchOSC interface for a controlling system readiness and music during performances. Photograph by the author.</figcaption>
+</figure>
 
 In order to be able to predict the words that dancers would be dancing with – and provide them with a written performance script to dance to – I wrote a Python programme to map the necessary navigation for each word. Most common words took 1-3 moves per sequence to reach, which was far easier than the initial hypersensitive prototype I had shown Simon previously. Both dancers would be ‘speaking’ words via their movements (see Figure 2-27). Given the irregular spacing of the words in the three-dimensional space (due to the clustered method of specialisation by the Word2vec functions), a few of the initial sub-cubes were ‘empty’. One of these was used as a ‘flush’ position, which would enable the dancers to clear the current array if they suspected they had hit the wrong position. Since most useful words can be reached within five moves the act of creating a word generally takes around 3-5 seconds.
 
@@ -451,17 +514,6 @@ Working over the period of around a month, Simon and I progressed from the devel
 
 The differing stages of the performance required the construction of a control interface, so that the ‘listening’ functions of the Max programme would be searching for the right number of words at the right times. There was a difference between the stage when the dancers were dancing without phones (which should produce no words), the stage where the dancers were creating one word at a time, the period of scripted dialogue, and the frenetic section. The data processing would all occur via a ‘hub’ of Max running on my computer. Max would constantly receive input with accelerometer and gyroscope readings from the dancers’ two iPhones, as well as signalling input from an iPhone and iPad that Simon and I would operate to control the overall performance. These control interfaces would also use OSC to send and receive signals – in this case, running bespoke interfaces through the app TouchOSC.[^55] From the iPad I could control the reading behaviour that Max would use to listen for the dancers’ movements. I could also re-orient the gyroscopes on the dancers’ arms, which would misalign after the period of intense freneticism in part 3 of the dance. We also divided the performance into eleven periods with different associated musical levels (which is described below). OSC was also used internally in the laptop to communicate between Max and Python – the use of one communication protocol for the entire performance simplified the workflow.[^56]
 
-<figure>
-  <a name="figure2-25"></a>
-  <img src="/images/figure2-25.jpg" width="100%">
-  <figcaption>Figure 2-25:  Opera Garnier de Paris. Photograph by the author.</figcaption>
-</figure>
-
-<figure>
-  <a name="figure2-26"></a>
-  <img src="/images/figure2-26.jpg" width="100%">
-  <figcaption>Figure 2-26:  TouchOSC interface for a controlling system readiness and music during performances. Photograph by the author.</figcaption>
-</figure>
 
 
 
@@ -488,7 +540,7 @@ We worked with two dancers for a period of several weeks before the performance 
 
 <figure>
   <a name="figure2-28"></a>
-  <img src="/images/figure2-28.png" width="100%">
+  <img src="../images/figure2-28.png" width="100%">
   <figcaption>Figure 2-28:  Dancers Eve Grinsztajn and Mathieu Contat practice Simon Valastro’s choreography for Scriptych at Opera Garnier. Photo by the author.</figcaption>
 </figure>
 
@@ -500,7 +552,7 @@ The dancers were filmed from above, in order to superimpose their movements on o
 
 <figure>
   <a name="figure2-29"></a>
-  <img src="/images/figure2-29.png" width="100%">
+  <img src="../images/figure2-29.png" width="100%">
   <figcaption>Figure 2-29:  Performances from both dancers superimposed onto each other, revlealing inherent differences in the way that both dancers move. See supporting material for video form of this. Photography by the author.</figcaption>
 </figure>
 

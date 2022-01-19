@@ -108,15 +108,7 @@ Fortunately, I was able to re-frame the project shortly after the London Zoo ins
 
 <figure>
   <a name="figure1-8"></a>
-<<<<<<< HEAD
   <img src="../images/figure1-8.png" width="100%" />
-=======
-  <img src="/images/figure1-8.1.jpg" width="100%" />
-  <img src="/images/figure1-8.2.jpg" width="100%" />
-  <img src="/images/figure1-8.3.jpg" width="100%" />
-  <img src="/images/figure1-8.4.jpg" width="100%" />
-  <img src="/images/figure1-8.5.jpg" width="100%" />
->>>>>>> 50d279e47f90f12c05bd2b908392252a8cdca5e9
   <figcaption>Figure 1-8: CNC manufacturing and test assembling the machine for the FutureEverything exhibition at the Bartlett, April 2012. Photographs by the author.</figcaption>
 </figure>
 
