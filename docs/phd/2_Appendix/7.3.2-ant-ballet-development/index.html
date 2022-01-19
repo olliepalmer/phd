@@ -1,0 +1,889 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.6">
+    
+    
+      
+        <title>Ant Ballet technical development - Scripted Performances</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.802231af.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ant-ballet-technical-development" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Scripted Performances" class="md-header__button md-logo" aria-label="Scripted Performances" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Scripted Performances
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ant Ballet technical development
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Scripted Performances" class="md-nav__button md-logo" aria-label="Scripted Performances" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Scripted Performances
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        0 Front Matter
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="0 Front Matter" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          0 Front Matter
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0_Front%20Matter/0.0-title/" class="md-nav__link">
+        Declaration
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0_Front%20Matter/0.1-abstract/" class="md-nav__link">
+        Abstract
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0_Front%20Matter/0.2-acknowledgements/" class="md-nav__link">
+        Acknowledgements
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0_Front%20Matter/0.3-figures-and-tables/" class="md-nav__link">
+        Figures and tables
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        1 Chapters
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="1 Chapters" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          1 Chapters
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch0/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch1/" class="md-nav__link">
+        Chapter 1: Diagramming the Absurd
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch2/" class="md-nav__link">
+        Chapter 2: Performing Data Structures
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch3/" class="md-nav__link">
+        Chapter 3: Noise and Difference
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch4/" class="md-nav__link">
+        Chapter 4: Reflexive Scripted Design:
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch5/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch6/" class="md-nav__link">
+        Bibliography
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      <label class="md-nav__link" for="__nav_4">
+        2 Appendix
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="2 Appendix" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          2 Appendix
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.0-project-credits/" class="md-nav__link">
+        Project credits
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.3-godot_machine_and_ant_ballet_development/" class="md-nav__link">
+        Technical development notes: <br>Godot Machine and Ant Ballet
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.3.1-godot-machine-development/" class="md-nav__link">
+        Godot Machine technical development
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Ant Ballet technical development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Ant Ballet technical development
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pheromone-synthesis" class="md-nav__link">
+    Pheromone synthesis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-bibliography" class="md-nav__link">
+    Chapter bibliography
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.7-scriptych-vocabulary/" class="md-nav__link">
+        Scriptych vocabulary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.8-48-lines/" class="md-nav__link">
+        48 lines about love, alphabetically ordered
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="ant-ballet-technical-development">Ant Ballet technical development<a class="headerlink" href="#ant-ballet-technical-development" title="Permanent link">#</a></h1>
+<p>The Ant Ballet project began with a simple project proposal – one which I had no intention of carrying out, but was simply using as a thought-experiment. Thinking about the analogy of ants in computer systems (this was the same time as initial Godot Machine development), and having read a little about invasive ant species, I approached Dr. Seirian Sumner at the Insitute of Zoology to talk about an ill-formed idea I’d had about invasive insect species being analogous to computer viruses. I had recently read a newspaper article<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> about a species of invasive ants (<em>Lasius neglectus</em>) who had entered the UK for the first time, and were famed for their attraction to electricity – something that, like the invasive ant <em>Solenopsis invicta</em> in the US, causes them to short-circuit electrical systems.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> The hypothetical idea that I approached Seirian with was simple: to build a spatially distributed computer, with exposed wiring and components. A colony of invasive ants would then be introduced to cohabit the space with the computer, gradually becoming attracted to the exposed wiring, and biting, short-circuiting and destroying the computer; in effect, becoming a physical computer virus.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></p>
+<p>I wrote to Dr. Sumner as I had seen her work identifying nest drifting behaviour of paper wasps, in which her team had placed RFID tags on hundreds of female members of a colony in order to track their movements between nests, and was excited by the innovative way an emergent technology had been used.<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>
+In conversation, Sumner told me details of the method used to collect, tag, track and analyse results with the wasps, using statistics programmes such as R to produce network visualisations of wasp behaviour.<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> Our conversation carried on for far longer than our allocated appointment time, and we both were excited by the others’ perspective on our own work. We agreed to meet again to develop ideas further.</p>
+<p>By the next time we met, I had carried out more paper research into insect communication systems (of which olfaction is the most common<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>) and had developed a particular interest in ant pheromones. Jackson and Morgan describe these mechanisms in the paper <em>Insect Chemical Communication: Pheromones and exocrine glands of ants</em>.<sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup> They explain semiochemicals – that is, chemicals which allow for information exchange between organisms – can be divided into two main categories: alleochemics allow intra-species communication, whilst pheromones allow for communication within the same species. Pheromones either work as a <em>primer</em>, a semiochemical which causes a physiological change to the recipient, or a <em>releaser</em>, a semiochemical typically emitted from an ants’ Dufour gland, and encoded into the environment.<sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> Releaser pheromones trigger seven main (occasionally overlapping) types of behaviour, signalling: sex, aggregation, dispersal, alarm, trail, territory, or surface.<sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup> These pheromone signals can display extraordinary complexity. The majority of technical papers describing ant pheromones and colony-wide behaviour are concerned with trail pheromones and emergent properties that arise from collective problem-solving. Notable among these are the works of Dorigo et al. initated in the 1990s.<sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup></p>
+<p>A year or so before starting <em>Ant Ballet</em>, I had been involved in a project at the Royal College of Art (RCA) initiated by artist and activist Cesar Harada, entitled
+<em>Open_Sailing</em>. It was whilst spending time in the RCA’s (now defunct) Design Interactions department that I became aware of the World Transhumanist Association,<sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup> a group whose aim is to improve the ‘human condition’ through augmenting and artificially improving human bodies, claiming transhumanists’ desire to ‘extend their mental and physical (including reproductive) capacities and to improve their control over their own lives. We seek personal growth beyond our current biological limitations.’<sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup> Several of the RCA students were working on projects that related to ‘biohacking’, the deliberate alteration of the human body to adjust its natural capabilities (for example, the surgical placement of small magnets in the fingertips to allow for the detection of electromagnetic fields). At the time, I was intrigued by the world of online forums and tutorials that existed to support such activities, but surprised that so much of the work was purely focused on human experience. I could find little evidence of similar ‘hacking’ of animal systems, despite the wealth of pre-existing scientific knowledge that might be used for such a purpose.<sup id="fnref:13"><a class="footnote-ref" href="#fn:13">13</a></sup></p>
+<p>I developed the idea of using ant pheromones (rather than my previous notion of electricity) to control ant movement. Much had been written about the redundancy and optimisation abilities of ant trails, and the potential to control invasive species through pheromone manipulation (using synthetic pheromone traps to lead ants to poison traps, for example<sup id="fnref:14"><a class="footnote-ref" href="#fn:14">14</a></sup>). I had yet to see artificial ant pheromones used in an attempt to communicate with ants, or to manipulate their behaviour for artistic purposes. The idea of creating a choreographed movement of an ant colony was both absurd<sub>a</sub> and technically challenging. I was already working on the <em>Godot Machine</em> and the equipment necessary to create an ant ballet would serve as an extension of my desire to create a functional diagrammatic machine. Over the coming months I would work out how the machine worked, and what it was a diagram of.</p>
+<figure>
+  <a name="figure7-55"></a>
+  <img src="/images/figure7-55.jpg" width="100%">
+  <figcaption>Figure 7-55:  The Ant Ballet machine midperformance in Barcelona. Photo by the author.</figcaption>
+</figure>
+
+<p>I spoke to several entomologists besides Dr. Sumner about the project, asking for advice or precedents. The first difficulty I came across with the project was the difficulty in accessing ant pheromones; they are not something available to the mass-market (I suspect due to low commercial interest). Identification of pheromones is complex and highly specialised, and even when the components of ants’ glands have been analysed, the function that each semiochemical has, and the methods and densities in which they are used, are still not known. I came across a website called the <em>Pherobase</em><sup id="fnref:15"><a class="footnote-ref" href="#fn:15">15</a></sup> which lists known pheromones in insect species, and often the papers which originally identified these compositions. This became an invaluable resource. It was at this stage that I developed a basic set of rules that the project would adopt.</p>
+<figure>
+  <a name="figure7-56"></a>
+  <img src="/images/figure7-56.jpg" width="100%">
+  <figcaption>Figure 7-56:  Beginning work on Ant Ballet in Barcelona. Photo by the author.</figcaption>
+</figure>
+
+<p>One of the entomologists I spoke to dismissively recommended that I use sugar-water to create the illusion of ant trails, and cited an occasion that they had used this method for a sugar television advert several years ago.<sup id="fnref:16"><a class="footnote-ref" href="#fn:16">16</a></sup> My immediate reaction was repulsion; given my desire for Kubrickian attention to detail, the idea of tricking an audience into thinking that the ants were doing one action when in fact they were doing another seemed reminiscent of the Disney documentary <em>White Wilderness</em>, in which the filmmakers reputedly staged shots which made it appear as if thousands of lemmings committed mass suicide by leaping off a cliff and swimming to sea.<sup id="fnref:17"><a class="footnote-ref" href="#fn:17">17</a></sup> Such inauthenticity would have no place in the project; one of my central goals with the project was authenticity rather than cinematic effect. It would be relatively easy to pretend to make ants dance using sugar water (or clever video editing, or any manner of other tricks), but appropriating their communication protocol in order to subtly change their behaviour would take hard work. Thus, the work would be produced according to two rules:</p>
+<ol>
+<li>
+<p>The project must accurately depict a diagram of the Theatre of the Absurd</p>
+</li>
+<li>
+<p>The project should not be dismissable by scientists. This does not mean it needs to result in a published paper, but rather that it cannot use fakery.</p>
+</li>
+</ol>
+<p>The method of achieving (1) and (2) is to <em>really do</em> everything necessary to make ants dance. This also meant a high risk of failure: attempting something that had not been achieved before, which relied on a relatively high amount of scientific knowledge, for artistic merit, is intentionally risky. I am also happiest working when I am outside my comfort zone, making a project that could really fail.<sup id="fnref:18"><a class="footnote-ref" href="#fn:18">18</a></sup> My conversations with Dr. Sumner continued periodically throughout the project, and continued to shape and influence the direction the project took.</p>
+<h3 id="pheromone-synthesis">Pheromone synthesis<a class="headerlink" href="#pheromone-synthesis" title="Permanent link">#</a></h3>
+<p>After numerous attempts to speak to experts in biochemistry (both in industry and academia) about the feasibility of ant pheromone synthesis, I began a dialogue with Professor Jim Anderson of UCL Organic Chemistry and Chemical Biology. <sup id="fnref:19"><a class="footnote-ref" href="#fn:19">19</a></sup> Anderson’s profile states that ‘work in his laboratory covers a broad portfolio of projects that combine contemporary synthetic organic chemistry methodology with highly adventurous, blue sky research.’<sup id="fnref:20"><a class="footnote-ref" href="#fn:20">20</a></sup> In our initial conversation, he told me about numerous semiochemical effects that had been well documented, including 'Azadirachtin', a natural substance emitted by neem trees which repels locusts, and some of the intricacies of pheromone synthesis (including the concept of compound chirality).<sup id="fnref:21"><a class="footnote-ref" href="#fn:21">21</a></sup> Anderson offered to help with the synthesis of pheromones, providing expertise, materials and lab time, on the condition that we could identify pheromones that would be relatively easy to synthesise. I downloaded datasheets for every ant species available on the <em>Pherobase</em> at the time, then devised a matrix of conditions that pheromones would have to meet to be considered for synthesis.<sup id="fnref:22"><a class="footnote-ref" href="#fn:22">22</a></sup> In order to be considered, a species’ trail pheromone had to have been identified; the trail pheromone had to consist of one chemical (many pheromone trails are multi-component); the semiochemical had to have a low number of chiral bonds; and the species had to be fairly common somewhere in Europe so that I could get hold of some to test with.<sup id="fnref:23"><a class="footnote-ref" href="#fn:23">23</a></sup></p>
+<p>After researching the handful of species who met all of the criteria, one emerged as the most suitable. <em>Linepithema humile</em>, or the Argentine ant, is a well-documented invasive species who have recently spread around the world due to human travel.<sup id="fnref:24"><a class="footnote-ref" href="#fn:24">24</a></sup> Their trail compound comprises the hydrocarbon (Z)-9-hexadecenal (Z9-l6:Ald), and I found two papers describing different ways the pheromone had been synthesised and used as attractant for ants.<sup id="fnref:25"><a class="footnote-ref" href="#fn:25">25</a></sup> In a 1981 paper, Vorhis Key and Baker used synthetic pheromone to cause ants to follow a synthetic trail along a circular shape 14cm in diameter; <sup id="fnref:26"><a class="footnote-ref" href="#fn:26">26</a></sup> Tanaka et al, opting for a brute-force approach, testing synthetic pheromone as a pure attractant, placed in pots along pre-existing ant trails with the intention seemingly just to generate confusion among ants (an approach they filed a patent for in 2005).<sup id="fnref:27"><a class="footnote-ref" href="#fn:27">27</a></sup> Professor Anderson assigned the reproduction of the pheromone, bonded to silica powder (which had not been seen in any of the papers) to undergraduate student Jack Bestwick. A few months after our initial meeting, I was presented with approximately 3.5kg of silica powder, containing approximately 0.8g of synthesised pheromone.</p>
+<p>In the meantime, I set about researching the species we had chosen. Since <em>L humile</em> had spread extensively around Europe, most closely to the northwestern coast of Spain, it seemed logical to me to simply import ants from there.<sup id="fnref:28"><a class="footnote-ref" href="#fn:28">28</a></sup> However, it was upon talking to Dr. Sumber that I realised how invasive this particular species is, and what a risk to native ecosystems it would be to risk bringing any ants into the UK. Biologists Wetterer and Wetterer describe the species exhibits supercolonising traits, meaning that they form huge colonies with millions of queens which can stretch over vast distances. Ants from any nest within the supercolony can be introduced to ants from any other nest within the supercolony, and unlike most species, they will not fight. This gives them a huge advantage over local species, in that they do not lose members of the colony to intracolonial aggression.<sup id="fnref:29"><a class="footnote-ref" href="#fn:29">29</a></sup> The species has spread around the world, and the largest known supercolony is over 6,000km long, stretching through ‘Spain, Portugal, southern France and Italy’.<sup id="fnref:30"><a class="footnote-ref" href="#fn:30">30</a></sup></p>
+<p>The realisation that it would be irresponsible to introduce <em>L humile</em> to the UK presented a real change to the design logic of the project. Until that point, I had been working on designs that presented the Ant Ballet as a machine, of approximately 2m diameter. My assumption had been that the manufacture of the machine would largely take place in the Bartlett workshop (with bespoke parts perhaps carried out via subcontracted waterjet-cut steel or aluminium). I realised that the testing of the pheromone would have to take place abroad, and that subsequently, all of the machinery would have to be designed to be taken abroad. At the time I had access to my sister’s car, a Volkswagen Polo, and a number of contacts in Barcelona, a city where <em>L humile</em> was well documented.<sup id="fnref:31"><a class="footnote-ref" href="#fn:31">31</a></sup> I decided that the best way to resolve the project was to design and build the entire machinery to fit into the back of a hatchback car, and carry out all tests there. I believe that this decision was something that changed the nature of the project: rather than being a potentially eccentric, slightly absurd project that took place in north London,<sup id="fnref:32"><a class="footnote-ref" href="#fn:32">32</a></sup> I began designing and building an elaborate testing apparatus, with robotic control system, having also commissioned the manufacture of synthetic pheromones, to drive roughly 3200km on a round-trip – all for the purpose of slightly confusing some 5mm long ants. In many of the plays associated with the Theatre of the Absurd, the control systems that are expressed are highly abstract, removed and have strange behaviours. Like a character in a play, the ants would have no idea of the effort that had been put into the construction of an elaborate literal and figurative mechanism to change their behaviour. Much of the absurdity alluded to in this project is inspired by the plot structure of Kurt Vonnegut’s novel <em>Sirens of Titan</em>, wherein it is revealed slowly through the course of the book that increasingly abstract methods have been in place to subtly (and not-so-subtly) affect human behaviour through history, with a completely trivial outcome.<sup id="fnref:33"><a class="footnote-ref" href="#fn:33">33</a></sup></p>
+<p>Given the cinematic and theatrical origins of much of the projects’ inspiration, I conceived of the testing of ant pheromones as a performative act. This was, after all, not a rigorous scientific test (despite involving the participation of scientists), but rather the entire work was a diagram that could best be expressed through film. My initial designs for test apparatus had been based on the assumption that pheromones, like those within ant gasters, would be liquid in form. I drew inspiration from the William Blake etching <em>Ancient of Days (God as an Architect)</em>;<sup id="fnref:34"><a class="footnote-ref" href="#fn:34">34</a></sup> where Blake was presenting a monothiastic deity creating the world from on-high, the Ant Ballet machine would be using a similarly top-down, hierarchal approach to interfere with the ‘emergent’, non-hierarchal system of ant pheromones. Early on in the design process I had decided to construct a round test bed, both as an homage Ken Adams’ War Room in <em>Dr. Strangelove</em>, and in order to prevent the machine looking too much like a large-format printer. My initial designs would use a heavy base material and a large rack-and-pinion set pair of ‘compasses’, mounted above the table surface, to draw pheromone trails, but as the criteria for the design changed to require packing and transportation via small car to Barcelona, the designs themselves changed. Having worked through a series of designs, I was encouraged to consider using a centrally-placed robotic arm emerging from the centre of the table itself by Ruairi Glynn (this would be far easier to assemble and calibrate off-site).</p>
+<p>My final designs for the device itself took much from the sci-fi aesthetic of the 1974 cult film Phase IV, in which ants in the US desert develop psychic communication abilities and take over a scientific research station towards an unspecified catastrophic outcome in four seemingly coordinated phases.<sup id="fnref:35"><a class="footnote-ref" href="#fn:35">35</a></sup> The table was made entirely from aluminium. Starting from a heavy, box-section base with over-engineered 4mm-plate aluminium connecting plates, the design would become increasingly light the further it was from the ground. The circular aluminium test bed, in part supported by 10mm diagonal rods from the heavy legs, was in fact made of three layers of laser-cut aluminium.<sup id="fnref:36"><a class="footnote-ref" href="#fn:36">36</a></sup> The top layer, only 1mm thick (for cost reasons) was bolted to two 4mm thick support sections. Above the entire structure was a round light made of sections of lasercut aluminium, similar to that seen in <em>Dr. Strangelove</em>.<sup id="fnref:37"><a class="footnote-ref" href="#fn:37">37</a></sup> Unseen, in the centre of the light ring, was a webcam much like the setup of the Godot Machine (the intention being to use this during phase II onwards). The robotic arm was modelled on the contours of my own arm in order that it would have some sort of anthropomorphic, performative quality. I imported high-torque servos from the US to enable the control of the robotic arm.<sup id="fnref:38"><a class="footnote-ref" href="#fn:38">38</a></sup> I also set about constructing a basic control programme for the robotic arm via Processing and Arduino. The control mechanism consisted of a diagram of the machine in plan. Various versions were built that enabled both mouse input (as seen below) and autonomous control of the arms’ movement in pre-choreographed or semi-random patterns.</p>
+<p>I worked through numerous dispersal mechanisms for the powdered pheromones. The eventual design I employed used a glass laboratory pipette with thin end attached to a silicon input pipe for pheromones, and attached to a 3D-printed with a vibration motor of the style found in mobile phones. When the vibration motor was activated, a fine (but not entirely steady) plume of silica powder was spread from the pipette.</p>
+<p>In Barcelona, the machine was set up in the small town of La Floresta.<sup id="fnref:39"><a class="footnote-ref" href="#fn:39">39</a></sup> During the daytime, we met Espalder, who kindly introduced me to a local prolific nest, taught me how to identify <em>L humile</em> (a technique by which one crushes a few of the ants, and smells the result for a vaguely almond-y scnet) and how to collect them. By this time, I had read many papers on ant behaviour, and spoken to several experts, but until this stage, I had not thought about the human element of these studies. For every clinically-written paper about testing trail following, in all likelihood someone in the lab had to go to a site, identify a certain species of ant, and use a device called an aspirator (made of tubing, cork and stockings) to manually suck ants into a tube then place them in a flourin-lined tub.<sup id="fnref:40"><a class="footnote-ref" href="#fn:40">40</a></sup> The almond-y smell of <em>L humile</em>, after a few minutes’ sucking, translated to a bitter taste that hangs in the back of the throat for the next day or so. Espalder told me much about practicalities of collecting, settling and keeping ants. Ants require 24-48 hours in one place to settle, and display more natural behaviour when they have brood to take care of, he said. They like to be fed a weak solution of honey or sugar in water or milk.<sup id="fnref:41"><a class="footnote-ref" href="#fn:41">41</a></sup> We set the ants up in nests of pine tree bark and leaves on the machine’s test bed. The ants themselves were incredibly small, and kept finding new ways to escape from the machine.<sup id="fnref:42"><a class="footnote-ref" href="#fn:42">42</a></sup> It also became apparent that aluminium offers little for ants to grip: the slightest breeze could clear the table of ants. Fortunately, there was not much wind in Barcelona in July, particularly in the middle of a forest. Re-stocking the ant nest became a near-daily task. There were also numerous issues relating to the technicalities of running an experimental robotic machine in the middle of a forest, and it required constant maintenance. We tried numerous iterations of power supplies, running cables from the nearby house to the forest. Several components were replaced with supplies from local hardware shops.</p>
+<p>Whilst setting up the machine, I also developed storyboards to work out how to explain the experiments visually. In London, I had approached the Metropolitan Police to ask what the protective clothing would be if there were a Phase IV-style ant outbreak in the city. I had been informed that Tyvek overalls, rubber gloves and respirators would likely do. Therefore, the ‘experimenters’ in the film would, at all times, wear this uniform.<sup id="fnref:43"><a class="footnote-ref" href="#fn:43">43</a></sup> The entire performance would take place in visual form only, so that there was no dialogue, and each component of the system would be displayed and introduced much like a character, complete with title card. The first shot would establish the location of the machine, in the middle of a forest. It seemed essential to me to show the context – particularly as the setting up of the machine in this location had incurred so much effort. I wanted an engaging, dynamic opening shot that revealed the machine. I built a dolly system using 50m of climbing rope that enabled a camera to move through the forested valley and reveal the machine.<sup id="fnref:44"><a class="footnote-ref" href="#fn:44">44</a></sup> It took several iterations, including various methods of controlling camera movement and reducing shake, to actually achieve the shot. The final device was remarkably low-tech: it used a towel to dampen movement, and the camera was launched down the dolly in free-fall.<sup id="fnref:45"><a class="footnote-ref" href="#fn:45">45</a></sup> Although only on-screen for a couple of seconds, the shot establishes the location and the machine, grounding the experiment in an indistinct place.</p>
+<p>After the opening shot, the two human characters are introduced; the fact that they are unidentifiable and wearing Tyvek suits and respirators indicates that there is at least a sci-fi, if not a scientific, bias. Title cards introduce the major elements of the projects, such as ‘ANTS: linepthinema humile’ or ‘PHEROMONE: z-9-hexadecanal’. Modelled on the on-screen graphics of HAL in <em>2001: A Space Odyssey</em><sup id="fnref:46"><a class="footnote-ref" href="#fn:46">46</a></sup>, a subtly rotating graphic outline of the object, alongside widely-spaced one-word description<sup id="fnref:47"><a class="footnote-ref" href="#fn:47">47</a></sup> and a small description line. The title cards are immediately followed by a shot of the item being used, shot in a mode that deliberately mimics 1960s/70s cinematography: jump cuts, static in-camera pan-and-zoom. All of these shots were filmed over the first few days of the machine being in the forest, and were storyboarded in advance. The ‘machine waking up’ shot, in which the robot arm rises from a ‘sleeping’ position and becomes active (following a slide introducing
+the machine performing ‘choreography sequence CRM-114’) showed an error in machine calibration where in switching on, a cloud of silica powder was released – but this made for a more dramatic shot than every one where the machine simply switched on.<sup id="fnref:48"><a class="footnote-ref" href="#fn:48">48</a></sup></p>
+<p>In order to echo the absurdity of <em>Dr. Strangelove</em>, and create an absurd<sub>b</sub> diagram, I had wanted the storyboard to be visually reminiscent of the Ken Adams-designed war room. The experiment would similarly take place in a dark space, with the sole light source being a light ring suspended above. However, each time the ants were set up in colonies, and artificial pheromone trails were laid at night, the ants did not react at all. This was frustrating, as this was a different behaviour to that displayed when conducting manual pheromone tests in the park they were collected from (ants had in this case followed the trails). With the logistical issues of escaping ants and mechanical failures, and only wanting to film at night, the project was nearing the date we had to pack up and drive home. On the final night of filming the machine and the ants – and in fact the only night I managed to film the ants all night – it appeared that after laying a trail all night, no ants were following the trail. I was severely demotivated. Just as we were preparing to break the machine down to head home, thinking the experiment had been a total failure, my colleague went down to the machine to visually assess the task ahead. It was then – around 9.30 in the morning – that she noticed the ants were following the trails that had been laid overnight. In retrospect, this made sense: we had witnessed the ants’ behaviour change throughout the day whilst collecting them. In the mornings, the ants would create trails on one side to forage for food, and shift throughout the day towards other non-food related activities. Now on the test bed they were exhibiting similar behaviour: waking up in the morning, they were clearly hungry, and looking for the remnants of the trails that they expected to find from the previous day. The trails they encountered were the synthetic ones laid by the machine.<sup id="fnref:49"><a class="footnote-ref" href="#fn:49">49</a></sup> By this time, having filmed all night, all of the camera batteries had been depleted, save a pocket-camera; this is the one that was used to shoot the final scenes in the film where the ants actually follow the pheromone trails.</p>
+<p>On return to London, I began compiling the video and documentation of the project. My initial focus was on the short overview of the project. The video is a composite, filmed over two weeks: the human performances are staged and stylised, but the ant behaviour is real. My initial cut of the video was around 3 minutes long, but this was pared down to exclude any shot – including several that had taken time and effort to film – to 1 minute 38 seconds. I wanted the film to contain as little extraneous detail as possible, so that it could be easily understood by a wide audience. The ease of comprehension is crucial to the legibility of the absurd<sub>b</sub> diagram.</p>
+<h2 id="chapter-bibliography">Chapter bibliography<a class="headerlink" href="#chapter-bibliography" title="Permanent link">#</a></h2>
+<p>Aleisha Scott. ‘“Electric” Ants Seen in UK for First Time - Nature, Environment - The Independent’. Newspaper. <em>The Independent</em>, 2009. http://www.independent.co.uk/environment/nature/electric-ants-seen-in-uk-for-first-time-1766331.html.</p>
+<p>Algar, James. <em>White Wilderness</em>. Documentary, Family, 1958.</p>
+<p><em>Argentine Invasion</em>. Radiolab Shorts. Accessed 15 January 2017. http://www.radiolab.org/story/226523-ants/.</p>
+<p>Bass, Saul. <em>Phase IV</em>, 1974.</p>
+<p>BBC News. ‘Radio Tags Track Wasp Behaviour’. <em>BBC News Online</em>, 24 January 2007, sec. Online. http://news.bbc.co.uk/2/hi/science/nature/6291429.stm.</p>
+<p>Blake, William. <em>Ancient of Days (God as an Architect)</em>. Relief etching with watercolor, 1794. http://www.artcyclopedia.com/masterscans/l24.html.</p>
+<p>Bostrom, Nick. ‘A History of Transhumanist Thought’. <em>Journal of Evolution and Technology</em> 14, no. 1 (2005): 1–25.</p>
+<p>Butterworth, J. H., and E. D. Morgan. ‘Isolation of a Substance That Suppresses Feeding in Locusts’. <em>Chemical Communications (London)</em>, no. 1 (1968): 23–24. doi:10.1039/C19680000023.</p>
+<p>Dorigo, M., and L.M. Gambardella. ‘Ant Colonies for the Travelling Salesman Problem’. <em>BioSystems</em> 43, no. 2 (1997): 73–81.</p>
+<p>Dorigo, M., V. Maniezzo, and A. Colorni. ‘The Ant System: Optimization by a Colony of Cooperating Agents’. <em>IEEE Transactions on Systems, Man, and Cybernetics–Part B</em> 26, no. 1 (1996): 1–13.</p>
+<p>Dorigo, M., and T. Stützle. <em>Ant Colony Optimization</em>. A Bradford Book. Cambridge, MA; London, UK: Bradford Book, MIT Press, 2004.</p>
+<p>Dorigo, Marco, Vittorio Maniezzo, and Alberto Colorni. ‘Positive Feedback as a Search Strategy’. Milan: Politechnico di Milano, 1991.</p>
+<p>El-Sayed, AM. ‘The Pherobase: Database of Insect Pheromones and Semiochemicals’, 2011. http://www.pherobase.com/.</p>
+<p>Jackson, Brian D., and E. David Morgan. ‘Insect Chemical Communication: Pheromones and Exocrine Glands of Ants’. <em>Chemoecology</em> 4, no. 3 (1993): 125–44. doi:10.1007/BF01256548.</p>
+<p>James K. Wetterer, and Andrea L. Wetterer. ‘A Disjunct Argentine Ant Metacolony in Macaronesia and Southwestern Europe’. <em>Biological Invasions</em> 8, no. 5 (July 2006): 1573–1464. doi:10.1007/s10530-005-8641-9.</p>
+<p>King, Margaret J. ‘The Audience in the Wilderness: The Disney Nature Films’. <em>Journal of Popular Film and Television</em> 24, no. 2 (April 1996): 60–68. doi:10.1080/01956051.1996.9943715.</p>
+<p>Kubrick, Stanley. <em>A Clockwork Orange</em>, 1972.</p>
+<p>———. <em>Dr. Strangelove (Or How I Learned to Stop Worrying and Love the Bomb)</em>, 1964.</p>
+<p>Lewis, T. <em>Insect Communication</em>. Academic Press, 1984.</p>
+<p>Meer, R. K. Vander, T. J. Slowik, and H. G. Thorvilson. ‘Semiochemicals Released by Electrically Stimulated Red Imported Fire Ants, Solenopsis Invicta’. <em>Journal of Chemical Ecology</em> 28, no. 12 (December 2002): 2585–2600. doi:10.1023/A:1021448522147.</p>
+<p>Myers, William. <em>Bio Art: Altered Realities</em>. Thames &amp; Hudson, 2015.</p>
+<p>Poppe, László, Lajos Novák, Pál Kolonits, Árpád Bata, and Csaba Szántay. ‘Convenient Synthetic Route to (+)-Faranal and (+)-13-Norfaranal : The Trail Pheromone of Pharaoh’s Ant and Its Congener 1’. <em>Tetrahedron</em> 44, no. 5 (1988): 1477–87. doi:doi: DOI: 10.1016/S0040-4020(01)85927-5.</p>
+<p>Roura-Pascual, N., C. Hui, T. Ikeda, G. Leday, D. M. Richardson, S. Carpintero, X. Espadaler, et al. ‘Relative Roles of Climatic Suitability and Anthropogenic Influence in Determining the Pattern of Spread in a Global Invader’. <em>Proceedings of the National Academy of Sciences</em> 108, no. 1 (4 January 2011): 220–25. doi:10.1073/pnas.1011723108.</p>
+<p>Tanaka, Y., K. Nishisue, E. Sunamura, S. Suzuki, H. Sakamoto, T. Fukumoto, M. Terayama, and S. Tatsuki. ‘Trail-Following Disruption in the Invasive Argentine Ant with a Synthetic Trail Pheromone Component(Z)-9-Hexadecenal’. <em>Sociobiology</em> 54, no. 1 (2009): 139–152.</p>
+<p>Tatsuki, Sadahiro, Mamoru Terayama, Yasutoshi Tanaka, and Takehiko Fukumoto. Behavior-disrupting agent and behavior-disrupting method of Argentine ant. US2005/0209344A1, filed 23 February 2005, and issued October 2012. http://www.google.com/patents/US8278360.</p>
+<p>Tsutsui, N. D. ‘Reduced Genetic Variation and the Success of an Invasive Species’. <em>Proceedings of the National Academy of Sciences</em> 97, no. 11 (May 2000): 5948–53. doi:10.1073/pnas.100110397.</p>
+<p>UCL Web Services. ‘Prof Jim C. Anderson, Head of Organic Chemistry and Chemical Biology Section’. <em>UCL Chemistry</em>, 20 April 2016. https://www.ucl.ac.uk/chemistry/people/jim-anderson.</p>
+<p>Vonnegut, Kurt. <em>The Sirens of Titan</em>. New York: Delacorte Press, 1959.</p>
+<p>Vorhis Key, S. E., and T. C. Baker. ‘Specificity of Laboratory Trail Following by the Argentine Ant, Iridomyrmex Humilis (Mayr), to (Z)-9-Hexadecenal, Analogs, and Gaster Extract’. <em>Journal of Chemical Ecology</em> 8, no. 7 (1982): 1057–1063.</p>
+<p>Aggregation pheromones simply ‘cause members of the same species to aggregate in a particular area [...] for mating or to a food source or a suitable habitat.’ Ibid., 127.</p>
+<p>Aggregation pheromones, also known as spacing pheromones, are used to regulate or prevent overcrowding of food sources, etc. Ibid.</p>
+<p>Surface pheromones are also known as cuticular hydrocarbons, and exist on ants’ body surfaces, allowing them to identify which colony other ants belong to. This is particularly important for food exchange. Ibid., 130.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Aleisha Scott, ‘“Electric” Ants Seen in UK for First Time - Nature, Environment - The Independent’, Newspaper, <em>The Independent</em>, (2009), http://www.independent.co.uk/environment/nature/electric-ants-seen-in-uk-for-first-time-1766331.html.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Solenopsis <em>invicta</em> are notable as individual shocked ants release a number of semiochemical signals which can cause attraction (and often the death) of further ants. R. K. Vander Meer, T. J. Slowik, and H. G. Thorvilson, ‘Semiochemicals Released by Electrically Stimulated Red Imported Fire Ants, Solenopsis Invicta’, <em>Journal of Chemical Ecology</em> 28, no. 12 (December 2002): 2585–2600, doi:10.1023/A:1021448522147.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>I would like to clarify here that I never intended to carry out this project, but rather spark a conversation that enabled the discussion of ants as analogy in computer science.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>BBC News, ‘Radio Tags Track Wasp Behaviour’, <em>BBC News Online</em>, 24 January 2007, sec. Online, http://news.bbc.co.uk/2/hi/science/nature/6291429.stm.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Sumner is also an advocate for the promotion of science in pop culture; she was a L’Oreal Women in Science, and ran an annual event called Soapbox Science, in which members of the public can ask scientists about their field of expertise. She had spent the evening before we met talking about creativity and science with Brian Eno.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>T. Lewis, <em>Insect Communication</em> (Academic Press, 1984).&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Brian D. Jackson and E. David Morgan, ‘Insect Chemical Communication: Pheromones and Exocrine Glands of Ants’, <em>Chemoecology</em> 4, no. 3 (1993): 125–44, doi:10.1007/BF01256548.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>The ‘vitual pheromones’ described in StarLogo earlier in this chapter, and those used by Dorigo in the Ant Colony Optimisation system are both simulations of releaser trail pheromones.&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>Sex pheromones bring ants together for the purpose of mating. Jackson and Morgan, ‘Insect Chemical Communication: Pheromones and Exocrine Glands of Ants’.&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>See for example, Marco Dorigo, Vittorio Maniezzo, and Alberto Colorni, ‘Positive Feedback as a Search Strategy’ (Milan: Politechnico di Milano, 1991); M. Dorigo, V. Maniezzo, and A. Colorni, ‘The Ant System: Optimization by a Colony of Cooperating Agents’, <em>IEEE Transactions on Systems, Man, and Cybernetics–Part B</em> 26, no. 1 (1996): 1–13; M. Dorigo and L.M. Gambardella, ‘Ant Colonies for the Travelling Salesman Problem’, <em>BioSystems</em> 43, no. 2 (1997): 73–81; M. Dorigo and T. Stützle, <em>Ant Colony Optimization</em>, A Bradford Book (Cambridge, MA; London, UK: Bradford Book, MIT Press, 2004).&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>Now renamed <em>Humanity+</em>.&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</li>
+<li id="fn:12">
+<p>Nick Bostrom, ‘A History of Transhumanist Thought’, <em>Journal of Evolution and Technology</em> 14, no. 1 (2005): 1–25.&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+</li>
+<li id="fn:13">
+<p>The compendium <em>Bio Art: Altered Realities</em>, released in 2015, now contains a wealth of such projects (including <em>Ant Ballet</em>). William Myers, <em>Bio Art: Altered Realities</em> (Thames &amp; Hudson, 2015).&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 13 in the text">&#8617;</a></p>
+</li>
+<li id="fn:14">
+<p>See, for example, Y. Tanaka et al., ‘Trail-Following Disruption in the Invasive Argentine Ant with a Synthetic Trail Pheromone Component(Z)-9-Hexadecenal’, <em>Sociobiology</em> 54, no. 1 (2009): 139–152; László Poppe et al., ‘Convenient Synthetic Route to (+)-Faranal and (+)-13-Norfaranal : The Trail Pheromone of Pharaoh’s Ant and Its Congener 1’, <em>Tetrahedron</em> 44, no. 5 (1988): 1477–87, doi:doi: DOI: 10.1016/S0040-4020(01)85927-5.&#160;<a class="footnote-backref" href="#fnref:14" title="Jump back to footnote 14 in the text">&#8617;</a></p>
+</li>
+<li id="fn:15">
+<p>AM El-Sayed, ‘The Pherobase: Database of Insect Pheromones and Semiochemicals’, 2011, http://www.pherobase.com/.&#160;<a class="footnote-backref" href="#fnref:15" title="Jump back to footnote 15 in the text">&#8617;</a></p>
+</li>
+<li id="fn:16">
+<p>The entomologist will remain unnamed here.&#160;<a class="footnote-backref" href="#fnref:16" title="Jump back to footnote 16 in the text">&#8617;</a></p>
+</li>
+<li id="fn:17">
+<p>James Algar, <em>White Wilderness</em>, Documentary, Family, (1958); Margaret J. King, ‘The Audience in the Wilderness: The Disney Nature Films’, <em>Journal of Popular Film and Television</em> 24, no. 2 (April 1996): 60–68, doi:10.1080/01956051.1996.9943715.&#160;<a class="footnote-backref" href="#fnref:17" title="Jump back to footnote 17 in the text">&#8617;</a></p>
+</li>
+<li id="fn:18">
+<p>Chapter 3: <em>24fps Psycho</em> describes a project that had a high risk of failure, and in my opinion did fail.&#160;<a class="footnote-backref" href="#fnref:18" title="Jump back to footnote 18 in the text">&#8617;</a></p>
+</li>
+<li id="fn:19">
+<p>I found numerous companies in Asia who specialise in the production of synthetic pheromones for pest control purposes, but the lowest price I was quoted for 1g of any pheromone was USD $2700 (which was out of my budget).&#160;<a class="footnote-backref" href="#fnref:19" title="Jump back to footnote 19 in the text">&#8617;</a></p>
+</li>
+<li id="fn:20">
+<p>UCL Web Services, ‘Prof Jim C. Anderson, Head of Organic Chemistry and Chemical Biology Section’, <em>UCL Chemistry</em>, 20 April 2016, https://www.ucl.ac.uk/chemistry/people/jim-anderson.&#160;<a class="footnote-backref" href="#fnref:20" title="Jump back to footnote 20 in the text">&#8617;</a></p>
+</li>
+<li id="fn:21">
+<p>J. H. Butterworth and E. D. Morgan, ‘Isolation of a Substance That Suppresses Feeding in Locusts’, <em>Chemical Communications (London)</em>, no. 1 (1968): 23–24, doi:10.1039/C19680000023.&#160;<a class="footnote-backref" href="#fnref:21" title="Jump back to footnote 21 in the text">&#8617;</a></p>
+</li>
+<li id="fn:22">
+<p>182 species in 2011; this included species whose pheromones had been identified, but the function of the pheromones remained undocumented.&#160;<a class="footnote-backref" href="#fnref:22" title="Jump back to footnote 22 in the text">&#8617;</a></p>
+</li>
+<li id="fn:23">
+<p>Some molecules express chirality, a property whereby a bond can be formed in two different directions. This yields molecules that are identical, yet opposite – like a left and right hand.&#160;<a class="footnote-backref" href="#fnref:23" title="Jump back to footnote 23 in the text">&#8617;</a></p>
+</li>
+<li id="fn:24">
+<p><em>L. humile</em> was formerly known as <em>Iridomyrmex humilis</em> (Mayr). For more on <em>L. humile</em>’s global distribution, see N. Roura-Pascual et al., ‘Relative Roles of Climatic Suitability and Anthropogenic Influence in Determining the Pattern of Spread in a Global Invader’, <em>Proceedings of the National Academy of Sciences</em> 108, no. 1 (4 January 2011): 220–25, doi:10.1073/pnas.1011723108.&#160;<a class="footnote-backref" href="#fnref:24" title="Jump back to footnote 24 in the text">&#8617;</a></p>
+</li>
+<li id="fn:25">
+<p>S. E. Vorhis Key and T. C. Baker, ‘Specificity of Laboratory Trail Following by the Argentine Ant, Iridomyrmex Humilis (Mayr), to (Z)-9-Hexadecenal, Analogs, and Gaster Extract’, <em>Journal of Chemical Ecology</em> 8, no. 7 (1982): 1057–1063; Tanaka et al., ‘Trail-Following Disruption in the Invasive Argentine Ant with a Synthetic Trail Pheromone Component(Z)-9-Hexadecenal’.&#160;<a class="footnote-backref" href="#fnref:25" title="Jump back to footnote 25 in the text">&#8617;</a></p>
+</li>
+<li id="fn:26">
+<p>Vorhis Key and Baker, ‘Specificity of Laboratory Trail Following by the Argentine Ant, Iridomyrmex Humilis (Mayr), to (Z)-9-Hexadecenal, Analogs, and Gaster Extract’.&#160;<a class="footnote-backref" href="#fnref:26" title="Jump back to footnote 26 in the text">&#8617;</a></p>
+</li>
+<li id="fn:27">
+<p>Tanaka et al., ‘Trail-Following Disruption in the Invasive Argentine Ant with a Synthetic Trail Pheromone Component(Z)-9-Hexadecenal’; Sadahiro Tatsuki et al., Behavior-disrupting agent and behavior-disrupting method of Argentine ant, US2005/0209344A1, filed 23 February 2005, and issued October 2012, http://www.google.com/patents/US8278360.&#160;<a class="footnote-backref" href="#fnref:27" title="Jump back to footnote 27 in the text">&#8617;</a></p>
+</li>
+<li id="fn:28">
+<p>James K. Wetterer and Andrea L. Wetterer, ‘A Disjunct Argentine Ant Metacolony in Macaronesia and Southwestern Europe’, <em>Biological Invasions</em> 8, no. 5 (July 2006): 1573–1464, doi:10.1007/s10530-005-8641-9. This colony has also received some media coverage: for example, see <em>Argentine Invasion</em>, Radiolab Shorts, accessed 15 January 2017, http://www.radiolab.org/story/226523-ants/.&#160;<a class="footnote-backref" href="#fnref:28" title="Jump back to footnote 28 in the text">&#8617;</a></p>
+</li>
+<li id="fn:29">
+<p>N. D. Tsutsui, ‘Reduced Genetic Variation and the Success of an Invasive Species’, <em>Proceedings of the National Academy of Sciences</em> 97, no. 11 (May 2000): 5948–53, doi:10.1073/pnas.100110397.&#160;<a class="footnote-backref" href="#fnref:29" title="Jump back to footnote 29 in the text">&#8617;</a></p>
+</li>
+<li id="fn:30">
+<p>James K. Wetterer and Andrea L. Wetterer, ‘A Disjunct Argentine Ant Metacolony in Macaronesia and Southwestern Europe’, 1123.&#160;<a class="footnote-backref" href="#fnref:30" title="Jump back to footnote 30 in the text">&#8617;</a></p>
+</li>
+<li id="fn:31">
+<p>Bareclona is actually at the nexus of two <em>L humile</em> supercolonies. <em>Argentine Invasion</em>.&#160;<a class="footnote-backref" href="#fnref:31" title="Jump back to footnote 31 in the text">&#8617;</a></p>
+</li>
+<li id="fn:32">
+<p>The Bartlett, UCL Organic Chemistry and the Institute of Zoology are all located within 3km of each other.&#160;<a class="footnote-backref" href="#fnref:32" title="Jump back to footnote 32 in the text">&#8617;</a></p>
+</li>
+<li id="fn:33">
+<p>Kurt Vonnegut, <em>The Sirens of Titan</em> (New York: Delacorte Press, 1959).&#160;<a class="footnote-backref" href="#fnref:33" title="Jump back to footnote 33 in the text">&#8617;</a></p>
+</li>
+<li id="fn:34">
+<p>William Blake, <em>Ancient of Days (God as an Architect)</em>, Relief etching with watercolor, 1794, http://www.artcyclopedia.com/masterscans/l24.html.&#160;<a class="footnote-backref" href="#fnref:34" title="Jump back to footnote 34 in the text">&#8617;</a></p>
+</li>
+<li id="fn:35">
+<p>Saul Bass, <em>Phase IV</em>, 1974.&#160;<a class="footnote-backref" href="#fnref:35" title="Jump back to footnote 35 in the text">&#8617;</a></p>
+</li>
+<li id="fn:36">
+<p>Credit for this design lies with Heechan Park; the style of the support struts was modelled after the Apollo 11 lunar lander.&#160;<a class="footnote-backref" href="#fnref:36" title="Jump back to footnote 36 in the text">&#8617;</a></p>
+</li>
+<li id="fn:37">
+<p>When this light was finally erected from between two trees in the forest outside Barcelona, in the dead of night, from a steel wire between two trees, the neighbour further down the hill, unaware of the experiment taking place on the adjacent plot of land, mistook the ring of light for a landing alien spacecraft and locked themselves into their house for most of the evening, venturing up to our encampment only once the light had stabilised (and with the protection of a yapping dog).&#160;<a class="footnote-backref" href="#fnref:37" title="Jump back to footnote 37 in the text">&#8617;</a></p>
+</li>
+<li id="fn:38">
+<p>The imperial measurements and bolts used by the American servos caused several annoying issues whilst building the machine.&#160;<a class="footnote-backref" href="#fnref:38" title="Jump back to footnote 38 in the text">&#8617;</a></p>
+</li>
+<li id="fn:39">
+<p>The precise location of the machine was 41° 26' 36.9168'' N, 2° 5' 27.7692'' E.&#160;<a class="footnote-backref" href="#fnref:39" title="Jump back to footnote 39 in the text">&#8617;</a></p>
+</li>
+<li id="fn:40">
+<p>Flourin is a specialist PTFE-derived lubricant which is used by entomologists to line things insects may escape from. It is invariably messy to apply to anything, and seems specially formulated to stick to clothes.&#160;<a class="footnote-backref" href="#fnref:40" title="Jump back to footnote 40 in the text">&#8617;</a></p>
+</li>
+<li id="fn:41">
+<p>Professor Espalder informed me that they don’t have the suction strength to enable consumption of raw honey.&#160;<a class="footnote-backref" href="#fnref:41" title="Jump back to footnote 41 in the text">&#8617;</a></p>
+</li>
+<li id="fn:42">
+<p>Flourin would not bind to the machine’s aluminium, so a moat of motor oil became the main defence against ant escape.&#160;<a class="footnote-backref" href="#fnref:42" title="Jump back to footnote 42 in the text">&#8617;</a></p>
+</li>
+<li id="fn:43">
+<p>In reality these roles were played myself and my colleague Helen Floate, who kindly assisted with the journey, experiment and filmmaking. The heat of the Barcelona forest in the middle of summer, along with the presence of tiger mosquitoes, made the process unbearable.&#160;<a class="footnote-backref" href="#fnref:43" title="Jump back to footnote 43 in the text">&#8617;</a></p>
+</li>
+<li id="fn:44">
+<p>Today, this would be easy to film via drone, but such technologies were not readily available in 2011.&#160;<a class="footnote-backref" href="#fnref:44" title="Jump back to footnote 44 in the text">&#8617;</a></p>
+</li>
+<li id="fn:45">
+<p>One camera was also completely destroyed/lost in the process.&#160;<a class="footnote-backref" href="#fnref:45" title="Jump back to footnote 45 in the text">&#8617;</a></p>
+</li>
+<li id="fn:46">
+<p>I visited the Kubrick Archives to see the original plates for the HAL graphics in preparation for this film.&#160;<a class="footnote-backref" href="#fnref:46" title="Jump back to footnote 46 in the text">&#8617;</a></p>
+</li>
+<li id="fn:47">
+<p>Set in thin DIN type&#160;<a class="footnote-backref" href="#fnref:47" title="Jump back to footnote 47 in the text">&#8617;</a></p>
+</li>
+<li id="fn:48">
+<p>CRM-114 is a reference to Kubrick’s constant use of the code throughout his films. In <em>Dr. Strangelove</em>, for example, CRM-114 is the communication-scrambling device whose failure causes the final line of communication between the bombers and their command-station to break down; in <em>A Clockwork Orange</em>, Serum 114 (a homophone for CRM-114) is the drug given to the lead protagonist to ‘cure’ his illness. Stanley Kubrick, <em>Dr. Strangelove (Or How I Learned to Stop Worrying and Love the Bomb)</em>, 1964; Stanley Kubrick, <em>A Clockwork Orange</em>, 1972.&#160;<a class="footnote-backref" href="#fnref:48" title="Jump back to footnote 48 in the text">&#8617;</a></p>
+</li>
+<li id="fn:49">
+<p>The movement of the ants along the trail was dependent on several factors: this was the first morning we’d watched the ants; only one of the pair of pheromone vats provoked a response.&#160;<a class="footnote-backref" href="#fnref:49" title="Jump back to footnote 49 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../7.3.1-godot-machine-development/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Godot Machine technical development" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Godot Machine technical development
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../7.7-scriptych-vocabulary/" class="md-footer__link md-footer__link--next" aria-label="Next: Scriptych vocabulary" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Scriptych vocabulary
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.756773cc.min.js"></script>
+      
+    
+  </body>
+</html>
