@@ -1,0 +1,653 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.6">
+    
+    
+      
+        <title>Godot Machine technical development - Scripted Performances</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.802231af.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#godot-machine-technical-development" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Scripted Performances" class="md-header__button md-logo" aria-label="Scripted Performances" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Scripted Performances
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Godot Machine technical development
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/olliepalmer/phd/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Scripted Performances" class="md-nav__button md-logo" aria-label="Scripted Performances" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Scripted Performances
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/olliepalmer/phd/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faqs/" class="md-nav__link">
+        FAQs
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        0 Front Matter
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="0 Front Matter" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          0 Front Matter
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0_Front%20Matter/0.1-abstract/" class="md-nav__link">
+        Abstract
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0_Front%20Matter/0.2-acknowledgements/" class="md-nav__link">
+        Acknowledgements
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../0_Front%20Matter/0.3-figures-and-tables/" class="md-nav__link">
+        Figures and tables
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        1 Chapters
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="1 Chapters" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          1 Chapters
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch0/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch1/" class="md-nav__link">
+        Chapter 1: Diagramming the Absurd
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch2/" class="md-nav__link">
+        Chapter 2: Performing Data Structures
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch3/" class="md-nav__link">
+        Chapter 3: Noise and Difference
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch4/" class="md-nav__link">
+        Chapter 4: Reflexive Scripted Design:
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch5/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Chapters/ch6/" class="md-nav__link">
+        Bibliography
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      <label class="md-nav__link" for="__nav_5">
+        2 Appendix
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="2 Appendix" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          2 Appendix
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Godot Machine technical development
+      </a>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.3.2-ant-ballet-development/" class="md-nav__link">
+        Ant Ballet technical development
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/olliepalmer/phd/edit/master/docs/2_Appendix/7.3.1-godot-machine-development.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="godot-machine-technical-development">Godot Machine technical development<a class="headerlink" href="#godot-machine-technical-development" title="Permanent link">#</a></h1>
+<p>For the purposes of clarity, I will separate the issues of developing the physical design of the Godot Machine from the issues of creating software to drive it. The basic premise of the software that drove the machine remained constant throughout: a feedback-and-correction system based on visual input from a camera about an ant’s position. However, the design of the object itself went through an iterative process that borrowed a numbering system from the world of software development. Starting at version <strong>v0.0</strong>,<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> each minor revision (for example, an undated actuator mechanism) would increment the design by <strong>v0.1</strong>. A major overhaul of the design (for example, a change to the structure itself) would result in a progression to the next integer, so that a major change to machine <strong>v0.4</strong> would result in machine <strong>v1.0</strong>. This system was used to keep track of the many incremental changes and prototypical parts that were built and tested across a small number of underlying structures. The final machine that was built in this method was <strong>v3.2</strong>.</p>
+<p>The first model (<strong>v0.0-0.1</strong>) was a rapidly-made prototype based on some sketches. Its function was to explore the mechanics of driving a polystyrene ball of approximately 180mm in any direction, and it was made of off-cuts, spare parts and old continuous rotation servos that were in the studio. Both models (the first relying on steel rollers, and the second using paper cups to rotate the ball) were unsuccessful in rotating the ball along more than one plane simultaneously, and suffered from unpredictable ‘drag’ issues caused by friction by the inactive drive wheel. It was clear that a more advanced method was required to progress.</p>
+<p>The second model, <strong>v1.0-1.2</strong>, consisted of a concrete base of approximately 150 x 150 x 250mm, with four pressed steel arms of 1000mm length (850mm visible) emerging at an angle of around 25º from vertical, to be placed on a table or plinth. Each rod had a large surface-mount ball bearing bolted approximately two thirds of the way up, and at the extreme end, the actuating device. Resting atop the four ball bearings was a white polystyrene ball of 500mm diameter. I experimented variously with regular wheels (<strong>v1.0</strong>) and ‘omniwheels’<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> (<strong>v1.1</strong>) attached to continuous rotation servos, and finally with a ‘finger’ mechanism (<strong>v1.2</strong>): a pair of lightweight micro-servos, configured to pan and tilt a small metal rod which would push the ball to rotate it. My electronics skills at this stage were still crude, and the micro-servos were incredibly jittery and ineffective at actually rotating the ball (and far better at gouging it). When I presented the work at a first critique, rather than criticise my shoddy electronics and manufacture, the panel complimented the paranoid personality the machine appeared to have. I decided to try and keep a non-wheel-based rotation with the next iteration.</p>
+<p>I then built a more precise experimental base for the machine using laser-cut aluminium (<strong>v2.0</strong>), also designed to be placed on a table or plinth.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> Still using four ball bearings to support the 500mm ball, the chassis was designed with experimentation in mind. Each of the armatures which supported the rotation mechanisms had rows of pre-cut holes to accommodate fixing of new mechanisms at different angles. The first two mechanisms to be tested on the machine were categorically failures: laser-cut (<strong>v2.0</strong>) or 3D-printed (<strong>v2.1</strong>) ‘grippers’, powered by servos, would lift the ball from underneath and rotate it in one of four directions. The laser-cut components of <strong>v2.1</strong> were too heavy to work with the servos, and the 3D-printed components had too much friction to work reliably. <strong>v2.1</strong> marked the first use of 3D printing in my design work.<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> <strong>v2.2</strong> then used 3d-printed omniwheels to support the ball (designed to match the profile of the ball itself, unlike the omniwheels of <strong>v1.x</strong>). However, the omniwheels did not offer enough grip on the 500mm polystyrene ball to actually rotate it. <strong>v2.3</strong> returned to the idea of <strong>v1.3</strong>’s ‘fingers’, but this time with laser-cut acrylic and padded rubber end-caps. However, none of the mechanisms of <strong>v2.x</strong> worked effectively. It was at this stage that I realised designing an elegant mechanism to rotate a lightweight polystyrene ball accurately in multiple planes simultaneously was a real engineering challenge. There are multiple pure robotics projects for robots that balance atop balls, etc, but most of these are concerned with the robotics element and pay little heed to the idea of a featureless ball, which I deemed essential to the Godot Machine. If the ball’s surface contained features, then the ant on the ball would have ‘landmarks’ which it could use to navigate. I spent some time working on rendering polystyrene balls with plaster to create perfect surfaces, but in the end did not find a satisfactory or repeatable method which guaranteed uniform surface, or enabled me to actually transport the balls<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>. I decided that a rethink of the entire system was necessary.</p>
+<p>This iteration also marked the first design of the ‘halo’ device, an illuminated ring of white LED lights surrounding a centrally-placed webcam which connects to the controlling computer (and thus the driving devices). <strong>v2.x</strong>’s light ring was suspended above the ball from an independent support structure, much like an office desk lamp. The halo design itself served both practical and aesthetic functions: in the first instance, it provided an omnidirectional light that would illuminate the ball in order to regulate the light on the ant (much like a ring flash is often used for portrait photography). Secondly, it would confuse the ant: given that the machine was being designed in the UK, the most likely type of ant to be placed on the device would be <em>Lasius niger</em>, the common garden ant. This species is known to use an approximately equal, complementary combination of pheromone trails and visual landmarks to navigate,<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> however, the use of trail pheromones is largely used to signal when an ant has found food, an instance that would not be applicable to an ant on the Godot Machine. A consistent light, bright, circular light source above the ant, which appears to stay in the same place, would hopefully ‘de-anchor’ any visual cues for the ant. The third function of the light was a small homage to the light ring in <em>Dr. Strangelove</em>.<sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup></p>
+<p><strong>v3.x</strong> represented a major change in the machine, and my logic in designing it. Instead of separating the role of support (previously provided by ball-bearings) and actuation (the one factor I had changed so far), this version of the device rested the ball on three drive-shafts. Using three points of support instead of four – the minimum, and most stable number to support a sphere – the device was made of three pieces of identical laser-cut steel of 2mm thickness. The steel was then bent along pre-perforated lines and bolted together with M5 bolts. The pieces of bent steel overlapped each other like a camera’s aperture ring, and were in constant tension. Three stepper motors then mounted to the steel frame, and from these, brass rods would provide support to the ball. All experimentation on this model would then be with materials for the ball and the supporting rods. I bought balls with as many surface materials as possible from a nearby sports shop, and began to test these combinations. Since I had not designed the various balls, they did not factor into my numbering system.</p>
+<p>This chassis proved far more successful as a test-bed. It was also far more efficient in terms of the amount of material it required: <strong>v2.x</strong> had five different types of aluminium parts, and ten individual aluminium pieces to fit together (excluding mechanisms), whereas <strong>v3.x</strong> only had three identical steel parts. Whilst it could be tested reliably on a table-top, the design could also be suspended from a ceiling, creating the illusion that the ant really was on top of her own world, a void in space. The stepper motors were easier to programme<sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> than the various servo mechanisms that I had been working with. Instead of sequential loops to synchronise their movement, the steppers could be simply required a speed and a direction, and were highly accurate in their rotation. The size of the ball was reduced to between 180-250mm (depending on the type of ball being tested).</p>
+<p>At the same time as building the <strong>v3.x</strong> chassis, I built a housing for the control system. This served both practical and aesthetic purposes. Due to the practicalities of building a machine without a fixed studio space in an architecture school, and the regular transportation of the device to and from critiques, the machine and associated electronic components were subject to constant movement and dislodging. This would often have an adverse effect on the wiring, which, in prototypical form, was not permanently soldered in place. Due to my inexperience with electronics, I also kept accidentally burning stepper motor driver boards. I decided to build a housing that would enable easy diagnosis of wiring errors or broken parts, and to replace burnt boards within a few minutes. I based the distributed layout of the components on the design of HAL’s, the computer control system in Stanley Kubrick’s <em>2001: A Space Odyssey</em>.<sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup> Towards the end of the film, there is a scene where HAL is switched off one component at a time. The individual circuits are laid out sequentially, so that the logic that they control can be easily seen. My panel design for the Godot Machine used a similar logic: it laid out, in diagrammatic form, the process within the microcontroller. A USB cable carries signal from a computer to an Arduino microcontroller at the top-right. This then sends signals to three EasyDriver 4.3 stepper motor drivers, which in turn are connected via long cables to the stepper motors themselves. Along the way are a series of LED indicator lights: one on the Arduino, and one on each stepper driver indicates that it is receiving power. A pair of LEDs on the Arduino signal what it is doing at that moment: a red light indicates that the Arduino is connected to the computer, but not doing anything (‘thinking’ mode) whilst a green light indicates that the Arduino is actively sending signal to the stepper motors. The entire electronics layout is housed behind a dark blue Perspex panel with labels to indicate the components underneath, in a similar style to HAL’s fascia. Although relatively simple, the panel represents another level of diagramming within the machine.</p>
+<p>The final design I was able to build was able to successfully rotate a sphere to any angle. <strong>v3.2</strong> used an oversized tennis ball of diameter 180mm for the main sphere, rotated by three polypropylene attachements to the driveshafts of the stepper motors. This material combination had the right amount of friction to enable the main ball to turn smoothly and accurately in six directions by simply rotating two stepper motors at full speed in one direction, and the final one in the opposite direction (see diagram and chart). The speed of one or all of the stepper motors could also be varied in order to make the main sphere move faster or in any direction. In short, the design of <strong>v3.2</strong> eliminated all of the engineering issues of the previous models: it presented a highly accurate control mechanism to direct the ball in any direction, at any speed (see Figure 7-54 and Table 17-2 and Table 17-2).<sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup></p>
+<p>I built <strong>v3.2</strong> in the summer of 2011, at the same time as I began the ultimate stage of testing the Ant Ballet project. The final version, <strong>v3.4</strong> assembled after a long pause in project development (assembled December 2014) used a sphere more reminiscent of a Kubrick film: a chromed plastic sphere (with the appearance of a shiny metal), and black tennis balls as actuators. This has yet to be exhibited, for reasons that are discussed in Chapter 1.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>When programming, the number 0 is normally the first number.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Wheels designed to rotate in one plane, but allow movement in another. Onmiwheels are common on factory floors or on contemporary self-driving robots.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>The use of laser-cut aluminium was influenced by the work of students in the Bartlett’s Unit 14: Subomi Fapohunda and Dave DiDuca.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>I had taken a course in 3D printing run by Matt Shaw (later of ScanLab) and Justin Goodyear of the Bartlett.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>I built several 500mm polystyrene balls which were rendered with plaster, and subsequently became damaged or destroyed through transport.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Sophie E. F. Evison et al., ‘Combined Use of Pheromone Trails and Visual Landmarks by the Common Garden Ant Lasius Niger’, <em>Behavioural Ecology and Sociobiology</em> 63 (2008): 261–67, doi:10.1007/s00265-008-0657-6.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Note that at the time of production, 3D printing in nylon was considerably more expensive (and harder to attain) than it is today. The Bartlett 3D printing service charged per cubic centimetre of the rectilinear volume of anything printed. In order to reduce this cost, the halo was printed in three identical parts, printed close together, then later assembled using the same type of bolts as in Godot Machine <strong>v2.x</strong>. Having a background in product design, and having been previously subject to the limitations of injection moulding and other traditional manufacturing techniques, it was my ambition to ensure that every 3D printed design I made utilised the potential of the technology to do more than simply creating parts that could be injection moulded, with interlocking components or integrated mechanical systems: hence, in <strong>v2.x</strong>, the printing of one-part omniwheels and fully integrated articulated lever systems. When printing more straightforward components such as the halo, the parts would always be printed inside a bounding ‘box’ with wall thickness 0.75mm, with large holes at either end for the removal of excess powder. This provided a means to ensure that smaller components were not lost from the densely-packed array that I would always print at one time.&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>Although easier to programme, they did require separate driver boards. I will elaborate on these later.&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>Stanley Kubrick, <em>2001: A Space Odyssey</em>, Film (Metro Goldwyn-Meyer, 1968).&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>Up to the highest speed of the motors – which by far exceeded the top speed of even the fastest <em>Lasius niger</em>.&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../1_Chapters/ch6/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Bibliography" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Bibliography
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../7.3.2-ant-ballet-development/" class="md-footer__link md-footer__link--next" aria-label="Next: Ant Ballet technical development" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Ant Ballet technical development
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.756773cc.min.js"></script>
+      
+    
+  </body>
+</html>
