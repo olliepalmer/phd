@@ -35,3 +35,7 @@ Copyright of third-party images remains with their author; images are only repro
 ### Q: You wrote the thesis in 2017. Why's it taken so long to put it online?
 
 I wanted to put this online ages ago, but life got in the way. In between submitting my thesis and putting it online, I completed a transatlantic move, renovated a house, had two children, several new jobs, and a few more other things that have kept me busy. All of which means by the time you read this it will be totally irrelevant.
+
+### Q: I have more questions. Can I contact you?
+
+Sure! I am on Twitter at [@_olliepalmer](https://twitter.com/_olliepalmer), my website is [olliepalmer.com](https://olliepalmer.com) and you can email me [here](mailto:thesisquestion@olliepalmer.com). 
