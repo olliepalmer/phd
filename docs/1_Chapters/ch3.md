@@ -48,7 +48,7 @@ In the build-up to the festival, I was working on four of the seven projects fea
 
 <figure>
   <a name="figure3-32"></a>
-  <img src="/images/figure3-32.png" width="100%" />
+  <img src="../../images/figure3-32.png" width="100%" />
   <figcaption>Figure 3-32:  Selection of images from 86400. By the author.</figcaption>
 </figure>
 
@@ -89,7 +89,7 @@ I wrote a basic Python script which would interact with the Google Images API, t
 
 <figure>
   <a name="figure3-33"></a>
-  <img src="/images/figure3-33.pdf" width="100%" />
+  <img src="../../images/figure3-33.pdf" width="100%" />
   <figcaption>Figure 3-33:  Flowchart displaying operation for a single image search and interactions with the within the 86400 Python search programme. By the author.</figcaption>
 </figure>
 
@@ -106,13 +106,13 @@ In April 2017, I showed the work at the School of the Art Institute in Chicago. 
 
 <figure>
   <a name="figure3-34"></a>
-  <img src="/images/figure3-34.png" width="100%" />
+  <img src="../../images/figure3-34.png" width="100%" />
   <figcaption>Figure 3-34:  Prints as displayed at School of the Art Institute Chicago. Each print shows half an hours’ worth of images. By the author.</figcaption>
 </figure>
 
 <figure>
   <a name="figure3-35"></a>
-  <img src="/images/figure3-35.png" width="100%" />
+  <img src="../../images/figure3-35.png" width="100%" />
   <figcaption>Figure 3-35:  86400 as installed by video and print at the School of the Art Institute Chicago April 2017. Photograph by the author.</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ Part of the inspiration behind the project came from the Charles and Ray Eames f
 
 <figure>
   <a name="figure3-30"></a>
-  <img src="/images/figure3-30.png" width="100%" />
+  <img src="../../images/figure3-30.png" width="100%" />
   <figcaption>Figure 3-30:  Stills from the Powers of Ten showing scales from 100 to 108 metres. Eames, Charles, and Ray Eames. Powers of Ten. Film, 1977.</figcaption>
 </figure>
 
@@ -139,13 +139,13 @@ Although best known in filmic form, my first encounter with the film was rather 
 
 <figure>
   <a name="figure3-31"></a>
-  <img src="/images/figure3-31.jpg" width="100%" />
+  <img src="../../images/figure3-31.jpg" width="100%" />
   <figcaption>Figure 3-31:  Working diagram to show how the ‘Powers of Ten’ was composited. Image source: Charles Eames and Ray Eames, An Eames Anthology: Articles, Film Scripts, Interviews, Letters, Notes, and Speeches, ed. Daniel Ostroff (New Haven, CT: Yale University Press, 2015), 382.</figcaption>
 </figure>
 
 <figure>
   <a name="figure3-36"></a>
-  <img src="/images/figure3-36.jpg" width="100%" />
+  <img src="../../images/figure3-36.jpg" width="100%" />
   <figcaption>Figure 3-36:  Muybridge, Eadweard. The Horse in Motion. Photography, 1878.</figcaption>
 </figure>
 
@@ -170,7 +170,7 @@ The basic premise of the software was as a first-stage in the development proces
 
 <figure>
   <a name="figure3-37"></a>
-  <img src="/images/figure3-37.png" width="100%">
+  <img src="../../images/figure3-37.png" width="100%">
   <figcaption>Figure 3-37:  Software built in Max by the author to demonstrate principles of animation and experiment with colour analysis.</figcaption>
 </figure>
 
@@ -178,7 +178,7 @@ I started to download films from the INA and Prelinger Archives.[^69] INA’s re
 
 <figure>
   <a name="figure3-38"></a>
-  <img src="/images/figure3-38.png" width="100%">
+  <img src="../../images/figure3-38.png" width="100%">
   <figcaption>Figure 3-38:  Early colour analysis experimentation with images from the film Psycho. Hitchcock, Alfred. Psycho. Horror, Mystery, Thriller, 1960. Images by the author. An excerpt of the performance at the Palais de Tokyo’s Do Not Disturb festival can be found in this thesis’s supporting materials.</figcaption>
 </figure>
 

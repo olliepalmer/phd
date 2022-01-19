@@ -148,7 +148,7 @@ Nybble
 
 <figure>
   <a name="figure2-13"></a>
-  <img src="/images/figure2-13.jpg" width="100%" />
+  <img src="../../images/figure2-13.jpg" width="100%" />
   <figcaption>Figure 2-13:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
 
@@ -265,7 +265,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-14"></a>
-  <img src="/images/figure2-14.jpg" width="100%" />
+  <img src="../../images/figure2-14.jpg" width="100%" />
   <figcaption>Figure 2-14:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
 
@@ -273,7 +273,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-15"></a>
-  <img src="/images/figure2-15.jpg" width="100%" />
+  <img src="../../images/figure2-15.jpg" width="100%" />
   <figcaption>Figure 2-15:  Nybble performance at the V&A Museum, September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
 
@@ -281,10 +281,10 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-16"></a>
-  <img src="/images/figure2-16.1.jpg" width="100%" />
-  <img src="/images/figure2-16.2.jpg" width="100%" />
-  <img src="/images/figure2-16.3.jpg" width="100%" />
-  <img src="/images/figure2-16.4.jpg" width="100%" />
+  <img src="../../images/figure2-16.1.jpg" width="100%" />
+  <img src="../../images/figure2-16.2.jpg" width="100%" />
+  <img src="../../images/figure2-16.3.jpg" width="100%" />
+  <img src="../../images/figure2-16.4.jpg" width="100%" />
   <figcaption>Figure 2-16:  Four photos of Nybble performance at the V&A Museum, September 2013, by Danielle Willkens.</figcaption>
 </figure>
 
@@ -292,7 +292,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-17"></a>
-  <img src="/images/figure2-17.jpg" width="100%" />
+  <img src="../../images/figure2-17.jpg" width="100%" />
   <figcaption>Figure 2-17:  Nybble performance at the V&A Museum, September 2013. Photo by the author.</figcaption>
 </figure>
 
@@ -300,7 +300,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-18"></a>
-  <img src="/images/figure2-18.jpg" width="100%" />
+  <img src="../../images/figure2-18.jpg" width="100%" />
   <figcaption>Figure 2-18:  Nybble performance at the V&A Museum, 21-23 September 2013. Photo by Danielle Willkens.</figcaption>
 </figure>
 
@@ -308,7 +308,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-19"></a>
-  <img src="/images/figure2-19.png" width="100%" />
+  <img src="../../images/figure2-19.png" width="100%" />
   <figcaption>Figure 2-19:  Code guide for Nybble performance, featuring sixty four possible symbols. By the author.</figcaption>
 </figure>
 
@@ -316,7 +316,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-20"></a>
-  <img src="/images/figure2-20.png" width="100%" />
+  <img src="../../images/figure2-20.png" width="100%" />
   <figcaption>Figure 2-20:  USASCII Code Chart. ‘ASCII - Wikipedia.’ Accessed 11 May 2017. [https:// en.wikipedia.org/wiki/ASCII#/media/File:US-ASCII_code_chart.png](https:// en.wikipedia.org/wiki/ASCII#/media/File:US-ASCII_code_chart.png). US-ASCII Code Chart. Scanner copied from the material delivered with TermiNet 300 impact type printer with Keyboard, February 1972, General Electric Data communication Product Dept., Waynesboro VA</figcaption>
 </figure>
 
@@ -324,7 +324,7 @@ All dancers in position (represents column)
 
 <figure>
   <a name="figure2-21"></a>
-  <img src="/images/figure2-21.jpg" width="100%" />
+  <img src="../../images/figure2-21.jpg" width="100%" />
   <figcaption>Figure 2-21:  Nybble performance at the V&A Museum, 21-23 September 2013. Photo by Daneille Willkens.</figcaption>
 </figure>
 
@@ -384,7 +384,7 @@ Nearly years after *Nybble*, during my residency at the Palais de Tokyo, I compl
 
 <figure>
   <a name="figure2-22"></a>
-  <img src="/images/figure2-22.jpg" width="100%" />
+  <img src="../../images/figure2-22.jpg" width="100%" />
   <figcaption>Figure 2-22:  Scriptych performance at Opera Garnier in June 2016. Photo by Justine Emard.</figcaption>
 </figure>
 
@@ -405,7 +405,7 @@ The first meeting with Opera was on the 19<sup>th</sup> of November. During this
 
 <figure>
   <a name="figure2-23"></a>
-  <img src="/images/figure2-23.png" width="100%">
+  <img src="../../images/figure2-23.png" width="100%">
   <figcaption>Figure 2-23:  Scriptych performance at Opera Garnier in June 2016. Photos by Justine Emard.</figcaption>
 </figure>
 
@@ -431,7 +431,7 @@ The next challenge was to create a mode of locating words within this three-dime
 
 <figure>
   <a name="figure2-24"></a>
-  <img src="/images/figure2-24.jpg" width="100%">
+  <img src="../../images/figure2-24.jpg" width="100%">
   <figcaption>Figure 2-24:  Scriptych performance in progress at Opera Garnier, as seen from the ‘control booth’. Photo by Justine Emard.</figcaption>
 </figure>
 
@@ -464,7 +464,7 @@ Each three-part array is called a move, and the string of moves is called a sequ
 
 <figure>
   <a name="figure2-25"></a>
-  <img src="/images/figure2-25.jpg" width="100%">
+  <img src="../../images/figure2-25.jpg" width="100%">
   <figcaption>Figure 2-25:  Opera Garnier de Paris. Photograph by the author.</figcaption>
 </figure>
 
@@ -473,7 +473,7 @@ The transformation of these sequences to spatial navigation is one part of the t
 
 <figure>
   <a name="figure2-26"></a>
-  <img src="/images/figure2-26.jpg" width="100%">
+  <img src="../../images/figure2-26.jpg" width="100%">
   <figcaption>Figure 2-26:  TouchOSC interface for a controlling system readiness and music during performances. Photograph by the author.</figcaption>
 </figure>
 
@@ -540,7 +540,7 @@ We worked with two dancers for a period of several weeks before the performance 
 
 <figure>
   <a name="figure2-28"></a>
-  <img src="/images/figure2-28.png" width="100%">
+  <img src="../../images/figure2-28.png" width="100%">
   <figcaption>Figure 2-28:  Dancers Eve Grinsztajn and Mathieu Contat practice Simon Valastro’s choreography for Scriptych at Opera Garnier. Photo by the author.</figcaption>
 </figure>
 
@@ -552,7 +552,7 @@ The dancers were filmed from above, in order to superimpose their movements on o
 
 <figure>
   <a name="figure2-29"></a>
-  <img src="/images/figure2-29.png" width="100%">
+  <img src="../../images/figure2-29.png" width="100%">
   <figcaption>Figure 2-29:  Performances from both dancers superimposed onto each other, revlealing inherent differences in the way that both dancers move. See supporting material for video form of this. Photography by the author.</figcaption>
 </figure>
 

@@ -48,7 +48,7 @@ Each play is a synthesis of three elements: two 'primary texts' and a place and 
 
 <figure>
   <a name="figure4-39"></a>
-  <img src="/images/figure4-39.png" width="100%">
+  <img src="../../images/figure4-39.png" width="100%">
   <figcaption>Figure 4-39:  One of the videos made by the propagandists Chen discusses in his article, alledgedly showing an Ebola patient being removed for quarantine from Atlanta airport (but likely filmed in Russia). Note the attention to detail: the truck parked in the garage has an Atlanta Airport decal prominently placed in-shot. Stone, Jeremy. Infected with Ebola in Atlanta Airport, 13 December, 2014. <a href="https://www.youtube.com/watch?v=GqsA71C6BDc" target="_blank">https://www.youtube.com/watch?v=GqsA71C6BDc</a>. Accessed 5 May 2017.</figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ This is a powerful image: the idea that by spreading mistruths, the fabric of re
 
 <figure>
   <a name="figure4-40"></a>
-  <img src="/images/figure4-40.jpg" width="100%">
+  <img src="../../images/figure4-40.jpg" width="100%">
   <figcaption>Figure 4-40:  The office building alleged to be a propaganda producer in St. Petersberg, Russia. Photo from Google Street View. Google Maps (2016). Retrieved from <a href="https://goo.gl/maps/1wspzB4Ef7v" target="_blank">https://goo.gl/maps/1wspzB4Ef7v</a>.</figcaption>
 </figure>
 
@@ -107,8 +107,8 @@ The characters would also balance each other visually; one sees themselves as a 
 
 <figure>
   <a name="figure4-41"></a>
-  <img src="/images/figure4-41.1.png" width="100%">
-  <img src="/images/figure4-41.2.png" width="100%">
+  <img src="../../images/figure4-41.1.png" width="100%">
+  <img src="../../images/figure4-41.2.png" width="100%">
   <figcaption>Figure 4-41:  Shot plans for Network / Intersect and the corresponding scenes in the film. Photo and drawings by the author.</figcaption>
 </figure>
 
@@ -163,14 +163,14 @@ I designed four sets of maps, which originally were intended to feature in four 
 
 <figure>
   <a name="figure4-43"></a>
-  <img src="/images/figure4-43.png" width="100%">
+  <img src="../../images/figure4-43.png" width="100%">
   <figcaption>Figure 4-43:  Appropriating propagandist techniques on the Paris Metro: affixing maps to the overhead illuminated panels. Photo by Justine Emard.</figcaption>
 </figure>
 
 
 <figure>
   <a name="figure4-44"></a>
-  <img src="/images/figure4-44.png" width="100%">
+  <img src="../../images/figure4-44.png" width="100%">
   <figcaption>Figure 4-44:  ‘Korean’ subway maps contain fragments of Moore’s Diagramming Control translated into Korean via Google Translate. Note the K of ‘Korea Transport’ logo is the symbol for a plane mirror reflecting light, hinting at M’s character. By the author.</figcaption>
 </figure>
 
@@ -186,13 +186,13 @@ The other ‘transitional’ scene would take advantage of the physical position
 
 <figure>
   <a name="figure4-45"></a>
-  <img src="/images/figure4-45.jpg" width="100%">
+  <img src="../../images/figure4-45.jpg" width="100%">
   <figcaption>Figure 4-45:  The driving route looping around Pont Luis Phillipe which enabled the intersection shot to take place. By the author.</figcaption>
 </figure>
 
 <figure>
   <a name="figure4-46"></a>
-  <img src="/images/figure4-46.jpg" width="100%">
+  <img src="../../images/figure4-46.jpg" width="100%">
   <figcaption>Figure 4-46:  Filming a model of M’s office. Using a computer screen playing pre-recorded footage of the actors embedded within a model set – enabled many of the special effects occurred in-camera. Photo by the author.</figcaption>
 </figure>
 
@@ -201,7 +201,7 @@ A site was chosen on a bridge in Paris for the live-action transition – Pont 
 
 <figure>
   <a name="figure4-47"></a>
-  <img src="/images/figure4-47.jpg" width="100%">
+  <img src="../../images/figure4-47.jpg" width="100%">
   <figcaption>Figure 4-47:  Shooting diagram for the intersection scene of Network / Intersect, as filmed on Pont Luis Phillippe. By the author.</figcaption>
 </figure>
 
@@ -215,13 +215,13 @@ A crucial technique in the signalling of screen the audience should focus on (be
 
 <figure>
   <a name="figure4-48"></a>
-  <img src="/images/figure4-48.jpg" width="100%">
+  <img src="../../images/figure4-48.jpg" width="100%">
   <figcaption>Figure 4-48:  ‘Remember: You’re in Korea’ poster on the travelator at Châtalet les Halles in Paris as part of shooting. Filming can be seen in the background. Photo by Justine Emard.</figcaption>
 </figure>
 
 <figure>
   <a name="figure4-49"></a>
-  <img src="/images/figure4-49.jpg" width="100%">
+  <img src="../../images/figure4-49.jpg" width="100%">
   <figcaption>Figure 4-49:  The author using a modified Canon 6D camera to film actor Hokyoung Im. Photo by Justine Emard.</figcaption>
 </figure>
 
@@ -259,7 +259,7 @@ Another signifier of the chaos in W’s life is his office cubicle: it becomes m
 
 <figure>
   <a name="figure4-50"></a>
-  <img src="/images/figure4-50.png" width="100%">
+  <img src="../../images/figure4-50.png" width="100%">
   <figcaption>Figure 4-50:  The contrast between the worldviews of the characters M and W can be seen in the physical spaces they inhabit: W’s (above) is messy and chaotic, whilst M’s (below) is ordered and clean. Photos by the author.</figcaption>
 </figure>
 
@@ -270,7 +270,7 @@ Similarly to W’s office, M’s board-room was also a model with a forced persp
 
 <figure>
   <a name="figure4-51"></a>
-  <img src="/images/figure4-51.png" width="100%">
+  <img src="../../images/figure4-51.png" width="100%">
   <figcaption>Figure 4-51:  A series of screen-grabs from the film Network / Intersect, with their original subtitles. The film can be seen in its entirity via the supplementary materials provided with this thesis. By the author.</figcaption>
 </figure>
 

@@ -358,7 +358,7 @@ The creation of projects within this thesis follows similar logic; artefacts pro
 
 <figure>
   <a name="figure0-1"></a>
-  <img src="../images/A1034_a_human_being_normal_colour_flow.pdf" width="100%" />
+  <img src="../../images/A1034_a_human_being_normal_colour_flow.pdf" width="100%" />
   <figcaption>Figure 0-1: Heath Bunting’s node-based maps of influences probe at defintions that construct socioeconomic systems; in this case the audience is asked to question what ‘normal’ is. <br>
   Bunting, Heath. <i>A1034 A Human Being Normal</i>. Code, flow chart, map, 25 December 2013.</figcaption>
 </figure>
@@ -377,7 +377,7 @@ Bunting’s work has relevance for my practice for several reasons. He is an art
 
 <figure>
   <a name="figure0-2"></a>
-  <img src="../images/map_of_terrorism.pdf" width="100%" />
+  <img src="../../images/map_of_terrorism.pdf" width="100%" />
   <figcaption>Figure 0-2: Detail of Bunting’s map of a terrorist.<br>
   Bunting, Heath. A Terrorist. Map, 24 March 2009. Tate, London.</figcaption>
 </figure>
@@ -445,10 +445,10 @@ Alÿs’ presentation of work is, like Sachs, highly accessible, despite the pot
 
 <figure>
 <a name="figure0-5"></a>
-  <img src="../images/synecdoche-00068.jpg" width="45%" style="display:-webkit-inline-flex">
-  <img src="../images/synecdoche-00035.jpg" width="45%" style="display:-webkit-inline-flex">
-  <img src="../images/synecdoche-00019.jpg" width="45%" style="display:-webkit-inline-flex">
-  <img src="../images/synecdoche-00013.jpg" width="45%" style="display:-webkit-inline-flex">
+  <img src="../../images/synecdoche-00068.jpg" width="45%" style="display:-webkit-inline-flex">
+  <img src="../../images/synecdoche-00035.jpg" width="45%" style="display:-webkit-inline-flex">
+  <img src="../../images/synecdoche-00019.jpg" width="45%" style="display:-webkit-inline-flex">
+  <img src="../../images/synecdoche-00013.jpg" width="45%" style="display:-webkit-inline-flex">
 
   <figcaption>Figure 0-5: Stills from Kaufman’s Synecdoche, New York show the construction of successive replica warehouses inside each other; the film’s protagonist writes instructions to the thousands of actors in his play. Kaufman, Charlie. Synecdoche, New York. © Sony Pictures Classics, 2008.
   </figcaption>

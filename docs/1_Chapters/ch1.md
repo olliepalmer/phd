@@ -67,11 +67,11 @@ What relevance does an argument about psychological and knowledge frames have in
 
 <figure>
   <a name="figure1-6"></a>
-  <img src="../images/figure1-6.1.jpg" width="100%" />
-  <img src="../images/figure1-6.2.jpg" width="100%" />
-  <img src="../images/figure1-6.3.jpg" width="100%" />
-  <img src="../images/figure1-6.4.jpg" width="100%" />
-  <img src="../images/figure1-6.6.jpg" width="100%" />
+  <img src="../../images/figure1-6.1.jpg" width="100%" />
+  <img src="../../images/figure1-6.2.jpg" width="100%" />
+  <img src="../../images/figure1-6.3.jpg" width="100%" />
+  <img src="../../images/figure1-6.4.jpg" width="100%" />
+  <img src="../../images/figure1-6.6.jpg" width="100%" />
   <figcaption>Figure 1-6: Ant Ballet signage layout, at ZSL London Zoo, from the installation manual. Image by the author. Note: This image differs from the printed thesis.</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ Ant Ballet culminated in a film and a series of objects, and was the first of my
 
 <figure>
   <a name="figure1-7"></a>
-  <img src="../images/figure1-7.jpg" width="100%" />
+  <img src="../../images/figure1-7.jpg" width="100%" />
   <figcaption>Figure 1-7: Ant Ballet installation in ZSL London Zoo BUGS building, November 2011 to May 2012. Photograph by the author.</figcaption>
 </figure>
 
@@ -134,7 +134,7 @@ Fortunately, I was able to re-frame the project shortly after the London Zoo ins
 
 <figure>
   <a name="figure1-8"></a>
-  <img src="../images/figure1-8.png" width="100%" />
+  <img src="../../images/figure1-8.png" width="100%" />
   <figcaption>Figure 1-8: CNC manufacturing and test assembling the machine for the FutureEverything exhibition at the Bartlett, April 2012. Photographs by the author.</figcaption>
 </figure>
 
@@ -143,7 +143,7 @@ The exhibition took place on the top floor of the 1830 Warehouse, a Grade I-list
 
 <figure>
   <a name="figure1-9"></a>
-  <img src="../images/figure1-9.jpg" width="100%" />
+  <img src="../../images/figure1-9.jpg" width="100%" />
   <figcaption>Figure 1-9: Ant Ballet installation at 1830 Warehouse, Manchester, for the FutureEverything Festival, May 2012. Photograph © Tape Ltd.
 (Jan and Emily Dixon)</figcaption>
 </figure>
@@ -152,7 +152,7 @@ Across the four screens, four films played on looped projections. Whilst each fi
 
 <figure>
   <a name="figure1-10"></a>
-  <img src="../images/figure1-10.jpg" width="100%" />
+  <img src="../../images/figure1-10.jpg" width="100%" />
   <figcaption>Figure 1-10: Ant Ballet installation at 1830 Warehouse, Manchester, for the FutureEverything Festival, May 2012. Photograph © Tape Ltd.
 (Jan and Emily Dixon)</figcaption>
 </figure>
@@ -164,7 +164,7 @@ The project also garnered media attention. The day after the exhibition launched
 
 <figure>
   <a name="figure1-11"></a>
-  <img src="../images/figure1-11.jpg" width="100%" />
+  <img src="../../images/figure1-11.jpg" width="100%" />
   <figcaption>Figure 1-11: Ant Ballet photoshoot for Wired Magazine, Battersea. August 2012.
 Photo © Michael Blann / Condé Nast Inc.</figcaption>
 </figure>
