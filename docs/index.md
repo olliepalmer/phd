@@ -11,8 +11,7 @@ November 2017
 Reformatted for web January 2022
 ```
 
-
-<img src="../../images/figure4-47.jpg">
+<img src="../../images/figure4-47.jpg" width="100%" />
 
 
 ## Notes
