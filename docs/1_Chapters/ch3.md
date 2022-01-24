@@ -9,7 +9,9 @@
 
 ----
 
-### 86400 video
+## Project videos
+
+<h3>86400 video</h3>
 
 Palais de Tokyo | 9-11 April 2016
 
@@ -21,7 +23,7 @@ Two hours of 86400, from 02:00:00-03:59:59
 
 ----
 
-### 24fps Psycho video
+<h3>24fps Psycho videos</h3>
 
 Palais de Tokyo | 9-11 April 2016
 

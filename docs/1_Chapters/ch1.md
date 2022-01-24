@@ -2,7 +2,7 @@
 
 <h1><a href="#godot-machine">The Godot Machine</a> and <a href="#ant-ballet">Ant Ballet</a></h1>
 
-  
+
 ----
 
 ## Overview
@@ -11,7 +11,9 @@
 
 ----
 
-### Ant Ballet: videos
+## Project videos
+
+<h3>Ant Ballet: videos</h3>
 
 <h4>Ant Ballet: project video</h4>
 
@@ -29,7 +31,7 @@ BBC News report by Dougal Shaw, © BBC News 2012.
 
 
 ----
-  
+
 ## Introduction
 
 This chapter addresses the *diagramming* and *framing* processes that underpin my design practice. It draws upon Gregory Bateson’s *Theory of Play and Fantasy*, and Barry and Born’s work in defining sci-art practice, and refers to two projects: *Ant Ballet* and the *Godot Machine*. These projects were initiated before the start of my PhD (with iterations of both forming part of my MArch portfolio) but continued into the first year of doctoral research, and were central to the development of later work.[^1] In particular, it was in the production of these pieces that diagramming first entered my practice, with both works taking the form of machines that manifested specific diagrammatic systems.

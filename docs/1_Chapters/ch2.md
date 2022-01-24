@@ -10,7 +10,9 @@
 
 ----
 
-### Nybble videos
+## Project videos
+
+<h3>Nybble videos</h3>
 
 V&A Museum | 21-22 September 2013
 
@@ -37,7 +39,7 @@ Sunday 22 September 2013
 
 ----
 
-## Scriptych videos
+<h3>Scriptych videos</h3>
 
 Opéra Garnier de Paris | 17-18 June 2016
 
