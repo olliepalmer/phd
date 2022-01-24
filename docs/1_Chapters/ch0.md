@@ -393,7 +393,7 @@ In the execution of a project, the expression of form is fundamental to the way 
 
 <figure>
 <a name="figure0-3"></a>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/e-jSSTGqU5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div style="padding:56% 0 0 0;position:relative;"><iframe width="560" height="315" src="https://www.youtube.com/embed/e-jSSTGqU5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
   <figcaption>Figure 0-3:  Tom Sachs’ Space Camp. Left-hand images show training routing of the studio / expedition life; right-hand shows bricolage astronaut suit being mounted piece by piece.<br>
   Neistat, Van. Space Camp. By Tom Sachs. New York, 2012.<br>
   Note, in the PDF version of the thesis, this figure is a series of stills from the film.</figcaption>
@@ -419,7 +419,10 @@ Two practitioners who use the absurd as a medium successfully are artist and arc
 
 <figure>
   <a name="figure0-4"></a>
-  <iframe src="https://player.vimeo.com/video/143228445?h=eb3843b1bb&color=d8d5d4" width="640" height="468" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+  <div style="padding:73.13% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/143228445?h=eb3843b1bb&color=d8d5d4" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/143228445">Francis Alÿs El ensayo (The Rehearsal)</a> from <a href="https://vimeo.com/francisalysvideos">Francis Al&yuml;s</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+  
   <figcaption>Figure 0-4: Alÿs’ Sisyphean Volkswagen Beetle consistently fails to reach the top of the hill.<br>
   <a href="https://vimeo.com/143228445">Francis Alÿs El ensayo (The Rehearsal)</a> from <a href="https://vimeo.com/francisalysvideos">Francis Al&yuml;s</a> on <a href="https://vimeo.com">Vimeo</a>.<br>
   Alÿs, Francis. El Ensayo. Video, 1999-2001.<br>
