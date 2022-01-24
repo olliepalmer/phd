@@ -2,7 +2,6 @@
 
 <h1><a href="#godot-machine">The Godot Machine</a> and <a href="#ant-ballet">Ant Ballet</a></h1>
 
-<div class="intro">
   
 ----
 
@@ -16,21 +15,20 @@
 
 <h4>Ant Ballet: project video</h4>
 
-<iframe src="http://player.vimeo.com/video/216712443" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="https://player.vimeo.com/video/216712443?h=18d30017aa" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Video included for reference only. Project does not form part of portfolio submission.
 
 
 <h4>Ant Ballet: BBC News article</h4>
 
-<iframe src="http://player.vimeo.com/video/216712526" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="https://player.vimeo.com/video/216712526?h=ad54052794" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Ant Ballet as exhibited at FutureEverything Festival, Museum of Science and Industry, Manchester in 2012.
 BBC News report by Dougal Shaw, © BBC News 2012.
 
 
 ----
-</div>
   
 ## Introduction
 
