@@ -29,6 +29,9 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: "#"
+plugins:
+  - git-revision-date
+
 
 extra_css:
   - stylesheets/extra.css
