@@ -1,5 +1,15 @@
 # FAQs
 
+### Q: What type of thesis is this?
+
+This is a doctoral (PhD) thesis completed at the Bartlett School of Architecture, University College London. Specifically it's a [PhD in Architectural Design](https://www.ucl.ac.uk/bartlett/architecture/programmes/mphilphd/mphil-phd-architectural-design-history-theory) (also known as a PhD by Design) which:
+
+> [...] encourages the development of architectural research through the combination of designing and writing. Students present a thesis consisting of a project and a text that share a research theme and a productive relationship. The project may be drawn, filmed, built, or make use of whatever media is appropriate.
+
+-- [Bartlett PhD website](https://www.ucl.ac.uk/bartlett/architecture/programmes/mphilphd/mphil-phd-architectural-design-history-theory)
+
+In my case, the thesis presents seven projects across four chapters, including film, performance, installation and graphic design.
+
 ### Q: Why is this thesis online?
 
 Because I believe that scholarly work, particularly work that has been publicly funded, should be freely available. The thesis exists in a PDF, but that isn't indexable by search engines, and you have to download a hefty PDF file to look through that doesn't load well on mobile devices. This site is a lighter-weight way to read my thesis.
