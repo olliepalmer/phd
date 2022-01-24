@@ -29,21 +29,6 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: "#"
-extra:
-  social:
-    - icon: fontawesome/bolt
-      link: https://olliepalmer.com
-      name: www.olliepalmer.com
-    - icon: fontawesome/envelope
-      link: mailto:thesis@olliepalmer.com?
-      name: send me an email
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/_olliepalmer
-      name: _olliepalmer on twitter
-    - icon: fontawesome/brands/github
-      link: https://github.com/olliepalmer
-      name: olliepalmer on github
-
 
 extra_css:
   - stylesheets/extra.css
