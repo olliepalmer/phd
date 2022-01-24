@@ -23,6 +23,7 @@ theme:
     features:
         - navigation.instant
         - navigation.tracking
+        - navigation.tabs
         - navigation.sections
         - navigation.top
         - toc.integrate
@@ -33,3 +34,4 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+copyright: Copyright &copy; 2017 - 2022 Ollie Palmer
