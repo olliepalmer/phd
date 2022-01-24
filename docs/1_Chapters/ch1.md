@@ -15,14 +15,14 @@
 
 <h4>Ant Ballet: project video</h4>
 
-<iframe src="https://player.vimeo.com/video/216712443?h=18d30017aa" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/216712443?h=18d30017aa&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ant-ballet-original (thesis submission)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 Video included for reference only. Project does not form part of portfolio submission.
 
 
 <h4>Ant Ballet: BBC News article</h4>
 
-<iframe src="https://player.vimeo.com/video/216712526?h=ad54052794" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div style="padding:55.94% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/216712526?h=ad54052794&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="antballet-bbcnews (thesis submission)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 Ant Ballet as exhibited at FutureEverything Festival, Museum of Science and Industry, Manchester in 2012.
 BBC News report by Dougal Shaw, © BBC News 2012.
