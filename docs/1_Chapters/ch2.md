@@ -16,19 +16,24 @@ V&A Museum | 21-22 September 2013
 
 <h4>Nybble: project video</h4>
 
-<iframe src="http://player.vimeo.com/video/216712681" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/216712681?h=a6e8405859&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="nybble_performance (thesis submission)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <h4>Nybble: code base</h4>
 
-<iframe src="http://player.vimeo.com/video/216712602" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/216712602?h=76408f8682&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="nybble_code (thesis submission)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <h4>Nybble: timelapse 1</h4>
 
-<iframe src="http://player.vimeo.com/video/216712752" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/216712752?h=66b0934112&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="nybble_timelapse_sat (thesis submission)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+Saturday 21 September 2013
 
 <h4>Nybble: timelapse 2</h4>
 
-<iframe src="http://player.vimeo.com/video/216712824" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/216712824?h=42e7cb0dc4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="nybble_timelapse_sun (thesis submission)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+Sunday 22 September 2013
+
 
 ----
 
@@ -38,11 +43,11 @@ Opéra Garnier de Paris | 17-18 June 2016
 
 <h3>Scriptych: project video</h3>
 
-<iframe src="http://player.vimeo.com/video/243660552" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<div style="padding:50% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/243660552?h=3d764f9368&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Scriptych performance | Opera Garnier de Paris"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <h3>Scriptych: making of (INA)</h3>
 
-<iframe src="http://player.vimeo.com/video/216794684" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/216794684?h=054c06de64&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="scriptych_ina (thesis submission)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 Video by Institut national d'Audiovisuel (INA)
 © INA 2016
