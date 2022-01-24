@@ -37,3 +37,7 @@ Copyright of third-party images remains with their author; images are only repro
 ### Q: You wrote the thesis in 2017. Why's it taken so long to put it online?
 
 I wanted to put this online ages ago, but life got in the way. In between submitting my thesis and putting it online, I completed a transatlantic move, renovated a house, had two children, several new jobs, and a few more other things that have kept me busy. All of which means by the time you read this it will be totally irrelevant.
+
+### Q: Why isn't the code for each project online?
+
+Most of my work is experimental, and the code to make each project work is held together with the digital equivalent of duct tape. Maintaining versions of software made years ago on various different computers is a nightmare! But the projects are described here in sufficient detail that anyone technically-minded enough might be able to do a better job of recreating them, if they were so inclined. 
