@@ -422,7 +422,7 @@ Two practitioners who use the absurd as a medium successfully are artist and arc
 
   <div style="padding:73.13% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/143228445?h=eb3843b1bb&color=d8d5d4" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/143228445">Francis Alÿs El ensayo (The Rehearsal)</a> from <a href="https://vimeo.com/francisalysvideos">Francis Al&yuml;s</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-  
+
   <figcaption>Figure 0-4: Alÿs’ Sisyphean Volkswagen Beetle consistently fails to reach the top of the hill.<br>
   <a href="https://vimeo.com/143228445">Francis Alÿs El ensayo (The Rehearsal)</a> from <a href="https://vimeo.com/francisalysvideos">Francis Al&yuml;s</a> on <a href="https://vimeo.com">Vimeo</a>.<br>
   Alÿs, Francis. El Ensayo. Video, 1999-2001.<br>
@@ -545,9 +545,7 @@ However, I wish for this study into scripting architectural performances to diff
 [^6]: Ibid., 30.
 
 [^7]: Google’s original crawler was written in Python. Sergey Brin and Lawrence Page, ‘The Anatomy of a Large-Scale Hypertextual Web Search Engine’, *Computer Networks and ISDN Systems*, Proceedings of the Seventh International World Wide Web Conference, 30, no. 1–7 (April 1998): 113, doi:10.1016/S0169-7552(98)00110-X; Larry Page, ‘Stanford BackRub Web Project’, 10 December 1997, https://web.archive.org/web/19971210065425/backrub.stanford.edu/backrub.html.
-
 Ruby was the original programming language for Twitter. Vijay Dev et al., ‘Getting Started with Rails — Ruby on Rails Guides.webarchive’, accessed 31 March 2017, http://guides.rubyonrails.org/getting\_started.html.
-
 JavaScript is a popular scripting framework for a wide range of web-based applications, from Google Analytics’ measuring engagement on individual web pages, to loading external typefaces, animating content, and more. The website on the DVD accompanying this thesis, for example, uses JavaScript.
 
 [^8]: Martín Abadi et al., *TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems*, 2015, http://tensorflow.org/.
@@ -657,8 +655,7 @@ JavaScript is a popular scripting framework for a wide range of web-based applic
 [^60]:  Greg Lynn’s essay *Folding in Architecture* grounds his use of ‘folding’, a process of form-generation in reference to Gilles Deleuze, Mark Wigley and Robert Venturi. Though the essay itself makes curiously little reference to digital technologies, it is widely regarded as a precursor to many contemporary parametric principles. See Greg Lynn, ‘Folding in Architecture (1993)’, in *The Digital Turn in Architecture 1992-2012*, ed. Mario Carpo, AD Reader (Chichester: Wiley, 2013), 28–47. For a lineage of practitioners adopting parametric software, see Carpo, *The Digital Turn in Architecture 1992-2012*; Carpo, ‘Parametric Notations’.
 
 [^61]:  Matthew Poole and Manuel Shvartzberg, ‘Introduction’, in *The Politics of Parametricism: Digital Technologies in Architecture*, ed. Matthew Poole and Manuel Shvartzberg (London ; New York: Bloomsbury Academic, 2015), 1.
-
-For the sake of clarity in this thesis, Parametricism will be capitalised, whereas parametric design
+For the sake of clarity in this thesis, Parametricism will be capitalised, whereas parametric design will not.
 
 [^62]:  Patrik Schumacher, ‘Parametricism: A New Global Style for Architecture and Urban Design’, in *The Digital Turn in Architecture 1992-2012*, ed. Mario Carpo, AD Reader. (Chichester: Wiley, 2013), 244.
 
@@ -719,7 +716,6 @@ For the sake of clarity in this thesis, Parametricism will be capitalised, where
 [^90]:  Ibid., 342.
 
 [^91]:  Tomkins’ writings link ideology to personality, tracing ‘polarity between the humanistic and normative orientations, between left and right, in fields as diverse as theology, metaphysics, the foundations of mathematics, the theory of aesthetics, political theory, epistemology, theory of perception, theory of value, theory of childrearing, theory of psychotherapy, and the theories of personality and personality testing.’ Ibid., 355.
-
 One of the central claims in his ideology research relates back to the earlier theory about the mechanisms behind script organisation; being loosely clustered, this necessarily created amplification effects, and increases an ideological polarity.
 
 [^92]:  Ibid., 356.
@@ -775,9 +771,7 @@ One of the central claims in his ideology research relates back to the earlier t
 [^117]:  Physical, mental ant abstract (possessive) transfers are encoded as PTRANS, MTRANS and ATRANS respectively; moments for decision making are encoded as MBUILD.
 
 [^118]:  One interesting avenue for script research may lie in De Hogeweyk village in Amsterdam, a care home designed for people with dementia. Although not directly employing the term ‘script’ (yet using multiple other theatrical terms, such as ‘stage’ and ‘backstage’), the facility employs many elements that facilitate scripted interactions within its care-giving. Organised as a small, enclosed village in which residents are free to wander around, and fall into scripted behaviour patterns (e.g. buying food in a supermarket, going to the pub or theatre, attending a flower-fair).
-
 Staff do not wear care uniforms, but instead play roles that enable them to subtly provide care for residents: some work as waiters in the restaurants, others may appear as a friend who is cooking dinner. This enables the patients to fall into scripted behavioural patterns, social interactions. The particular living arrangements (houses and social interactions) are organised by socioeconomic groups, so that scripts that the patient is accustomed to are those most naturally occurring.
-
 Sally Stewart, ‘Redesigning Domesticity: Creating Homes for the Elderly’, *Architectural Design* 84, no. 2 (2014): 80–87; Demos et al., ‘The Commission on Residential Care’ (Demos, 2014), 162–63; Jeremy Story Carter, ‘Dementia Village Designed for Dignity’, Radio broadcast, *Blueprint for Living* (ABC RN, 3 October 2015), http://www.abc.net.au/radionational/programs/blueprintforliving/designing-for-dementia/6805070; Suraj Patel, ‘Dementia Patients in Dutch Village given “Alternative Reality”’, *Dementia Patients in Dutch Village given ‘Alternative Reality’* (BBC News, 16 December 2012), http://www.bbc.com/news/health-20727157.
 
 [^119]:  Minsky, Schank and Abelson, and Abelson all acknowledge each others’ work. Minsky, ‘A Framework for Representing Knowledge’, 28; Abelson, ‘Psychological Status of the Script Concept.’, 715; Schank and Abelson, *Scripts Plans Goals and Understanding: An Inquiry into Human Knowledge Structures*, 8,10.
@@ -801,7 +795,6 @@ Sally Stewart, ‘Redesigning Domesticity: Creating Homes for the Elderly’, *A
 [^128]:  Samuel Beckett, ‘Waiting for Godot (1956)’, in *The Complete Dramatic Works*, \[^New edition\] (Faber and Faber, 2006), 19.
 
 [^129]:  Eugene Ionesco, as quoted in M. Esslin, *The Theatre of the Absurd* (Great Britain: Cox and Wyman Limited, Pelican Books, 1968), p. 24. Note that Ionesco is referring to absurd<sub>\[^b\]</sub>.
-
 Note that this sense of the absurd<sub>b</sub> was likely not rootless in the authors and playwrights who are identified with the movement, whose world-views were undoubtedly shaped by their experiences: Algerian-born Camus published The Myth of Sisyphus in a Nazi-occipied Paris; Beckett was a member of the French Resistance, and Ionesco had witnessed the rise of a fascist regime in Romania.
 
 [^130]:  Felix Belair, ‘Albert Camus Wins Nobel Letters Prize’, *New York Times*, 18 October 1957.
@@ -947,7 +940,6 @@ Note that this sense of the absurd<sub>b</sub> was likely not rootless in the au
 [^200]:  Deleuze, ‘Postscript on the Societies of Control’, 6.
 
 [^201]:  Google, Facebook, Apple, LinkedIn, Twitter, and many other influential technology companies are all sited in the same part of California.
-
 This phenomenon is widely known: my computer’s built-in dictionary offers the following sample phrase for the term *inexorable*: ‘*the seemingly inexorable march of new technology*’.
 
 [^202]:  Colin Gordon, ‘Government Rationality: An Introduction’, in *The Foucault Effect: Studies in Governmentality*, ed. Graham Burchell, Colin Gordon, and Peter Miller (University of Chicago Press, 1991), 2.
@@ -1054,7 +1046,6 @@ Note: This paper will not discuss the role of science as a technology, but an in
 [^252]:  Heath Bunting, *Border Xing Guide*, Guidebook, website, database, 2003 2002, http://www2.tate.org.uk/intermediaart/borderxing.shtm.
 
 [^253]:  Heath Bunting, *A Terrorist*, Map, 24 March 2009, Tate, London.
-
 In 2014 I attended a workshop run by Bunting at D21 gallery in Lepzig. Several of the ideas learnt there have found their way into my subsequent work within this thesis. Heath Bunting and WaiWai, ‘Search Routines: Stories of Databases’ (Workshop, D21 Gallery, Leipzig, 23 October 2014), http://rhizome.org/community/14616/.
 
 [^254]:  Van Neistat, *A Space Program*, Documentary, Adventure, Drama, (2016).
