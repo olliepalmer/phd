@@ -674,7 +674,6 @@ Samuel Beckett, ‘Waiting for Godot (1956)’, in *The Complete Dramatic Works*
 [^50]: Cristian Danescu-Niculescu-Mizil and Lillian Lee, ‘Chameleons in Imagined Conversations: A New Approach to Understanding Coordination of Linguistic Style in Dialogs.’, in *Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics, ACL 2011*, 2011. Available from https://www.cs.cornell.edu/~cristian/Cornell\_Movie-Dialogs\_Corpus.html.
 
 [^51]: The screening process for words ensured they had appeared within the movie dialogues corpus at least five times.
-
 As a side note, part of the initial work training this new library included cleaning up thousands of lines of codified, tokenised, Hollywood film dialogue. As part of the process, I alphabetised the entire corpus of dialogue lines. Reading through the data, I was struck by how oddly poetic these disparate statements were, connected only by their appearance in one of many films, and the first letter (and often word) of the line. I used several of the lines from this data to create a series of Oulipian-style poems. One of these, entitled ‘*48 lines about love from Hollywood films, alphabetically ordered*’, can be found in appendices.
 
 [^52]: Kevin Schlei, *GyrOSC*, version 2.4.2, iOS (Bit Shape Software, LLC., 2010), http://www.bitshapesoftware.com/instruments/gyrosc/. OSC stands for Open Sound Control. It is a lightweight protocol for streaming live messages across a network. Operationally, it is similar to MIDI, but offers a great deal of flexibility and is well documented.

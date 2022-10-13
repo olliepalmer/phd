@@ -713,17 +713,17 @@
 
 - Van Nederveen, G. A., and F. P. Tolman. ‘Modelling Multiple Views on Buildings’. *Automation in Construction* 1, no. 3 (1992): 215–224.
 
-- ‘Vision API - Image Content Analysis’. *Google Cloud Platform*, 2 December 2015. https://cloud.google.com/vision/.
+- ‘Vision API - Image Content Analysis’. *Google Cloud Platform*, 2 December 2015. [https://cloud.google.com/vision/]([https://cloud.google.com/vision/).
 
 - Vonnegut, Kurt. *The Sirens of Titan*. New York: Delacorte Press, 1959.
 
 - Vorhis Key, S. E., and T. C. Baker. ‘Specificity of Laboratory Trail Following by the Argentine Ant, Iridomyrmex Humilis (Mayr), to (Z)-9-Hexadecenal, Analogs, and Gaster Extract’. *Journal of Chemical Ecology* 8, no. 7 (1982): 1057–1063.
 
-- Voytek. ‘Mapping San Francisco, New York, and the World with Uber’. *Uber Global*, 16 May 2011. https://newsroom.uber.com/uberdata-mapping-san-francisco-new-york-and-the-world/.
+- Voytek. ‘Mapping San Francisco, New York, and the World with Uber’. *Uber Global*, 16 May 2011. [https://newsroom.uber.com/uberdata-mapping-san-francisco-new-york-and-the-world/](https://newsroom.uber.com/uberdata-mapping-san-francisco-new-york-and-the-world/).
 
-- ———. ‘Rides of Glory | Uber Blog’. *Uber Blog*, 27 August 2014. https://web.archive.org/web/20140827195715/http://blog.uber.com/ridesofglory.
+- ———. ‘Rides of Glory | Uber Blog’. *Uber Blog*, 27 August 2014. [https://web.archive.org/web/20140827195715/http://blog.uber.com/ridesofglory](https://web.archive.org/web/20140827195715/http://blog.uber.com/ridesofglory).
 
-- Wall, Aaron. ‘History of Search Engines: From 1945 to Google Today’. *Search Engine History*. Accessed 7 May 2017. http://www.searchenginehistory.com/.
+- Wall, Aaron. ‘History of Search Engines: From 1945 to Google Today’. *Search Engine History*. Accessed 7 May 2017. [http://www.searchenginehistory.com/](http://www.searchenginehistory.com/).
 
 - Wardrip-Fruin, Noah, and Nick Montfort, eds. *The New Media Reader*. Cambridge, MA: MIT Press, 2003.
 
@@ -741,6 +741,6 @@
 
 - Zdebik, Jakub. *Deleuze and the Diagram: Aesthetic Threads in Visual Organization*. Continuum Studies in Continental Philosophy. London: Continuum, 2012.
 
-- Zipern, Andrew. ‘News Watch: A Quick Way to Search For Images on the Web’. *The New York Times*, 12 July 2001, sec. Technology. http://www.nytimes.com/2001/07/12/technology/news-watch-a-quick-way-to-search-for-images-on-the-web.html.
+- Zipern, Andrew. ‘News Watch: A Quick Way to Search For Images on the Web’. *The New York Times*, 12 July 2001, sec. Technology. [http://www.nytimes.com/2001/07/12/technology/news-watch-a-quick-way-to-search-for-images-on-the-web.html](http://www.nytimes.com/2001/07/12/technology/news-watch-a-quick-way-to-search-for-images-on-the-web.html).
 
-- Zolfagharifard, Ellie. ‘Could Robots Turn People into PETS? Elon Musk Claims Artificial Intelligence Will Treat Humans like “Labradors”’. *Mail Online*, 25 March 2015. http://www.dailymail.co.uk/sciencetech/article-3011302/Could-robots-turn-people-PETS-Elon-Musk-claims-artificial-intelligence-treat-humans-like-Labradors.html.
+- Zolfagharifard, Ellie. ‘Could Robots Turn People into PETS? Elon Musk Claims Artificial Intelligence Will Treat Humans like “Labradors”’. *Mail Online*, 25 March 2015. [http://www.dailymail.co.uk/sciencetech/article-3011302/Could-robots-turn-people-PETS-Elon-Musk-claims-artificial-intelligence-treat-humans-like-Labradors.html](http://www.dailymail.co.uk/sciencetech/article-3011302/Could-robots-turn-people-PETS-Elon-Musk-claims-artificial-intelligence-treat-humans-like-Labradors.html).

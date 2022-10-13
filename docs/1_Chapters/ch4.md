@@ -369,7 +369,6 @@ Similarly, whilst shooting W as his multitude of characters, a ‘modular’ app
 [^40]: I had calculated the camera rig dimensions through my earlier measurements of camera angles. However, on the day of shooting, there was an error with one of the BlackMagic cameras, so I had to create a similar rig for two Canon cameras and a pair of tripods at the last minute; the mis-alignation can be seen in the final film.
 
 [^41]: Adobe Systems Incorporated, *Premiere Pro*, version CC 2015.2, Mac OS X (Adobe Systems Incorporated, 2016).
-
 One feature of my workflow that evolved, rather than being planned, was a result of the high internet speed I had access to whilst editing in Korea. The studio I worked from (at SeMA’s Nanji artist residency) had an internet connection with over 100 Megabyte per second upload speeds. When editing films, I usually ask someone else to review my timelines – in most instances, this is a colleague who is not involved directly with the project. In Nanji, I consulted Abi Palmer (see also *Nybble* in chapter 2); she was based in London. I was editing the film at night, exporting sections of film from Premiere Pro, uploading clips as private videos to YouTube, and sending her links to the videos. The process was highly efficient. In a number of instances, I made edits we discussed whilst on the phone, and was able to show her the result in a number of seconds.
 
 [^42]: Processing Foundation, *Processing 2.2.1*, version 2.2.1, Mac OS X (Processing Foundation, 2014), http://www.processing.org.

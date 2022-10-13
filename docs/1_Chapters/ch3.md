@@ -272,9 +272,7 @@ I do not feel as though I fulfilled the original brief I set myself with this pr
 [^28]: Ibid.
 
 [^29]: Alfred Korzybski, *Science and Sanity: An Introduction to Non-Aristotlian Systems and General Semantics*, Fifth edition, second printing (Brooklyn, N.Y., USA: International Non-Aristotelian Library, Institute of General Semantics, 2000), 58.
-
 Bateson invokes Alfred Korzybski’s dictum *the map is not the territory*, an argument that there is a distinction between the world as it exists and the human perception of it due to the limitations of sensory perception (Gregory Bateson, ‘Form, Substance and Difference’, in *Steps to an Ecology of Mind: Collected Essays in Anthropology, Psychiatry, Evolution, and Epistemology* (Jason Aronson Inc, 1987), 455.). Korbyski originally stated ‘A map is not the territory it represents, but, if correct, it has a similar structure to the territory, which accounts for its usefulness.’
-
 This is an idea that is echoed multiple times in the work of Jorge Luis Borges, perhaps most famously in the short fictional story *On Exactitude in Science*, in which a 1:1 scale map of an empire was created atop the empire itself. Later generations discovered ‘that vast Map was Useless’, and left it to ruin in the West of the empire. Jorge Luis Borges, ‘On the Exactitude of Science’, in *Collected Fictions*, trans. Andrew Hurley (New York: Penguin, 1998), 325.
 
 [^30]: Travis Kalanick, ‘Uber and Europe: Partnering to Enable City Transformation’ (Lecture, Digital-Life-Design (DLD), Munich, Germany, 18 January 2015), https://www.youtube.com/watch?v=iayagHygV0Q.
@@ -282,9 +280,7 @@ This is an idea that is echoed multiple times in the work of Jorge Luis Borges, 
 [^31]: The company uses a tool the Guardian titles ‘Heaven – the Uber-eye view of all the cars active in the city’ to monitor the location of all of its active drivers. (Knight, ‘How Uber Conquered London’.) Uber themselves call this the ‘God View’ (see Voytek, ‘Mapping San Francisco, New York, and the World with Uber’, *Uber Global*, 16 May 2011, https://newsroom.uber.com/uberdata-mapping-san-francisco-new-york-and-the-world/; Erick Schonfeld, ‘Uber CEO On His “Official” NYC Launch: “Congestion Is A Bitch” (Video And Heatmaps)’, *TechCrunch*, 4 May 2011, http://social.techcrunch.com/2011/05/04/uber-screenshots-video/.)
 
 [^32]: In addition to the continuous tracking of users’ location whilst using the app, the Uber terms and conditions for UK-based customers state:
-
 > However, by providing User Content to Uber, you grant Uber a worldwide, perpetual, irrevocable, transferable, royalty-free license, with the right to sublicense, to use, copy, modify, create derivative works of, distribute, publicly display, publicly perform, and otherwise exploit in any manner such User Content in all formats and distribution channels now known or hereafter devised (including in connection with the Services and Uber’s business and on third-party sites and services), without further notice to or consent from you, and without the requirement of payment to you or any other person or entity.
-
 Uber, ‘Legal: Terms and Conditions (GB)’, Company website, *Uber*, (23 August 2016), https://www.uber.com/legal/terms/gb/.
 
 [^33]: Knight, ‘How Uber Conquered London’; Voytek, ‘Mapping San Francisco, New York, and the World with Uber’. In the latest version of the app, a user cannot opt-in to sharing their location only when the app is in use; they must either *always* or *never* enable location services.
@@ -296,9 +292,7 @@ Uber, ‘Legal: Terms and Conditions (GB)’, Company website, *Uber*, (23 Augus
 [^36]: Knight, ‘How Uber Conquered London’. This is also mentioned on Uber’s blog (Uber Newsroom, ‘5-Year Anniversary Remarks from Uber CEO Travis Kalanick’, Corporate blog, *Uber Global*, (3 June 2015), https://newsroom.uber.com/5-years-travis-kalanick/.) as well as in Kalanick’s keynote speech Kalanick, ‘Uber and Europe: Partnering to Enable City Transformation’.
 
 [^37]: For more on the Perpetual Trip concept, see Kalanick, ‘Uber and Europe: Partnering to Enable City Transformation’. The idea of this kind of fluidity is aligned with neoliberal market ideals; Spencer discusses (one of the originators of neoliberal thought) Michael Polayni’s discussion of fluids as a basis for organisational structures (Douglas Spencer, *The Architecture of Neoliberalism: How Contemporary Architecture Became an Instrument of Control and Compliance* (Bloomsbury Publishing, 2016), 28–29.), whilst for Schumacher fluidity is a central tenet of his organisational and market ideals:
-
 > We might think of liquids in motion, structured by radiating waves, laminal flows and spiralling eddies. Swarms have also served as paradigmatic analogues for the field concept: swarms of buildings that drift across the landscape. There are no platonic, discrete figures or zones with sharp outlines. Within fields only regional field qualities matter: biases, drifts, gradients, and perhaps conspicuous singularities such as radiating centres. Deformation no longer spells the breakdown of order, but the inscription of information. Orientation in a complex, differentiated field affords navigation along vectors of transformation. The contemporary condition of arriving in a metropolis for the first time, without prior hotel arrangements and without a map, might instigate this kind of field-navigation. Imagine there are no more landmarks to hold on to, no axes to follow, no more boundaries to cross.
-
 Patrik Schumacher, ‘Parametricism: A New Global Style’, in *Digital Cities AD*, ed. Prof Neil Leach, 4th ed., vol. 79, Architectural Design 4 (Wiley, 2009), 14. Schumacher also copies whole sections of this quote verbatim into Patrik Schumacher, *The Autopoiesis of Architecture. Vol. 1: A New Framework for Architecture* (Chichester: Wiley, 2011), 421–23.
 
 [^38]: The theme is similar to the lack of control displayed in the Godot Machine of chapter 1. Note that Nathan Moore also discusses the idea of the continual movement of bodies as a mode of examining power and control (and invokes Gregory Bateson) in Diagramming Control. Nathan Moore, ‘Diagramming Control’, in *Relational Architectural Ecologies: Architecture, Nature and Subjectivity*, ed. Peg Rawes, 1st ed. (Abingdon, Oxon: Routledge, 2013), 58.
@@ -354,7 +348,6 @@ Patrik Schumacher, ‘Parametricism: A New Global Style’, in *Digital Cities A
 [^63]: Some film-makers have experimented with different frame-rates; most notably Peter Jackson with his recent interpretation of *The Hobbit*, which was shot at 48fps. Peter Jackson, *The Hobbit: An Unexpected Journey*, Adventure, Fantasy, (2012).
 
 [^64]: The recent advent of digital film and its associated compression has all but eliminated the consistent bit-rate. For the sake of reducing file sizes, modern digital film formats such as *h.264* or *.avi* often only encode a keyframe as a complete image, and *changes* from one frame to the next, rather than a series of individual frames. This means that unlike their analogue equivalents, where every frame occupies the same amount of space, compressed digital films rarely have a consistent *bitrate*. Whilst it is possible to encode films as a stream of images, the conventions of lossy image compression formats, such as JPEG, mean that each image itself has a different file size.
-
 Within digital cinema photography, many of the professional cameras, manufactured by companies such as RED and BlackMagic, offer the option to shoot film as a series of uncompressed RAW images; this gives film-makers greater flexibility to make edits in post-production, and is a digital equivalent of shooting on celluloid.
 
 [^65]: Marvin Minsky, ‘Steps toward Artificial Intelligence’, *Proceedings of the IRE* 49, no. 1 (January 1961): 11, doi:10.1109/JRPROC.1961.287775.
@@ -362,7 +355,6 @@ Within digital cinema photography, many of the professional cameras, manufacture
 [^66]: This was presented to an audience at the launch of the Pavillon residency programme at the Palais de Tokyo’s *Tokyo Arts Club* evening on 25<sup>th</sup> November 2015.
 
 [^67]: CSV files are a lightweight means to store arrays of information, akin to a spreadsheet. They can be converted to numerous data types, including databases and spreadsheets. Data is stored in plain text format, with each value separated by a comma and a new line per entry.
-
 Processing Foundation, *Processing 2.2.1*, version 2.2.1, Mac OS X (Processing Foundation, 2014), http://www.processing.org.
 
 [^68]: Alfred Hitchcock, *Psycho*, Horror, Mystery, Thriller, (1960).

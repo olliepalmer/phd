@@ -487,8 +487,7 @@ This thesis presents a combination of theoretical and practical knowledge about 
 
 Where possible, I have included source code from my projects in the appendix. Whilst I realise that the reader is unlikely to be able to run their own version of my project from these sources (due to the nature of hardware, software and library dependencies) I hope that the provision of code and schematics aids their comprehension of the project.
 
-Thesis presentation
-===================
+## Thesis presentation
 
 ### Structure
 

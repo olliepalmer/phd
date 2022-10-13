@@ -233,7 +233,6 @@ This argument is exemplified in the Jorge Luis Borges short story *On Exactitude
 [^21]: Lucas would go on to produce successful franchises such as Star Wars and Indiana Jones. Note that in THX-1138, the character does eventually find others; the film may have been a little tedious otherwise. George Lucas, *THX 1138*, Crime, Drama, Sci-Fi, (1971).
 
 [^22]: George Orwell, *Nineteen Eighty-Four* (London: Penguin Books, 2008). For more dystopian sci-fi, see for example, Yevgeny Zamatin’s novel *We* (1921/4), Ayn Rand’s *Anthem* (1937), films such as *Metropolis* (1927), *Logan’s Run* (1976), *Alphaville* (1965).
-
 Yevgeny Zamyatin, *We*, trans. Bernard Guilbert Guerney (London: Cape, 1970); Ayn Rand, *Anthem* (Caldwell, Idaho: Caxton Printers, ltd., 1969); Michael Anderson, *Logan’s Run*, Action, Sci-Fi, (1976).
 
 [^23]: Albert Camus, *The Myth of Sisyphus*, trans. Justin O’Brien, 12, from the 1955 translation ed. (London, England: Penguin, 1955).
@@ -249,7 +248,6 @@ Yevgeny Zamyatin, *We*, trans. Bernard Guilbert Guerney (London: Cape, 1970); Ay
 [^28]: *Ant Ballet* had the working title of *Physical Virus* for several months.
 
 [^29]: Examples include the residents of the town in Ionesco’s *Rhinoceros*, who one by one turn into rhinoceroses, against their will, and the two protagonists in Beckett’s *Waiting for Godot*, who are continually waiting for a person they do not know for equally unclear reasons.
-
 Eugène Ionesco, *Rhinoceros*, trans. Martin Crimp (Faber & Faber, 2007); Beckett, *Waiting for Godot: A Tragicomedy in Two Acts*.
 
 [^30]: Ant pheromones are used for conveying several types of information: sex, aggregation, dispersal, alarm, territory and surface pheromones all exist in various ant species. Sex pheromones bring ants together for the purpose of mating. (Brian D. Jackson and E. David Morgan, ‘Insect Chemical Communication: Pheromones and Exocrine Glands of Ants’, *Chemoecology* 4, no. 3 (1993): 126, doi:10.1007/BF01256548.) Aggregation pheromones simply ‘cause members of the same species to aggregate in a particular area \[...\] for mating or to a food source or a suitable habitat.’ (Ibid., 127.) Dispersal pheromones, also known as spacing pheromones, and used to regulate or prevent overcrowding of food sources, etc. (Ibid.) Surface pheromones, also known as cuticular hydrocarbons, these pheromones exist on ants’ body surfaces and allow them to identify which colony other ants belong to. This is particularly important for food exchange. (Ibid., 130.)
@@ -279,17 +277,11 @@ Eugène Ionesco, *Rhinoceros*, trans. Martin Crimp (Faber & Faber, 2007); Becket
 [^42]: See Andrew Barry, Georgina Born, and Marilyn Strathern, ‘Interdisciplinarity and Society: A Critical Comparative Study: Full Research Report’ (Swindon: ESRC, 2007); Andrew Barry, Georgina Born, and Gisa Weszkalnys, ‘Logics of Interdisciplinarity’, *Economy and Society* 37, no. 1 (February 2008): 20–49, doi:10.1080/03085140701760841; Georgina Born and Andrew Barry, ‘Art-Science’, *Journal of Cultural Economy* 3, no. 1 (2010): 103–19, doi:10.1080/17530351003617610; Andrew Barry and Georgina Born, *Interdisciplinarity: Reconfigurations of the Social and Natural Sciences*, Culture, Economy and the Social (Taylor & Francis, 2013).
 
 [^43]: Born and Barry, ‘Art-Science’, 103.
-
 Sci-art is known by numerous monikers: the Wellcome Trust variously use *sciart* and *sci-art*; Born and Barry use *art-science*; Weszkalnys uses *science-art*. The terms all have rough equivalence. For the sakes of clarity, I will use *sci-art* unless quoting from a source who uses a different term.
-
-Sci-art is known by numerous monikers: the Wellcome Trust variously use sciart and sci-art; Born and Barry use art-science;
 
 [^44]: Ibid., 108.; see also Paul Glinkowski and Anne Bamford, *Insight and Exchange: An Evaluation of the Wellcome Trust’s Sciart Programme* (Wellcome Trust London, 2009), http://www.wellcome.ac.uk/stellent/groups/corporatesite/@msh\_grants/documents/web\_document/wtx057228.pdf.
 
 [^45]: C. P. Snow, ‘The Rede Lecture, 1959’, *The Two Cultures: And a Second Look (London: Cambridge University Press, 1964)*, 1964.
-
-The Two Cultures is referred to by several recent reports on sci-art: see
-
 For *The Two Cultures* in popular culture, see for example, BBC Radio 4’s coverage of Snow. Melvyn Bragg, ‘The Value of Culture: Two Cultures’, *BBC* (London, England: BBC Radio 4, 2 January 2013), http://www.bbc.co.uk/programmes/b01phhy5.
 
 [^46]: Snow, ‘The Rede Lecture, 1959’.
