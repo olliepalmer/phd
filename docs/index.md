@@ -10,25 +10,6 @@ Based on PhD edition 1.1, November 2017
 Reformatted for web January-May 2022
 ```
 
-<h2>Navigation</h2>
-
-[Abstract](/0_Front%20Matter/0.1-abstract.md){ .md-button .md-button--primary } [Acknowledgements](/0_Front%20Matter/0.2-acknowledgements/){ .md-button .md-button--primary }
-
-[Introduction](/1_Chapters/ch0/){ .md-button .md-button--primary }
-
-[Chapter 1: Diagramming the Absurd](/1_Chapters/ch1/){ .md-button .md-button--primary }
-
-[Chapter 2: Performing Data Structures](/1_Chapters/ch2/){ .md-button .md-button--primary }
-
-[Chapter 3: Noise and Difference](/1_Chapters/ch3/){ .md-button .md-button--primary }
-
-[Chapter 4: Reflexive Scripted Design](/1_Chapters/ch4/){ .md-button .md-button--primary }
-
-[Conclusion](/1_Chapters/ch5/){ .md-button .md-button--primary }
-
-[Bibliography](/1_Chapters/ch6/){ .md-button .md-button--primary }
-
-
 <img src="/images/figure4-51.png" width="100%" />
 
 
